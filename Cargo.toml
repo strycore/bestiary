@@ -1,6 +1,6 @@
 [package]
 name = "bestiary"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 license = "GPL-3.0-or-later"
 description = "A catalog of Linux apps and where they keep their data."
