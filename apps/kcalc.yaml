@@ -6,4 +6,7 @@ locations:
   native:
     config: ~/.config/kcalcrc
     data: ~/.local/share/kcalc
-tags: [kde, calculator]
+    state: ~/.local/state/kcalcstaterc
+tags:
+- kde
+- calculator

@@ -5,4 +5,8 @@ homepage: https://kde.org/plasma-desktop
 locations:
   native:
     config: ~/.config/plasma.emojierrc
-tags: [kde, plasma, emoji]
+    state: ~/.local/state/plasma.emojierstaterc
+tags:
+- kde
+- plasma
+- emoji

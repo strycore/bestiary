@@ -5,9 +5,50 @@
 //! embedded entries by name match.
 
 use anyhow::{Context, Result, bail};
-use serde::{Deserialize, Serialize};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 use std::collections::BTreeMap;
 use std::path::Path;
+
+/// One or more paths for a single kind. YAML accepts a bare string for the
+/// common single-path case, or a list of strings when an app's data is
+/// spread across sibling files (e.g. `~/.zshrc` plus `~/.zshenv`).
+#[derive(Debug, Clone)]
+pub struct Paths(pub Vec<String>);
+
+impl Paths {
+    pub fn iter(&self) -> std::slice::Iter<'_, String> {
+        self.0.iter()
+    }
+    pub fn first(&self) -> Option<&String> {
+        self.0.first()
+    }
+}
+
+impl<'de> Deserialize<'de> for Paths {
+    fn deserialize<D: Deserializer<'de>>(d: D) -> std::result::Result<Self, D::Error> {
+        #[derive(Deserialize)]
+        #[serde(untagged)]
+        enum OneOrMany {
+            One(String),
+            Many(Vec<String>),
+        }
+        match OneOrMany::deserialize(d)? {
+            OneOrMany::One(s) => Ok(Paths(vec![s])),
+            OneOrMany::Many(v) => Ok(Paths(v)),
+        }
+    }
+}
+
+impl Serialize for Paths {
+    fn serialize<S: Serializer>(&self, s: S) -> std::result::Result<S::Ok, S::Error> {
+        // Single path stays as a bare string for round-trip readability.
+        if self.0.len() == 1 {
+            self.0[0].serialize(s)
+        } else {
+            self.0.serialize(s)
+        }
+    }
+}
 
 /// One application's bestiary entry.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -84,19 +125,19 @@ pub struct Dwelling {
 
     /// User config (XDG_CONFIG_HOME / `~/.config/<app>` typically).
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub config: Option<String>,
+    pub config: Option<Paths>,
 
     /// User data (XDG_DATA_HOME / `~/.local/share/<app>` typically).
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub data: Option<String>,
+    pub data: Option<Paths>,
 
     /// Cache (regenerable, safe to drop).
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub cache: Option<String>,
+    pub cache: Option<Paths>,
 
     /// Per-machine state (logs, cookies, sockets — XDG_STATE_HOME).
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub state: Option<String>,
+    pub state: Option<Paths>,
 }
 
 /// Kind of data stored at a path. Used by callers to decide what to back up
@@ -121,20 +162,21 @@ impl Kind {
 }
 
 impl Dwelling {
-    /// Iterate over the (kind, path) pairs that are populated.
+    /// Iterate over the (kind, path) pairs that are populated. A single
+    /// kind may yield multiple entries when its YAML value is a list.
     pub fn paths(&self) -> Vec<(Kind, &str)> {
         let mut out = Vec::new();
-        if let Some(p) = &self.config {
-            out.push((Kind::Config, p.as_str()));
-        }
-        if let Some(p) = &self.data {
-            out.push((Kind::Data, p.as_str()));
-        }
-        if let Some(p) = &self.cache {
-            out.push((Kind::Cache, p.as_str()));
-        }
-        if let Some(p) = &self.state {
-            out.push((Kind::State, p.as_str()));
+        for (kind, opt) in [
+            (Kind::Config, &self.config),
+            (Kind::Data, &self.data),
+            (Kind::Cache, &self.cache),
+            (Kind::State, &self.state),
+        ] {
+            if let Some(paths) = opt {
+                for p in paths.iter() {
+                    out.push((kind, p.as_str()));
+                }
+            }
         }
         out
     }

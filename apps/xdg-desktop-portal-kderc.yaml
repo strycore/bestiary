@@ -1,8 +1,0 @@
-name: xdg-desktop-portal-kderc
-display_name: XDG Desktop Portal KDE (rc)
-category: system
-homepage: https://invent.kde.org/plasma/xdg-desktop-portal-kde
-locations:
-  native:
-    config: ~/.config/xdg-desktop-portal-kderc
-tags: [kde, xdg, flatpak]

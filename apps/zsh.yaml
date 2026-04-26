@@ -4,5 +4,11 @@ category: development
 homepage: https://www.zsh.org
 locations:
   native:
-    config: ~/.zshrc
+    config:
+      - ~/.zshrc
+      - ~/.zshenv
+      - ~/.zprofile
+    data: ~/.zsh
+    cache: ~/.zcompdump*
+    state: ~/.zsh_history
 tags: [shell, cli]

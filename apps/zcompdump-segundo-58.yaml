@@ -1,8 +1,0 @@
-name: zcompdump-segundo-58
-display_name: Zsh (completion cache - segundo-5.8)
-category: development
-homepage: https://www.zsh.org
-locations:
-  native:
-    cache: ~/.zcompdump-segundo-5.8
-tags: [shell, zsh, completion]

@@ -1,8 +1,0 @@
-name: krunner-state
-display_name: KRunner (state)
-category: utility
-homepage: https://userbase.kde.org/Plasma/Krunner
-locations:
-  native:
-    state: ~/.local/share/krunnerstaterc
-tags: [kde, plasma, launcher]

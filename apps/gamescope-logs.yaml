@@ -4,5 +4,7 @@ category: gaming
 homepage: https://github.com/ValveSoftware/gamescope
 locations:
   native:
-    state: ~/.gamescope-cmd.log
+    state:
+      - ~/.gamescope-cmd.log
+      - ~/.gamescope-stdout.log
 tags: [valve, compositor, steam, logs]

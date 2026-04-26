@@ -4,6 +4,11 @@ category: development
 homepage: https://apps.kde.org/kwrite
 locations:
   native:
-    config: ~/.config/kwriterc
+    config:
+    - ~/.config/kwriterc
+    - ~/.config/kwritemetainfos
     data: ~/.local/share/kwrite
-tags: [editor, kde]
+    state: ~/.local/state/kwritestaterc
+tags:
+- editor
+- kde

@@ -1,8 +1,0 @@
-name: partitionmanager-state
-display_name: KDE Partition Manager (state)
-category: utility
-homepage: https://apps.kde.org/partitionmanager
-locations:
-  native:
-    state: ~/.local/state/partitionmanagerstaterc
-tags: [kde, partitions]

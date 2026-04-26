@@ -6,4 +6,8 @@ locations:
   native:
     config: ~/.config/isoimagewriterrc
     data: ~/.local/share/isoimagewriter
-tags: [kde, iso, usb]
+    state: ~/.local/state/isoimagewriterstaterc
+tags:
+- kde
+- iso
+- usb

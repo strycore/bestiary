@@ -1,8 +1,0 @@
-name: khelpcenter-state
-display_name: KHelpCenter (state)
-category: utility
-homepage: https://apps.kde.org/khelpcenter
-locations:
-  native:
-    state: ~/.local/state/khelpcenterstaterc
-tags: [kde, help]

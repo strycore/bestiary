@@ -5,4 +5,11 @@ homepage: https://apps.kde.org/discover
 locations:
   native:
     config: ~/.config/discoverrc
-tags: [package-manager, kde, software-center]
+    state:
+    - ~/.local/state/discoverstaterc
+    - ~/.local/state/discovernotifierstaterc
+    - ~/.local/state/UserFeedback.org.kde.discover
+tags:
+- package-manager
+- kde
+- software-center

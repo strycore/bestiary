@@ -6,4 +6,7 @@ locations:
   native:
     config: ~/.config/dolphinrc
     data: ~/.local/share/dolphin
-tags: [file-manager, kde]
+    state: ~/.local/state/dolphinstaterc
+tags:
+- file-manager
+- kde

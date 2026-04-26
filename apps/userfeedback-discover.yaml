@@ -1,8 +1,0 @@
-name: userfeedback-discover
-display_name: KDE UserFeedback (Discover)
-category: utility
-homepage: https://apps.kde.org/discover
-locations:
-  native:
-    state: ~/.local/state/UserFeedback.org.kde.discover
-tags: [kde, telemetry]

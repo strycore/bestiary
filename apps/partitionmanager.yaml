@@ -6,4 +6,8 @@ locations:
   native:
     config: ~/.config/partitionmanagerrc
     data: ~/.local/share/partitionmanager
-tags: [kde, partitions, disk]
+    state: ~/.local/state/partitionmanagerstaterc
+tags:
+- kde
+- partitions
+- disk

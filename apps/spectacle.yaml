@@ -5,4 +5,8 @@ homepage: https://apps.kde.org/spectacle
 locations:
   native:
     config: ~/.config/spectaclerc
-tags: [screenshot, kde]
+    data: ~/.local/share/spectacle
+    state: ~/.local/state/spectaclestaterc
+tags:
+- screenshot
+- kde

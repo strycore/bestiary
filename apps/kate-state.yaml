@@ -1,8 +1,0 @@
-name: kate-state
-display_name: Kate (state)
-category: development
-homepage: https://kate-editor.org
-locations:
-  native:
-    state: ~/.local/state/katestaterc
-tags: [kde, editor]

@@ -1,8 +1,0 @@
-name: dnf5-log-3
-display_name: DNF5 (log 3)
-category: system
-homepage: https://github.com/rpm-software-management/dnf5
-locations:
-  native:
-    state: ~/.local/state/dnf5.log.3
-tags: [dnf, package-manager, logs]

@@ -1,8 +1,0 @@
-name: xdg-desktop-portal-kde-state
-display_name: XDG Desktop Portal KDE (state)
-category: system
-homepage: https://invent.kde.org/plasma/xdg-desktop-portal-kde
-locations:
-  native:
-    state: ~/.local/state/xdg-desktop-portal-kdestaterc
-tags: [kde, xdg, flatpak]

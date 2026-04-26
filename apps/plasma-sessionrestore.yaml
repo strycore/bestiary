@@ -5,4 +5,8 @@ homepage: https://kde.org/plasma-desktop
 locations:
   native:
     data: ~/.local/share/plasmasessionrestore
-tags: [kde, plasma, session]
+    state: ~/.local/state/plasmasessionrestorestaterc
+tags:
+- kde
+- plasma
+- session

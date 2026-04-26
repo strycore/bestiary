@@ -4,5 +4,13 @@ category: system
 homepage: https://kde.org/plasma-desktop
 locations:
   native:
-    config: ~/.config/kwinrc
-tags: [kde, window-manager, plasma]
+    config:
+    - ~/.config/kwinrc
+    - ~/.config/kwinrulesrc
+    - ~/.config/kwin_dialogsrc
+    - ~/.config/kwinoutputconfig.json
+    state: ~/.local/state/kwinstaterc
+tags:
+- kde
+- window-manager
+- plasma

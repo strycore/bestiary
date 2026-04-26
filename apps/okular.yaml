@@ -4,6 +4,12 @@ category: productivity
 homepage: https://okular.kde.org
 locations:
   native:
-    config: ~/.config/okularrc
+    config:
+    - ~/.config/okularrc
+    - ~/.config/okularpartrc
     data: ~/.local/share/okular
-tags: [pdf, document-viewer, kde]
+    state: ~/.local/state/okularstaterc
+tags:
+- pdf
+- document-viewer
+- kde

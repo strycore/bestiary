@@ -1,0 +1,8 @@
+name: gaia
+display_name: Gaia (AMD)
+category: development
+homepage: https://amd-gaia.ai/docs
+locations:
+  native:
+    data: ~/.gaia
+tags: [ai, amd, llm]

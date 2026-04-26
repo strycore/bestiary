@@ -1,8 +1,0 @@
-name: discover-state
-display_name: Discover (state)
-category: utility
-homepage: https://apps.kde.org/discover
-locations:
-  native:
-    state: ~/.local/state/discoverstaterc
-tags: [kde, plasma, discover]

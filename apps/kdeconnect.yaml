@@ -4,6 +4,16 @@ category: communication
 homepage: https://kdeconnect.kde.org
 locations:
   native:
-    config: ~/.config/kdeconnect
-    data: ~/.local/share/kdeconnect
-tags: [phone, sync, kde]
+    config:
+    - ~/.config/kdeconnect
+    - ~/.config/kdeconnect.smsrc
+    data:
+    - ~/.local/share/kdeconnect
+    - ~/.local/share/kdeconnect.daemon
+    state:
+    - ~/.local/state/kdeconnect.appstaterc
+    - ~/.local/state/kdeconnect.daemonstaterc
+tags:
+- phone
+- sync
+- kde

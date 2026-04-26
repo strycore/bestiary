@@ -6,4 +6,8 @@ locations:
   native:
     config: ~/.config/khelpcenterrc
     data: ~/.local/share/khelpcenter
-tags: [kde, help, documentation]
+    state: ~/.local/state/khelpcenterstaterc
+tags:
+- kde
+- help
+- documentation

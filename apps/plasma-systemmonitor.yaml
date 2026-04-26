@@ -5,4 +5,8 @@ homepage: https://invent.kde.org/plasma/plasma-systemmonitor
 locations:
   native:
     data: ~/.local/share/plasma-systemmonitor
-tags: [kde, plasma, system-monitor]
+    state: ~/.local/state/plasma-systemmonitorstaterc
+tags:
+- kde
+- plasma
+- system-monitor

@@ -86,24 +86,25 @@ impl Catalog {
     ///    `flatpak_id`. Catches the bare sandbox dir without each entry
     ///    having to declare it explicitly.
     /// 3. **Snap-name sandbox match.** Same for `~/snap/<name>/...`.
+    ///
+    /// Declared paths may use a single `*` to match within one filename
+    /// segment (e.g. `~/.zcompdump*` covers `~/.zcompdump-<host>-5.9`).
+    /// Wildcards never cross `/`.
     pub fn lookup_path(&self, query: &Path) -> Option<&CatalogEntry> {
         let query = expand_tilde(query);
         let query_str = query.to_string_lossy();
 
-        // 1. Longest declared-path prefix.
+        // 1. Longest declared-path prefix (with wildcard support).
         let mut best: Option<(usize, &CatalogEntry)> = None;
         for entry in self.entries.values() {
             for dwelling in entry.creature.dwellings.values() {
                 for (_kind, raw) in dwelling.paths() {
                     let resolved = expand_tilde(Path::new(raw));
                     let resolved_str = resolved.to_string_lossy();
-                    if query_str == resolved_str
-                        || query_str.starts_with(&format!("{resolved_str}/"))
+                    if let Some(score) = match_score(&resolved_str, &query_str)
+                        && best.map(|(b, _)| b < score).unwrap_or(true)
                     {
-                        let len = resolved_str.len();
-                        if best.map(|(b, _)| b < len).unwrap_or(true) {
-                            best = Some((len, entry));
-                        }
+                        best = Some((score, entry));
                     }
                 }
             }
@@ -162,26 +163,16 @@ impl Catalog {
                 let base_str = base.to_string_lossy();
                 if source_str == base_str {
                     // Exact dwelling root → translate to the target's
-                    // matching kind.
+                    // matching kind. Use the first path on the target side.
                     let target_dwelling = entry.creature.dwellings.get(&target)?;
-                    let target_path = match kind {
-                        crate::creature::Kind::Config => target_dwelling.config.as_deref(),
-                        crate::creature::Kind::Data => target_dwelling.data.as_deref(),
-                        crate::creature::Kind::Cache => target_dwelling.cache.as_deref(),
-                        crate::creature::Kind::State => target_dwelling.state.as_deref(),
-                    }?;
+                    let target_path = target_kind_first(target_dwelling, kind)?;
                     return Some(expand_tilde(Path::new(target_path)));
                 }
                 if source_str.starts_with(&format!("{base_str}/")) {
                     // Sub-path of a dwelling root → translate the prefix.
                     let suffix = &source_str[base_str.len()..];
                     let target_dwelling = entry.creature.dwellings.get(&target)?;
-                    let target_base = match kind {
-                        crate::creature::Kind::Config => target_dwelling.config.as_deref(),
-                        crate::creature::Kind::Data => target_dwelling.data.as_deref(),
-                        crate::creature::Kind::Cache => target_dwelling.cache.as_deref(),
-                        crate::creature::Kind::State => target_dwelling.state.as_deref(),
-                    }?;
+                    let target_base = target_kind_first(target_dwelling, kind)?;
                     let mut out = expand_tilde(Path::new(target_base));
                     if let Some(suf) = suffix.strip_prefix('/') {
                         out.push(suf);
@@ -192,6 +183,76 @@ impl Catalog {
         }
         None
     }
+}
+
+/// Match score for a query path against a declared (possibly-wildcarded)
+/// path. Returns `Some(score)` if the query is covered (exact match,
+/// descendant, or wildcard match) and `None` otherwise. Higher score is a
+/// more specific (longer literal-prefix) match — used to break ties when
+/// multiple entries cover the same query.
+///
+/// Wildcards: a single `*` in the declared path matches any run of
+/// non-`/` characters. Useful for host-suffixed state files like
+/// `~/.zcompdump*` which expand to `~/.zcompdump-<host>-<version>`.
+fn match_score(declared: &str, query: &str) -> Option<usize> {
+    if !declared.contains('*') {
+        // Fast path: literal prefix match.
+        if query == declared {
+            return Some(declared.len());
+        }
+        if query.starts_with(declared) && query.as_bytes().get(declared.len()) == Some(&b'/') {
+            return Some(declared.len());
+        }
+        return None;
+    }
+    // Wildcard path: `*` matches `[^/]*`. We allow the query to be the
+    // matched literal or a descendant of it.
+    let parts: Vec<&str> = declared.split('*').collect();
+    let mut cur = 0usize;
+    let mut literal_len = 0usize;
+    for (i, part) in parts.iter().enumerate() {
+        if i == 0 {
+            if !query[cur..].starts_with(part) {
+                return None;
+            }
+            cur += part.len();
+            literal_len += part.len();
+            continue;
+        }
+        // Find `part` in the rest of the query without crossing `/`.
+        let segment_end = query[cur..]
+            .find('/')
+            .map(|i| cur + i)
+            .unwrap_or(query.len());
+        let hay = &query[cur..segment_end];
+        match hay.find(part) {
+            Some(off) => {
+                cur += off + part.len();
+                literal_len += part.len();
+            }
+            None => return None,
+        }
+    }
+    // After consuming all literal parts, the trailing `*` (if any) eats
+    // the remainder of the current segment, but we still allow descendant
+    // paths after that segment.
+    Some(literal_len)
+}
+
+/// First declared path for a given kind on a dwelling, or `None` if that
+/// kind is unset. Used when translating between flavors — we pick a
+/// canonical destination rather than emitting every alternate path.
+fn target_kind_first(
+    dwelling: &crate::creature::Dwelling,
+    kind: crate::creature::Kind,
+) -> Option<&str> {
+    let paths = match kind {
+        crate::creature::Kind::Config => dwelling.config.as_ref(),
+        crate::creature::Kind::Data => dwelling.data.as_ref(),
+        crate::creature::Kind::Cache => dwelling.cache.as_ref(),
+        crate::creature::Kind::State => dwelling.state.as_ref(),
+    }?;
+    paths.first().map(|s| s.as_str())
 }
 
 fn load_embedded() -> Result<BTreeMap<String, CatalogEntry>> {
@@ -299,7 +360,7 @@ mod tests {
         dwellings.insert(
             Flavor::Native,
             Dwelling {
-                config: Some(native_config.to_string()),
+                config: Some(crate::creature::Paths(vec![native_config.to_string()])),
                 ..Default::default()
             },
         );
@@ -308,7 +369,7 @@ mod tests {
                 Flavor::Flatpak,
                 Dwelling {
                     flatpak_id: Some(id.to_string()),
-                    config: Some(path.to_string()),
+                    config: Some(crate::creature::Paths(vec![path.to_string()])),
                     ..Default::default()
                 },
             );
@@ -388,6 +449,66 @@ mod tests {
         assert!(
             cat.lookup_path(Path::new("/home/me/.var/app/com.somebody.Else"))
                 .is_none()
+        );
+    }
+
+    #[test]
+    fn lookup_path_matches_wildcard() {
+        // ~/.zcompdump* should match the bare file and host-suffixed variants
+        // but not unrelated siblings.
+        let cat = Catalog::from_creatures(vec![fake("zsh", "/home/me/.zcompdump*", None)]);
+        for p in [
+            "/home/me/.zcompdump",
+            "/home/me/.zcompdump-127-5.9",
+            "/home/me/.zcompdump-host-5.9.zwc",
+        ] {
+            assert!(
+                cat.lookup_path(Path::new(p)).is_some(),
+                "expected match for {p}"
+            );
+        }
+        // `*` must not cross `/`.
+        assert!(
+            cat.lookup_path(Path::new("/home/me/.zcompdump/sub/file"))
+                .is_some(),
+            "descendant of wildcard match should still resolve"
+        );
+        assert!(
+            cat.lookup_path(Path::new("/home/me/.bashrc")).is_none(),
+            "unrelated sibling must not match wildcard"
+        );
+    }
+
+    #[test]
+    fn lookup_path_matches_one_of_many_paths() {
+        // A single dwelling can declare multiple paths per kind; any of
+        // them should resolve.
+        let mut dwellings = BTreeMap::new();
+        dwellings.insert(
+            Flavor::Native,
+            Dwelling {
+                config: Some(crate::creature::Paths(vec![
+                    "/home/me/.zshrc".into(),
+                    "/home/me/.zshenv".into(),
+                ])),
+                ..Default::default()
+            },
+        );
+        let cat = Catalog::from_creatures(vec![Creature {
+            name: "zsh".into(),
+            display_name: None,
+            category: None,
+            homepage: None,
+            dwellings,
+            backup_exclude: vec![],
+            tags: vec![],
+        }]);
+        assert_eq!(
+            cat.lookup_path(Path::new("/home/me/.zshenv"))
+                .unwrap()
+                .creature
+                .name,
+            "zsh"
         );
     }
 

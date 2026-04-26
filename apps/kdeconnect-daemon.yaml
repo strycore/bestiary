@@ -1,8 +1,0 @@
-name: kdeconnect-daemon
-display_name: KDE Connect Daemon (data)
-category: communication
-homepage: https://kdeconnect.kde.org
-locations:
-  native:
-    data: ~/.local/share/kdeconnect.daemon
-tags: [kde, kdeconnect]

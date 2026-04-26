@@ -1,8 +1,0 @@
-name: konsole-state
-display_name: Konsole (state)
-category: development
-homepage: https://konsole.kde.org
-locations:
-  native:
-    state: ~/.local/state/konsolestaterc
-tags: [kde, terminal]

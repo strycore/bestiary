@@ -4,5 +4,10 @@ category: development
 homepage: https://kate-editor.org
 locations:
   native:
-    state: ~/.db.kate-swp
-tags: [kate, swap]
+    state:
+    - ~/.db.kate-swp
+    - ~/.missing-gog-games.kate-swp
+    - ~/.tauri-updater.sh.kate-swp
+tags:
+- kate
+- swap

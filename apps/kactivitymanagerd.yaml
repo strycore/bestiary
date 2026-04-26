@@ -6,4 +6,8 @@ locations:
   native:
     config: ~/.config/kactivitymanagerdrc
     data: ~/.local/share/kactivitymanagerd
-tags: [kde, plasma, activities]
+    state: ~/.local/state/kactivitymanagerdstaterc
+tags:
+- kde
+- plasma
+- activities

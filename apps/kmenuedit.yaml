@@ -6,4 +6,7 @@ locations:
   native:
     config: ~/.config/kmenueditrc
     data: ~/.local/share/kmenuedit
-tags: [kde, menu-editor]
+    state: ~/.local/state/kmenueditstaterc
+tags:
+- kde
+- menu-editor

@@ -1,8 +1,0 @@
-name: zsh-history
-display_name: Zsh (history)
-category: development
-homepage: https://www.zsh.org
-locations:
-  native:
-    state: ~/.zsh_history
-tags: [shell, cli, history]

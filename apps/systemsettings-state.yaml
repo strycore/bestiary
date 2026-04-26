@@ -1,8 +1,0 @@
-name: systemsettings-state
-display_name: KDE System Settings (state)
-category: system
-homepage: https://userbase.kde.org/System_Settings
-locations:
-  native:
-    state: ~/.local/state/systemsettingsstaterc
-tags: [kde, settings]

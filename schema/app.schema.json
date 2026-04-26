@@ -47,6 +47,12 @@
     }
   },
   "$defs": {
+    "path_or_paths": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      ]
+    },
     "location": {
       "type": "object",
       "additionalProperties": false,
@@ -57,10 +63,10 @@
         { "required": ["state"] }
       ],
       "properties": {
-        "config": { "type": "string", "description": "Config dir (XDG_CONFIG_HOME-style)." },
-        "data":   { "type": "string", "description": "Data dir (XDG_DATA_HOME-style)." },
-        "cache":  { "type": "string", "description": "Cache dir (regenerable, safe to drop)." },
-        "state":  { "type": "string", "description": "State dir (XDG_STATE_HOME — logs, cookies, sockets)." }
+        "config": { "$ref": "#/$defs/path_or_paths", "description": "Config path (XDG_CONFIG_HOME-style). String or list of strings." },
+        "data":   { "$ref": "#/$defs/path_or_paths", "description": "Data path (XDG_DATA_HOME-style). String or list of strings." },
+        "cache":  { "$ref": "#/$defs/path_or_paths", "description": "Cache path (regenerable, safe to drop). String or list of strings." },
+        "state":  { "$ref": "#/$defs/path_or_paths", "description": "State path (XDG_STATE_HOME — logs, cookies, sockets). String or list of strings." }
       }
     },
     "flatpak_location": {
@@ -78,10 +84,10 @@
           "type": "string",
           "description": "Reverse-DNS flatpak app ID (e.g. com.discordapp.Discord)."
         },
-        "config": { "type": "string" },
-        "data":   { "type": "string" },
-        "cache":  { "type": "string" },
-        "state":  { "type": "string" }
+        "config": { "$ref": "#/$defs/path_or_paths" },
+        "data":   { "$ref": "#/$defs/path_or_paths" },
+        "cache":  { "$ref": "#/$defs/path_or_paths" },
+        "state":  { "$ref": "#/$defs/path_or_paths" }
       }
     },
     "snap_location": {
@@ -99,10 +105,10 @@
           "type": "string",
           "description": "Snap name (e.g. slack)."
         },
-        "config": { "type": "string" },
-        "data":   { "type": "string" },
-        "cache":  { "type": "string" },
-        "state":  { "type": "string" }
+        "config": { "$ref": "#/$defs/path_or_paths" },
+        "data":   { "$ref": "#/$defs/path_or_paths" },
+        "cache":  { "$ref": "#/$defs/path_or_paths" },
+        "state":  { "$ref": "#/$defs/path_or_paths" }
       }
     }
   }

@@ -1,8 +1,0 @@
-name: dolphin-fm-state
-display_name: Dolphin file manager (state)
-category: utility
-homepage: https://apps.kde.org/dolphin
-locations:
-  native:
-    state: ~/.local/state/dolphinstaterc
-tags: [kde, file-manager]

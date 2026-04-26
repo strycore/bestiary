@@ -1,8 +1,0 @@
-name: kio-state
-display_name: KIO (state)
-category: system
-homepage: https://api.kde.org/frameworks/kio
-locations:
-  native:
-    state: ~/.local/state/kiostaterc
-tags: [kde, kio]

@@ -5,4 +5,8 @@ homepage: https://userbase.kde.org/Plasma/Krunner
 locations:
   native:
     config: ~/.config/krunnerrc
-tags: [kde, launcher, plasma]
+    state: ~/.local/share/krunnerstaterc
+tags:
+- kde
+- launcher
+- plasma

@@ -1,8 +1,0 @@
-name: kate-swp-tauri
-display_name: "Kate (swap: tauri-updater)"
-category: development
-homepage: https://kate-editor.org
-locations:
-  native:
-    state: ~/.tauri-updater.sh.kate-swp
-tags: [kate, swap]

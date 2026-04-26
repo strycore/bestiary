@@ -5,4 +5,10 @@ homepage: https://kde.org/plasma-desktop
 locations:
   native:
     data: ~/.local/share/plasmashell
-tags: [kde, plasma, shell]
+    state:
+    - ~/.local/state/plasmashellstaterc
+    - ~/.local/state/UserFeedback.org.kde.plasmashell
+tags:
+- kde
+- plasma
+- shell

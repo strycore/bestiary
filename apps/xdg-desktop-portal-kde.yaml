@@ -5,4 +5,8 @@ homepage: https://invent.kde.org/plasma/xdg-desktop-portal-kde
 locations:
   native:
     data: ~/.local/share/xdg-desktop-portal-kde
-tags: [kde, xdg, flatpak]
+    state: ~/.local/state/xdg-desktop-portal-kdestaterc
+tags:
+- kde
+- xdg
+- flatpak

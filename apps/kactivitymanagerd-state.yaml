@@ -1,8 +1,0 @@
-name: kactivitymanagerd-state
-display_name: KActivityManager (state)
-category: system
-homepage: https://api.kde.org/frameworks/kactivities
-locations:
-  native:
-    state: ~/.local/state/kactivitymanagerdstaterc
-tags: [kde, plasma, activities]

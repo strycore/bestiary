@@ -1,8 +1,0 @@
-name: okular-state
-display_name: Okular (state)
-category: productivity
-homepage: https://okular.kde.org
-locations:
-  native:
-    state: ~/.local/state/okularstaterc
-tags: [kde, pdf]

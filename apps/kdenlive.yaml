@@ -4,14 +4,19 @@ category: media
 homepage: https://kdenlive.org
 locations:
   native:
-    config: ~/.config/kdenliverc
+    config:
+    - ~/.config/kdenliverc
+    - ~/.config/kdenlive-layoutsrc
     data: ~/.local/share/kdenlive
     cache: ~/.cache/kdenlive
+    state: ~/.local/state/kdenlivestaterc
   flatpak:
     flatpak_id: org.kde.kdenlive
     config: ~/.var/app/org.kde.kdenlive/config
     data: ~/.var/app/org.kde.kdenlive/data/kdenlive
     cache: ~/.var/app/org.kde.kdenlive/cache/kdenlive
 backup_exclude:
-  - "proxy/*"
-tags: [video, editor]
+- proxy/*
+tags:
+- video
+- editor

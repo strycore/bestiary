@@ -1,8 +1,0 @@
-name: spectacle-data
-display_name: Spectacle (data dir)
-category: utility
-homepage: https://apps.kde.org/spectacle
-locations:
-  native:
-    data: ~/.local/share/spectacle
-tags: [kde, screenshot]

@@ -1,8 +1,0 @@
-name: kdeconnect-sms
-display_name: KDE Connect SMS
-category: communication
-homepage: https://kdeconnect.kde.org
-locations:
-  native:
-    config: ~/.config/kdeconnect.smsrc
-tags: [kde, sms]

@@ -4,5 +4,13 @@ category: system
 homepage: https://github.com/rpm-software-management/dnf5
 locations:
   native:
-    state: ~/.local/state/dnf5.log
-tags: [dnf, package-manager, logs]
+    state:
+    - ~/.local/state/dnf5.log
+    - ~/.local/state/dnf5.log.1
+    - ~/.local/state/dnf5.log.2
+    - ~/.local/state/dnf5.log.3
+    - ~/.local/state/dnf5.log.4
+tags:
+- dnf
+- package-manager
+- logs

@@ -4,6 +4,11 @@ category: development
 homepage: https://konsole.kde.org
 locations:
   native:
-    config: ~/.config/konsolerc
+    config:
+    - ~/.config/konsolerc
+    - ~/.config/konsolesshconfig
     data: ~/.local/share/konsole
-tags: [terminal, kde]
+    state: ~/.local/state/konsolestaterc
+tags:
+- terminal
+- kde

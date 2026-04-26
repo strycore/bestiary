@@ -5,4 +5,10 @@ homepage: https://api.kde.org/frameworks/kio
 locations:
   native:
     config: ~/.config/kiorc
-tags: [kde, framework, io]
+    state:
+    - ~/.local/state/kiostaterc
+    - ~/.local/state/kdirselectstaterc
+tags:
+- kde
+- framework
+- io

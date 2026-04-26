@@ -1,8 +1,0 @@
-name: gwenview-state
-display_name: Gwenview (state)
-category: multimedia
-homepage: https://apps.kde.org/gwenview
-locations:
-  native:
-    state: ~/.local/state/gwenviewstaterc
-tags: [kde, image-viewer]

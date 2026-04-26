@@ -4,6 +4,15 @@ category: development
 homepage: https://kate-editor.org
 locations:
   native:
-    config: ~/.config/katerc
+    config:
+    - ~/.config/katerc
+    - ~/.config/kate-externaltoolspluginrc
+    - ~/.config/katemetainfos
+    - ~/.config/kateschemarc
+    - ~/.config/katevirc
+    - ~/.config/kate
     data: ~/.local/share/kate
-tags: [editor, kde]
+    state: ~/.local/state/katestaterc
+tags:
+- editor
+- kde

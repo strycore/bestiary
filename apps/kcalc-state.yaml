@@ -1,8 +1,0 @@
-name: kcalc-state
-display_name: KCalc (state)
-category: utility
-homepage: https://apps.kde.org/kcalc
-locations:
-  native:
-    state: ~/.local/state/kcalcstaterc
-tags: [kde, calculator]
