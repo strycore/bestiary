@@ -1,0 +1,8 @@
+name: perf
+display_name: perf (Linux profiler)
+category: development
+homepage: https://perf.wiki.kernel.org
+locations:
+  native:
+    cache: ~/.debug
+tags: [profiling, kernel, build-id-cache]
