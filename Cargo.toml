@@ -7,8 +7,16 @@ description = "A catalog of Linux apps and where they keep their data."
 repository = "https://github.com/strycore/bestiary"
 homepage = "https://github.com/strycore/bestiary"
 readme = "README.md"
-keywords = ["linux", "dotfiles", "catalog", "configuration", "xdg"]
+keywords = ["linux", "dotfiles", "catalog", "flatpak", "xdg"]
 categories = ["command-line-utilities", "config", "filesystem"]
+exclude = [
+  # Frontend assets — only used by the GitHub Pages workflow,
+  # irrelevant to library/binary consumers.
+  "site/",
+  # Convenience installer that fetches release tarballs;
+  # not what `cargo install` users want.
+  "install.sh",
+]
 
 [dependencies]
 anyhow = "1.0"
