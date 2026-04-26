@@ -1,0 +1,13 @@
+name: vlc
+display_name: VLC media player
+category: media
+homepage: https://www.videolan.org/vlc
+locations:
+  native:
+    config: ~/.config/vlc
+    cache: ~/.cache/vlc
+  flatpak:
+    flatpak_id: org.videolan.VLC
+    config: ~/.var/app/org.videolan.VLC/config/vlc
+    cache: ~/.var/app/org.videolan.VLC/cache/vlc
+tags: [media-player, video]

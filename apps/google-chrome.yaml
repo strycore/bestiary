@@ -1,0 +1,19 @@
+name: google-chrome
+display_name: Google Chrome
+category: browser
+homepage: https://www.google.com/chrome
+locations:
+  native:
+    config: ~/.config/google-chrome
+    cache: ~/.cache/google-chrome
+  flatpak:
+    flatpak_id: com.google.Chrome
+    config: ~/.var/app/com.google.Chrome/config/google-chrome
+    cache: ~/.var/app/com.google.Chrome/cache/google-chrome
+backup_exclude:
+  - "*/Cache/*"
+  - "*/Code Cache/*"
+  - "*/GPUCache/*"
+  - "*/Service Worker/*"
+  - "*/ShaderCache/*"
+tags: [browser, web]

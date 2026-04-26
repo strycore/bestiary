@@ -1,0 +1,11 @@
+name: carla
+display_name: Carla
+category: media
+homepage: https://kx.studio/Applications:Carla
+locations:
+  native:
+    config: ~/.config/falkTX/Carla2.conf
+  flatpak:
+    flatpak_id: studio.kx.carla
+    data: ~/.var/app/studio.kx.carla
+tags: [audio, plugin-host]

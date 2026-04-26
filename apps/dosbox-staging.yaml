@@ -1,0 +1,11 @@
+name: dosbox-staging
+display_name: DOSBox Staging
+category: gaming
+homepage: https://dosbox-staging.github.io
+locations:
+  native:
+    config: ~/.config/dosbox
+  flatpak:
+    flatpak_id: io.github.dosbox-staging
+    data: ~/.var/app/io.github.dosbox-staging
+tags: [emulator, dos]

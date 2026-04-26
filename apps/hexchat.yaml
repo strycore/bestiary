@@ -1,0 +1,11 @@
+name: hexchat
+display_name: HexChat
+category: communication
+homepage: https://hexchat.github.io
+locations:
+  native:
+    config: ~/.config/hexchat
+  flatpak:
+    flatpak_id: io.github.Hexchat
+    config: ~/.var/app/io.github.Hexchat/config/hexchat
+tags: [chat, irc]

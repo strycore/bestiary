@@ -1,0 +1,11 @@
+name: leocad
+display_name: LeoCAD
+category: productivity
+homepage: https://www.leocad.org
+locations:
+  native:
+    config: ~/.config/LeoCAD
+  flatpak:
+    flatpak_id: org.leocad.LeoCAD
+    config: ~/.var/app/org.leocad.LeoCAD/config/LeoCAD
+tags: [cad, lego, modeling]

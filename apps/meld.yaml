@@ -1,0 +1,11 @@
+name: meld
+display_name: Meld
+category: development
+homepage: https://meldmerge.org
+locations:
+  native:
+    config: ~/.config/meld
+  flatpak:
+    flatpak_id: org.gnome.meld
+    config: ~/.var/app/org.gnome.meld/config/meld
+tags: [diff, merge]

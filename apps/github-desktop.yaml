@@ -1,0 +1,9 @@
+name: github-desktop
+display_name: GitHub Desktop
+category: development
+homepage: https://desktop.github.com
+locations:
+  flatpak:
+    flatpak_id: io.github.shiftey.Desktop
+    data: ~/.var/app/io.github.shiftey.Desktop
+tags: [git, github, gui]

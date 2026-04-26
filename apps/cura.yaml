@@ -1,0 +1,12 @@
+name: cura
+display_name: Ultimaker Cura
+category: productivity
+homepage: https://ultimaker.com/software/ultimaker-cura
+locations:
+  native:
+    config: ~/.config/cura
+    data: ~/.local/share/cura
+  flatpak:
+    flatpak_id: com.ultimaker.cura
+    data: ~/.var/app/com.ultimaker.cura
+tags: [3d-printing, slicer]

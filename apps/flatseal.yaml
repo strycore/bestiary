@@ -1,0 +1,9 @@
+name: flatseal
+display_name: Flatseal
+category: utility
+homepage: https://github.com/tchx84/Flatseal
+locations:
+  flatpak:
+    flatpak_id: com.github.tchx84.Flatseal
+    data: ~/.var/app/com.github.tchx84.Flatseal
+tags: [flatpak, permissions]

@@ -1,0 +1,11 @@
+name: keychain
+display_name: Seahorse (GNOME Keyring Manager)
+category: productivity
+homepage: https://wiki.gnome.org/Apps/Seahorse
+locations:
+  native:
+    data: ~/.local/share/keyrings
+  flatpak:
+    flatpak_id: org.gnome.seahorse.Application
+    data: ~/.var/app/org.gnome.seahorse.Application
+tags: [security, keyring, password]

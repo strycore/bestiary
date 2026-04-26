@@ -1,0 +1,13 @@
+name: yuzu
+display_name: yuzu
+category: gaming
+homepage: https://yuzu-emu.org
+locations:
+  native:
+    config: ~/.config/yuzu
+    data: ~/.local/share/yuzu
+    cache: ~/.cache/yuzu
+backup_exclude:
+  - "shader/*"
+  - "tas/*"
+tags: [emulator, switch, console]

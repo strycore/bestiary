@@ -1,0 +1,12 @@
+name: balena-etcher
+display_name: balenaEtcher
+category: utility
+homepage: https://etcher.balena.io
+locations:
+  native:
+    config: ~/.config/balenaEtcher
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+tags: [usb, image-writer]

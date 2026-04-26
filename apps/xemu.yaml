@@ -1,0 +1,11 @@
+name: xemu
+display_name: xemu
+category: gaming
+homepage: https://xemu.app
+locations:
+  native:
+    config: ~/.local/share/xemu
+  flatpak:
+    flatpak_id: app.xemu.xemu
+    data: ~/.var/app/app.xemu.xemu
+tags: [emulator, xbox, console]

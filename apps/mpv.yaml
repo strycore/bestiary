@@ -1,0 +1,14 @@
+name: mpv
+display_name: mpv
+category: media
+homepage: https://mpv.io
+locations:
+  native:
+    config: ~/.config/mpv
+    cache: ~/.cache/mpv
+    state: ~/.local/state/mpv
+  flatpak:
+    flatpak_id: io.mpv.Mpv
+    config: ~/.var/app/io.mpv.Mpv/config/mpv
+    cache: ~/.var/app/io.mpv.Mpv/cache/mpv
+tags: [media-player, video]

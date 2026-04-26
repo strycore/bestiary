@@ -1,0 +1,17 @@
+name: ungoogled-chromium
+display_name: ungoogled-chromium
+category: browser
+homepage: https://github.com/ungoogled-software/ungoogled-chromium
+locations:
+  native:
+    config: ~/.config/chromium
+    cache: ~/.cache/chromium
+  flatpak:
+    flatpak_id: io.github.ungoogled_software.ungoogled_chromium
+    data: ~/.var/app/io.github.ungoogled_software.ungoogled_chromium
+backup_exclude:
+  - "*/Cache/*"
+  - "*/Code Cache/*"
+  - "*/GPUCache/*"
+  - "*/Service Worker/*"
+tags: [browser, web, privacy]

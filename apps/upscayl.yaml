@@ -1,0 +1,9 @@
+name: upscayl
+display_name: Upscayl
+category: media
+homepage: https://upscayl.org
+locations:
+  flatpak:
+    flatpak_id: org.upscayl.Upscayl
+    data: ~/.var/app/org.upscayl.Upscayl
+tags: [ai, image-upscaling]

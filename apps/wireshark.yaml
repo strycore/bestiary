@@ -1,0 +1,11 @@
+name: wireshark
+display_name: Wireshark
+category: networking
+homepage: https://www.wireshark.org
+locations:
+  native:
+    config: ~/.config/wireshark
+  flatpak:
+    flatpak_id: org.wireshark.Wireshark
+    config: ~/.var/app/org.wireshark.Wireshark/config/wireshark
+tags: [packet-capture, analysis]

@@ -1,0 +1,9 @@
+name: mcpelauncher
+display_name: mcpelauncher
+category: gaming
+homepage: https://mcpelauncher.readthedocs.io
+locations:
+  flatpak:
+    flatpak_id: io.mrarm.mcpelauncher
+    data: ~/.var/app/io.mrarm.mcpelauncher
+tags: [minecraft, bedrock]

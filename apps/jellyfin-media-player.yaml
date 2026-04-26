@@ -1,0 +1,9 @@
+name: jellyfin-media-player
+display_name: Jellyfin Media Player
+category: media
+homepage: https://jellyfin.org
+locations:
+  flatpak:
+    flatpak_id: com.github.iwalton3.jellyfin-media-player
+    data: ~/.var/app/com.github.iwalton3.jellyfin-media-player
+tags: [media-player, streaming]

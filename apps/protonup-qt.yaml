@@ -1,0 +1,11 @@
+name: protonup-qt
+display_name: ProtonUp-Qt
+category: gaming
+homepage: https://davidotek.github.io/protonup-qt
+locations:
+  native:
+    config: ~/.config/pupgui
+  flatpak:
+    flatpak_id: net.davidotek.pupgui2
+    config: ~/.var/app/net.davidotek.pupgui2/config/pupgui
+tags: [proton, ge-proton, manager]

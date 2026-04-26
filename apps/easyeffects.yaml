@@ -1,0 +1,11 @@
+name: easyeffects
+display_name: EasyEffects
+category: media
+homepage: https://github.com/wwmm/easyeffects
+locations:
+  native:
+    config: ~/.config/easyeffects
+  flatpak:
+    flatpak_id: com.github.wwmm.easyeffects
+    config: ~/.var/app/com.github.wwmm.easyeffects/config/easyeffects
+tags: [audio, effects, pipewire]

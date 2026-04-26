@@ -1,0 +1,11 @@
+name: mame
+display_name: MAME
+category: gaming
+homepage: https://www.mamedev.org
+locations:
+  native:
+    config: ~/.mame
+  flatpak:
+    flatpak_id: org.mamedev.MAME
+    data: ~/.var/app/org.mamedev.MAME
+tags: [emulator, arcade]

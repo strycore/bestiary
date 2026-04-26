@@ -1,0 +1,12 @@
+name: scummvm
+display_name: ScummVM
+category: gaming
+homepage: https://www.scummvm.org
+locations:
+  native:
+    config: ~/.config/scummvm
+    data: ~/.local/share/scummvm
+  flatpak:
+    flatpak_id: org.scummvm.ScummVM
+    data: ~/.var/app/org.scummvm.ScummVM
+tags: [emulator, adventure-games]

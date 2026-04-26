@@ -1,0 +1,11 @@
+name: sqlitebrowser
+display_name: DB Browser for SQLite
+category: development
+homepage: https://sqlitebrowser.org
+locations:
+  native:
+    config: ~/.config/sqlitebrowser
+  flatpak:
+    flatpak_id: org.sqlitebrowser.sqlitebrowser
+    config: ~/.var/app/org.sqlitebrowser.sqlitebrowser/config/sqlitebrowser
+tags: [database, sqlite]

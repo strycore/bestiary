@@ -1,0 +1,9 @@
+name: mission-center
+display_name: Mission Center
+category: utility
+homepage: https://missioncenter.io
+locations:
+  flatpak:
+    flatpak_id: io.missioncenter.MissionCenter
+    data: ~/.var/app/io.missioncenter.MissionCenter
+tags: [system-monitor]

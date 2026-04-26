@@ -1,0 +1,12 @@
+name: syncthing
+display_name: Syncthing
+category: networking
+homepage: https://syncthing.net
+locations:
+  native:
+    config: ~/.config/syncthing
+    state: ~/.local/state/syncthing
+  flatpak:
+    flatpak_id: me.kozec.syncthingtk
+    data: ~/.var/app/me.kozec.syncthingtk
+tags: [sync, p2p]

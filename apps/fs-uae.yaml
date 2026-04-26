@@ -1,0 +1,12 @@
+name: fs-uae
+display_name: FS-UAE
+category: gaming
+homepage: https://fs-uae.net
+locations:
+  native:
+    config: ~/.config/fs-uae
+    data: ~/.local/share/fs-uae
+  flatpak:
+    flatpak_id: net.fsuae.FS-UAE
+    data: ~/.var/app/net.fsuae.FS-UAE
+tags: [emulator, amiga]

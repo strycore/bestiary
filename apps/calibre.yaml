@@ -1,0 +1,13 @@
+name: calibre
+display_name: Calibre
+category: productivity
+homepage: https://calibre-ebook.com
+locations:
+  native:
+    config: ~/.config/calibre
+    cache: ~/.cache/calibre
+  flatpak:
+    flatpak_id: com.calibre_ebook.calibre
+    config: ~/.var/app/com.calibre_ebook.calibre/config/calibre
+    cache: ~/.var/app/com.calibre_ebook.calibre/cache/calibre
+tags: [ebook, library]

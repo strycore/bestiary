@@ -1,0 +1,15 @@
+name: waterfox
+display_name: Waterfox
+category: browser
+homepage: https://www.waterfox.net
+locations:
+  native:
+    config: ~/.waterfox
+    cache: ~/.cache/waterfox
+  flatpak:
+    flatpak_id: net.waterfox.waterfox
+    data: ~/.var/app/net.waterfox.waterfox
+backup_exclude:
+  - "*/cache2/*"
+  - "*/startupCache/*"
+tags: [browser, web]

@@ -1,0 +1,9 @@
+name: whalebird
+display_name: Whalebird
+category: communication
+homepage: https://whalebird.social
+locations:
+  flatpak:
+    flatpak_id: social.whalebird.WhalebirdDesktop
+    data: ~/.var/app/social.whalebird.WhalebirdDesktop
+tags: [mastodon, fediverse]
