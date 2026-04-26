@@ -1,9 +1,0 @@
-name: debug
-display_name: Debug (home dir)
-category: development
-homepage: https://en.wikipedia.org/wiki/Debugging
-locations:
-  native:
-    state: ~/.debug
-tags:
-- debugging
