@@ -5,13 +5,13 @@
   --bg: #fafafa;
   --muted: #6a6a6a;
   --line: #e3e3e3;
+  --line-strong: #b8b8b8;
   --accent: #2a4d8f;
   --card-bg: #fff;
   --code-bg: #f0f0f0;
   --native: #2a8f4d;
   --flatpak: #2a4d8f;
   --snap: #8f5a2a;
-  --legacy: #8f2a5a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,13 +20,13 @@
     --bg: #1a1a1a;
     --muted: #888;
     --line: #2e2e2e;
+    --line-strong: #555;
     --accent: #88aaee;
     --card-bg: #232323;
     --code-bg: #2a2a2a;
     --native: #66cc88;
     --flatpak: #88aaee;
     --snap: #d8a060;
-    --legacy: #d880a8;
   }
 }
 
@@ -89,13 +89,15 @@ h1 a:hover { text-decoration: none; }
   display: inline-block;
   padding: 0.2rem 0.6rem;
   font-size: 0.85rem;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
   border-radius: 999px;
   background: var(--card-bg);
+  color: var(--fg);
   cursor: pointer;
   user-select: none;
+  font-family: inherit;
 }
-.chip:hover { border-color: var(--accent); }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
 .chip.active {
   background: var(--accent);
   color: white;
@@ -168,7 +170,6 @@ main {
 .flavor.f-native { background: var(--native); }
 .flavor.f-flatpak { background: var(--flatpak); }
 .flavor.f-snap { background: var(--snap); }
-.flavor.f-legacy { background: var(--legacy); }
 
 .empty {
   margin: 2rem 0;
@@ -269,4 +270,31 @@ main {
   padding: 0.1rem 0.3rem;
   border-radius: 3px;
   font-size: 0.85rem;
+}
+
+/* Inline filter links (clickable category & tags on the detail view). */
+.filter-link {
+  display: inline-block;
+  padding: 0.05rem 0.45rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--fg);
+  background: var(--card-bg);
+}
+.filter-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Page footer — housekeeping links, away from primary nav. */
+footer {
+  max-width: 60rem;
+  margin: 2rem auto 1rem;
+  padding: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
 }

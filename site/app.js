@@ -92,6 +92,10 @@ function pushHashFromState() {
 }
 
 function render() {
+  // The category nav lives in the header and is visible on every view,
+  // so render it on every render — including detail — to keep its
+  // active state honest.
+  renderCategories();
   if (view.route === 'detail') {
     renderDetail();
   } else {
@@ -100,7 +104,6 @@ function render() {
 }
 
 function renderList() {
-  renderCategories();
   const filtered = filterAll();
   const total = ALL.length;
   $('#count').textContent = total
@@ -161,8 +164,11 @@ function renderCategories() {
     .join('');
   $$('button.chip', nav).forEach(b => {
     b.addEventListener('click', () => {
-      view.category = b.dataset.cat || null;
-      view.shown = PAGE;
+      // From any view (list or detail), clicking a category chip jumps
+      // back to the list filtered by that category. Search resets so
+      // the user sees the full category, not whatever they were typing.
+      view = { route: 'list', q: '', category: b.dataset.cat || null, shown: PAGE };
+      $('#search').value = '';
       pushHashFromState();
       render();
     });
@@ -196,9 +202,19 @@ function renderDetail() {
 
   const display = entry.display_name && entry.display_name !== entry.name ? entry.display_name : '';
   const info = [];
-  if (entry.category) info.push(`<span>category: <strong>${escapeHtml(entry.category)}</strong></span>`);
+  if (entry.category) {
+    const cat = escapeHtml(entry.category);
+    const catUrl = `#/?category=${encodeURIComponent(entry.category)}`;
+    info.push(`<span>category: <a class="filter-link" href="${catUrl}">${cat}</a></span>`);
+  }
   if (entry.homepage) info.push(`<span>homepage: <a href="${escapeAttr(entry.homepage)}" rel="noopener">${escapeHtml(entry.homepage)}</a></span>`);
-  if (entry.tags && entry.tags.length) info.push(`<span>tags: ${entry.tags.map(escapeHtml).join(', ')}</span>`);
+  if (entry.tags && entry.tags.length) {
+    const tagLinks = entry.tags.map(t => {
+      const url = `#/?q=${encodeURIComponent(t)}`;
+      return `<a class="filter-link" href="${url}">${escapeHtml(t)}</a>`;
+    }).join(', ');
+    info.push(`<span>tags: ${tagLinks}</span>`);
+  }
 
   const flavorBlocks = Object.entries(entry.locations || {}).map(([flavor, loc]) => {
     const id = loc.flatpak_id ? ` <span class="id">${escapeHtml(loc.flatpak_id)}</span>`
