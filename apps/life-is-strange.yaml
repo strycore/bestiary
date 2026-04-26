@@ -1,0 +1,8 @@
+name: life-is-strange
+display_name: Life Is Strange
+category: gaming
+homepage: https://store.steampowered.com/app/319630
+locations:
+  native:
+    data: ~/.local/share/feral-interactive/Life Is Strange
+tags: [game, publisher=feral-interactive, narrative]

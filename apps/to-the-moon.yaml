@@ -1,0 +1,8 @@
+name: to-the-moon
+display_name: To the Moon
+category: gaming
+homepage: https://freebirdgames.com/games/to_the_moon
+locations:
+  native:
+    data: ~/.local/share/freebirdgames/tothemoon
+tags: [game, publisher=freebirdgames, rpg, narrative]

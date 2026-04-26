@@ -1,0 +1,8 @@
+name: sword-and-sworcery
+display_name: "Superbrothers: Sword & Sworcery EP"
+category: gaming
+homepage: https://www.swordandsworcery.com
+locations:
+  native:
+    data: ~/.capy/SwordAndSworcery
+tags: [game, publisher=capybara-games, indie, adventure]

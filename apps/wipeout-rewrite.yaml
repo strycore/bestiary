@@ -1,0 +1,8 @@
+name: wipeout-rewrite
+display_name: wipEout Rewrite (phantom edition)
+category: gaming
+homepage: https://phoboslab.org/wipegame
+locations:
+  native:
+    data: ~/.local/share/phoboslab/wipeout
+tags: [game, publisher=phoboslab, racing, open-source, wipeout]

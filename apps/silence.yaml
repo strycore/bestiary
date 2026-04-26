@@ -1,0 +1,8 @@
+name: silence
+display_name: Silence
+category: gaming
+homepage: https://www.daedalic.com/games/silence
+locations:
+  native:
+    data: ~/.local/share/Daedalic Entertainment GmbH/Silence
+tags: [game, publisher=daedalic, adventure]

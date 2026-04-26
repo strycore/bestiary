@@ -1,0 +1,8 @@
+name: alien-isolation
+display_name: "Alien: Isolation"
+category: gaming
+homepage: https://store.steampowered.com/app/214490
+locations:
+  native:
+    data: ~/.local/share/feral-interactive/AlienIsolation
+tags: [game, publisher=feral-interactive, horror, stealth]

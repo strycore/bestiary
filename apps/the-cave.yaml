@@ -1,0 +1,8 @@
+name: the-cave
+display_name: The Cave
+category: gaming
+homepage: https://www.doublefine.com/games/the-cave
+locations:
+  native:
+    data: ~/.local/share/doublefine/thecave
+tags: [game, publisher=doublefine, platformer, puzzle]

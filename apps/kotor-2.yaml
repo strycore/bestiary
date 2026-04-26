@@ -1,0 +1,8 @@
+name: kotor-2
+display_name: "Star Wars: Knights of the Old Republic II"
+category: gaming
+homepage: https://store.steampowered.com/app/208580
+locations:
+  native:
+    data: ~/.local/share/aspyr-media/kotor2
+tags: [game, publisher=aspyr-media, rpg, star-wars]

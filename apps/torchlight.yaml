@@ -1,0 +1,8 @@
+name: torchlight
+display_name: Torchlight
+category: gaming
+homepage: https://store.steampowered.com/app/41500
+locations:
+  native:
+    data: ~/.runicgames/Torchlight
+tags: [game, publisher=runic-games, action-rpg]

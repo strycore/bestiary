@@ -1,0 +1,8 @@
+name: amnesia-rebirth
+display_name: "Amnesia: Rebirth"
+category: gaming
+homepage: https://www.amnesiarebirth.com
+locations:
+  native:
+    data: ~/.local/share/frictionalgames/Amnesia Rebirth
+tags: [game, publisher=frictionalgames, horror]

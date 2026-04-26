@@ -1,0 +1,8 @@
+name: borderlands-2
+display_name: Borderlands 2
+category: gaming
+homepage: https://store.steampowered.com/app/49520
+locations:
+  native:
+    data: ~/.local/share/aspyr-media/borderlands 2
+tags: [game, publisher=aspyr-media, fps, looter]

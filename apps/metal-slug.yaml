@@ -1,0 +1,8 @@
+name: metal-slug
+display_name: Metal Slug
+category: gaming
+homepage: https://www.snk-corp.co.jp
+locations:
+  native:
+    data: ~/.local/share/SNK/mslug
+tags: [game, publisher=snk, run-and-gun, arcade]

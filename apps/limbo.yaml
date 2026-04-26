@@ -1,0 +1,8 @@
+name: limbo
+display_name: Limbo
+category: gaming
+homepage: https://playdead.com/games/limbo
+locations:
+  native:
+    data: ~/.local/share/PlayDead/Limbo
+tags: [game, publisher=playdead, platformer, puzzle]

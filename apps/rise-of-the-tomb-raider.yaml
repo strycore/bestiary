@@ -1,0 +1,8 @@
+name: rise-of-the-tomb-raider
+display_name: Rise of the Tomb Raider
+category: gaming
+homepage: https://store.steampowered.com/app/391220
+locations:
+  native:
+    data: ~/.local/share/feral-interactive/Rise of the Tomb Raider
+tags: [game, publisher=feral-interactive, action-adventure]
