@@ -1,0 +1,8 @@
+name: rbenv
+display_name: rbenv (Ruby env manager)
+category: development
+homepage: https://github.com/rbenv/rbenv
+locations:
+  native:
+    data: ~/.rbenv
+tags: [ruby, version-manager]

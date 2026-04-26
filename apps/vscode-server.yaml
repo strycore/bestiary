@@ -1,0 +1,8 @@
+name: vscode-server
+display_name: VS Code Server
+category: development
+homepage: https://code.visualstudio.com/docs/remote/vscode-server
+locations:
+  native:
+    cache: ~/.vscode-server
+tags: [vscode, remote, ssh]

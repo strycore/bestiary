@@ -1,0 +1,8 @@
+name: nvm
+display_name: nvm (Node Version Manager)
+category: development
+homepage: https://github.com/nvm-sh/nvm
+locations:
+  native:
+    data: ~/.nvm
+tags: [node, version-manager, javascript]

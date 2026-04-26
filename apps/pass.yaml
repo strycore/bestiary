@@ -1,0 +1,8 @@
+name: pass
+display_name: pass (the standard unix password manager)
+category: productivity
+homepage: https://www.passwordstore.org
+locations:
+  native:
+    data: ~/.password-store
+tags: [password-manager, gpg, security]

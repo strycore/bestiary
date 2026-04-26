@@ -1,0 +1,8 @@
+name: gem
+display_name: RubyGems (user dir)
+category: development
+homepage: https://rubygems.org
+locations:
+  native:
+    data: ~/.gem
+tags: [ruby, package-manager]
