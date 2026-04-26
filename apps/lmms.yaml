@@ -4,14 +4,14 @@ category: media
 homepage: https://lmms.io
 locations:
   native:
-    config: ~/.config/lmms
+    config:
+    - ~/.config/lmms
+    - ~/.lmmsrc.xml
     data: ~/.local/share/lmms
   flatpak:
     flatpak_id: io.lmms.LMMS
     config: ~/.var/app/io.lmms.LMMS/config/lmms
     data: ~/.var/app/io.lmms.LMMS/data/lmms
-  legacy:
-    config: ~/.lmmsrc.xml
 tags:
 - audio
 - daw

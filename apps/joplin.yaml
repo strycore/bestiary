@@ -5,11 +5,10 @@ homepage: https://joplinapp.org
 locations:
   native:
     config: ~/.config/joplin-desktop
+    data: ~/.joplin
   flatpak:
     flatpak_id: net.cozic.joplin_desktop
     config: ~/.var/app/net.cozic.joplin_desktop/config/joplin-desktop
-  legacy:
-    data: ~/.joplin
 backup_exclude:
 - Cache/*
 - GPUCache/*

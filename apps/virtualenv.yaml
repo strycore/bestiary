@@ -4,9 +4,9 @@ category: development
 homepage: https://virtualenv.pypa.io
 locations:
   native:
-    data: ~/.local/share/virtualenv
-  legacy:
-    data: ~/.virtualenvs
+    data:
+    - ~/.local/share/virtualenv
+    - ~/.virtualenvs
 tags:
 - python
 - environments

@@ -5,12 +5,12 @@ homepage: https://www.winehq.org
 locations:
   native:
     config: ~/.wine
-    data: ~/.local/share/wineprefixes
+    data:
+    - ~/.local/share/wineprefixes
+    - ~/.wine
   flatpak:
     flatpak_id: org.winehq.Wine
     data: ~/.var/app/org.winehq.Wine
-  legacy:
-    data: ~/.wine
 tags:
 - windows
 - compatibility

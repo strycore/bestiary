@@ -4,7 +4,9 @@ category: gaming
 homepage: https://www.hyperion-entertainment.com
 locations:
   native:
-    data: ~/.local/share/hyperion
-  legacy:
-    data: ~/.hyperion
-tags: [game-publisher, linux-games]
+    data:
+    - ~/.local/share/hyperion
+    - ~/.hyperion
+tags:
+- game-publisher
+- linux-games

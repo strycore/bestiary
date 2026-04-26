@@ -1,12 +1,12 @@
 # bestiary
 
-A catalog of Linux applications and the places on disk where they keep their config, data, cache, and state — across native, flatpak, snap, and legacy install flavors.
+A catalog of Linux applications and the places on disk where they keep their config, data, cache, and state — across native, flatpak, and snap install flavors.
 
 > Status: alpha. ~650 catalog entries, library API, and `ls` / `show` / `lookup` / `dump` / `scan` CLI all work.
 
 ## Why
 
-Linux apps scatter their files across XDG dirs (`~/.config/X`, `~/.local/share/X`), per-flavor sandboxes (`~/.var/app/X/...` for flatpak, `~/snap/X/...` for snap), and historical legacy locations (`~/.X`). The same Discord install lives in three different places depending on how it was installed.
+Linux apps scatter their files across XDG dirs (`~/.config/X`, `~/.local/share/X`), per-flavor sandboxes (`~/.var/app/X/...` for flatpak, `~/snap/X/...` for snap), and home-rooted dotfiles (`~/.X`). XDG isn't universal — plenty of current apps still drop their state straight in `$HOME` — and the same Discord install lives in three different places depending on how it was installed.
 
 bestiary catalogs those locations: one entry per app, with a per-flavor breakdown. Any tool that needs to know "where does Discord keep its config?" or "what's the flatpak equivalent of this native config path?" can ask bestiary. The data is the primary artifact; the Rust binary is a thin viewer; downstream tools either depend on bestiary as a Rust library or fetch the JSON dump.
 
@@ -15,7 +15,7 @@ bestiary catalogs those locations: one entry per app, with a per-flavor breakdow
 | Term | Meaning |
 |---|---|
 | **entry** | One application's record — its identity and where its data lives |
-| **flavor** | Install variant: `native`, `flatpak`, `snap`, `legacy` |
+| **flavor** | Install variant: `native`, `flatpak`, `snap` |
 | **location** | Per-flavor path bundle: which paths the app uses under one flavor |
 | **kind** | Within a location: `config`, `data`, `cache`, `state` (XDG-aligned) |
 | **catalog** | The collection of entries (embedded set + personal `~/.config/bestiary/apps/`) |
@@ -99,7 +99,7 @@ The repo's primary content is data: YAML entries under [`apps/`](./apps). Adding
 
 1. Find a path your machine has that nothing in the catalog claims. Easiest way is to grab the binary from a release, then run `bestiary scan` — anything in the unknown list is fair game.
 2. Create `apps/<name>.yaml`. The filename stem must match the `name:` field (lowercase letters, digits, dashes — `[a-z][a-z0-9-]*`).
-3. Use the schema above. One entry per app: fold sibling files (e.g. `~/.config/foorc` + `~/.local/share/foo` + `~/.cache/foo`) into a single entry with `config:` / `data:` / `cache:` / `state:`. If a path field needs multiple values, use a YAML list. For pre-XDG conventions (`~/.foo`), use the `legacy:` flavor.
+3. Use the schema above. One entry per app: fold sibling files (e.g. `~/.config/foorc` + `~/.local/share/foo` + `~/.cache/foo`) into a single entry with `config:` / `data:` / `cache:` / `state:`. If a path field needs multiple values, use a YAML list — works just as well for home-rooted dotfiles as for XDG paths. The flavor is about *install variant* (native / flatpak / snap), not path style; both `~/.config/foo` and `~/.foo` belong under `native:`.
 4. Open a PR. CI runs the JSON-schema validation, name-pattern check, and "every embedded yaml parses" test. If it goes green and the entry is honest about where the app actually stores its data, that's all that's needed.
 
 **Editing an existing entry:** same flow — change the file, push the PR. If an app moved (XDG migration, flatpak ID change), update both flavors rather than adding a parallel entry.

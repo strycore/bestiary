@@ -4,7 +4,10 @@ category: gaming
 homepage: http://aquaria-game.com
 locations:
   native:
-    data: ~/.aquaria
-  legacy:
-    data: ~/.Aquaria
-tags: [game, indie, bit-blot]
+    data:
+    - ~/.aquaria
+    - ~/.Aquaria
+tags:
+- game
+- indie
+- bit-blot

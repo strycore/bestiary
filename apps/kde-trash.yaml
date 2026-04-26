@@ -5,7 +5,6 @@ homepage: https://api.kde.org/frameworks/kio
 locations:
   native:
     config: ~/.config/trashrc
-  legacy:
     data: ~/.Trash
 tags:
 - kde

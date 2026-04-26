@@ -5,7 +5,6 @@ homepage: https://www.snes9x.com
 locations:
   native:
     config: ~/.config/snes9x
-  legacy:
     data: ~/.snes9x
 tags:
 - emulator

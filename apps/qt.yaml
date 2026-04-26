@@ -9,8 +9,7 @@ locations:
     - ~/.config/QtProject.conf
     - ~/.config/Trolltech.conf
     - ~/.config/Unknown Organization
-  legacy:
-    config: ~/.qt
+    - ~/.qt
 tags:
 - toolkit
 - qt

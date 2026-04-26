@@ -5,13 +5,12 @@ homepage: https://slade.mancubus.net
 locations:
   native:
     config: ~/.config/SLADE3
-  flatpak:
-    flatpak_id: net.mancubus.SLADE
-    data: ~/.var/app/net.mancubus.SLADE
-  legacy:
     data:
     - ~/.slade
     - ~/.slade3
+  flatpak:
+    flatpak_id: net.mancubus.SLADE
+    data: ~/.var/app/net.mancubus.SLADE
 tags:
 - doom
 - level-editor

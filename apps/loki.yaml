@@ -4,9 +4,9 @@ category: development
 homepage: https://grafana.com/oss/loki
 locations:
   native:
-    data: ~/.local/share/loki
-  legacy:
-    data: ~/.loki
+    data:
+    - ~/.local/share/loki
+    - ~/.loki
 tags:
 - logging
 - grafana

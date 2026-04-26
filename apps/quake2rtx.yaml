@@ -4,9 +4,9 @@ category: gaming
 homepage: https://www.nvidia.com/en-us/geforce/campaigns/quake-II-rtx
 locations:
   native:
-    data: ~/.local/share/quake2rtx
-  legacy:
-    data: ~/.quake2rtx
+    data:
+    - ~/.local/share/quake2rtx
+    - ~/.quake2rtx
 tags:
 - game
 - fps

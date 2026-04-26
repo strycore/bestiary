@@ -89,14 +89,14 @@ pub struct Creature {
 #[derive(Debug, Clone, Copy, Serialize, Deserialize, PartialEq, Eq, PartialOrd, Ord, Hash)]
 #[serde(rename_all = "lowercase")]
 pub enum Flavor {
-    /// Standard package install or upstream tarball — XDG dirs.
+    /// Direct install on the host: distro package, upstream tarball,
+    /// statically-linked binary, etc. Whatever paths the app actually
+    /// uses — XDG dirs, home-rooted dotfiles, or both — go here.
     Native,
     /// `~/.var/app/<flatpak-id>/...`
     Flatpak,
     /// `~/snap/<snap-name>/...`
     Snap,
-    /// Pre-XDG `~/.appname` style — kept for migration assistance.
-    Legacy,
 }
 
 impl Flavor {
@@ -105,7 +105,6 @@ impl Flavor {
             Flavor::Native => "native",
             Flavor::Flatpak => "flatpak",
             Flavor::Snap => "snap",
-            Flavor::Legacy => "legacy",
         }
     }
 }

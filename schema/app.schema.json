@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/strycore/bestiary/schema/app.schema.json",
   "title": "Bestiary App Entry",
-  "description": "One application's catalog entry: where it stores config, data, cache, and state across install flavors (native, flatpak, snap, legacy). CI validates every shipped entry against this schema; IDEs (yaml-language-server) use it for autocomplete.",
+  "description": "One application's catalog entry: where it stores config, data, cache, and state across install flavors (native, flatpak, snap). CI validates every shipped entry against this schema; IDEs (yaml-language-server) use it for autocomplete.",
   "type": "object",
   "additionalProperties": false,
   "required": ["name"],
@@ -41,8 +41,7 @@
       "properties": {
         "native":  { "$ref": "#/$defs/location" },
         "flatpak": { "$ref": "#/$defs/flatpak_location" },
-        "snap":    { "$ref": "#/$defs/snap_location" },
-        "legacy":  { "$ref": "#/$defs/location" }
+        "snap":    { "$ref": "#/$defs/snap_location" }
       }
     }
   },

@@ -5,13 +5,13 @@ homepage: https://citra-emu.org
 locations:
   native:
     config: ~/.config/citra-emu
-    data: ~/.local/share/citra-emu
+    data:
+    - ~/.local/share/citra-emu
+    - ~/.citra
   flatpak:
     flatpak_id: org.citra_emu.citra
     config: ~/.var/app/org.citra_emu.citra/config/citra-emu
     data: ~/.var/app/org.citra_emu.citra/data/citra-emu
-  legacy:
-    data: ~/.citra
 tags:
 - emulator
 - 3ds
