@@ -1,0 +1,8 @@
+name: osc-state
+display_name: osc (state dir)
+category: development
+homepage: https://github.com/openSUSE/osc
+locations:
+  native:
+    state: ~/.local/state/osc
+tags: [build, opensuse]

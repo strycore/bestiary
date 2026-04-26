@@ -1,0 +1,8 @@
+name: opencode-state
+display_name: opencode (state dir)
+category: development
+homepage: https://opencode.ai
+locations:
+  native:
+    state: ~/.local/state/opencode
+tags: [ai, cli]

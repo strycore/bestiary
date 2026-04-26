@@ -1,0 +1,8 @@
+name: kdirselect-state
+display_name: KDirSelect (state)
+category: system
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    state: ~/.local/state/kdirselectstaterc
+tags: [kde, kio]

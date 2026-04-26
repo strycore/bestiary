@@ -1,0 +1,8 @@
+name: procps
+display_name: procps
+category: utility
+homepage: https://gitlab.com/procps-ng/procps
+locations:
+  native:
+    config: ~/.config/procps
+tags: [system, ps]

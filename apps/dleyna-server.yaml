@@ -1,0 +1,8 @@
+name: dleyna-server
+display_name: dLeyna Server Service
+category: multimedia
+homepage: https://github.com/intel/dleyna-server
+locations:
+  native:
+    config: ~/.config/dleyna-server-service.conf
+tags: [dlna, upnp, media]

@@ -1,0 +1,8 @@
+name: bash-history
+display_name: Bash (history)
+category: development
+homepage: https://www.gnu.org/software/bash
+locations:
+  native:
+    state: ~/.bash_history
+tags: [shell, cli, history]

@@ -1,0 +1,8 @@
+name: fender-pedals
+display_name: Fender (config)
+category: multimedia
+homepage: https://www.fender.com
+locations:
+  native:
+    config: ~/.config/Fender
+tags: [audio, fender]

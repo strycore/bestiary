@@ -1,0 +1,8 @@
+name: package-config
+display_name: Package config dir
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    config: ~/.config/package
+tags: [system]

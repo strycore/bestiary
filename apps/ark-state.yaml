@@ -1,0 +1,8 @@
+name: ark-state
+display_name: Ark (state)
+category: utility
+homepage: https://apps.kde.org/ark
+locations:
+  native:
+    state: ~/.local/state/arkstaterc
+tags: [kde, archive]

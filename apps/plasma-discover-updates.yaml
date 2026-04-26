@@ -1,0 +1,8 @@
+name: plasma-discover-updates
+display_name: Plasma Discover Updates
+category: utility
+homepage: https://apps.kde.org/discover
+locations:
+  native:
+    config: ~/.config/PlasmaDiscoverUpdates
+tags: [kde, plasma, discover]

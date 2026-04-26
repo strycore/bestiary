@@ -1,0 +1,8 @@
+name: mancolor
+display_name: mancolor
+category: utility
+homepage: https://github.com
+locations:
+  native:
+    config: ~/.mancolor
+tags: [man, colors]

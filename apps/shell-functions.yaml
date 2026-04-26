@@ -1,0 +1,8 @@
+name: shell-functions
+display_name: Shell Functions
+category: development
+homepage: https://www.gnu.org/software/bash
+locations:
+  native:
+    config: ~/.shell_functions.sh
+tags: [shell, functions]

@@ -1,0 +1,8 @@
+name: miopen
+display_name: AMD MIOpen
+category: system
+homepage: https://rocm.docs.amd.com/projects/MIOpen
+locations:
+  native:
+    config: ~/.config/miopen
+tags: [amd, rocm, ml]

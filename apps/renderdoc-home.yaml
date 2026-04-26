@@ -1,0 +1,8 @@
+name: renderdoc-home
+display_name: RenderDoc (home dir)
+category: development
+homepage: https://renderdoc.org
+locations:
+  native:
+    config: ~/.renderdoc
+tags: [graphics, debugging]

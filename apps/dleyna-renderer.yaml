@@ -1,0 +1,8 @@
+name: dleyna-renderer
+display_name: dLeyna Renderer Service
+category: multimedia
+homepage: https://github.com/intel/dleyna-renderer
+locations:
+  native:
+    config: ~/.config/dleyna-renderer-service.conf
+tags: [dlna, upnp, media]

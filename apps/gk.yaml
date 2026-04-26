@@ -1,0 +1,8 @@
+name: gk
+display_name: GitKraken (legacy home dir)
+category: development
+homepage: https://www.gitkraken.com
+locations:
+  native:
+    data: ~/.gk
+tags: [git, gitkraken]

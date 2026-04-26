@@ -1,0 +1,8 @@
+name: filelight
+display_name: Filelight
+category: utility
+homepage: https://apps.kde.org/filelight
+locations:
+  native:
+    config: ~/.config/filelightrc
+tags: [kde, disk-usage]

@@ -1,0 +1,8 @@
+name: kmix
+display_name: KMix
+category: multimedia
+homepage: https://userbase.kde.org/KMix
+locations:
+  native:
+    config: ~/.config/kmixrc
+tags: [kde, audio, mixer]

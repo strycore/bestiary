@@ -1,0 +1,8 @@
+name: raspberry-pi
+display_name: Raspberry Pi (config dir)
+category: utility
+homepage: https://www.raspberrypi.com
+locations:
+  native:
+    config: ~/.config/Raspberry Pi
+tags: [raspberry-pi, embedded]

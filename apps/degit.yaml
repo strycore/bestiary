@@ -1,0 +1,8 @@
+name: degit
+display_name: degit
+category: development
+homepage: https://github.com/Rich-Harris/degit
+locations:
+  native:
+    cache: ~/.degit
+tags: [git, scaffolding]

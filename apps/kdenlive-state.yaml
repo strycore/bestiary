@@ -1,0 +1,8 @@
+name: kdenlive-state
+display_name: Kdenlive (state)
+category: multimedia
+homepage: https://kdenlive.org
+locations:
+  native:
+    state: ~/.local/state/kdenlivestaterc
+tags: [kde, video-editor]

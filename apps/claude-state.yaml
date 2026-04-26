@@ -1,0 +1,8 @@
+name: claude-state
+display_name: Claude (state dir)
+category: development
+homepage: https://claude.ai
+locations:
+  native:
+    state: ~/.local/state/claude
+tags: [ai, anthropic]

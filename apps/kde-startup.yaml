@@ -1,0 +1,8 @@
+name: kde-startup
+display_name: KDE Startup
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/startkderc
+tags: [kde, plasma, startup]

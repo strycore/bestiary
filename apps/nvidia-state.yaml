@@ -1,0 +1,8 @@
+name: nvidia-state
+display_name: NVIDIA (state dir)
+category: system
+homepage: https://www.nvidia.com
+locations:
+  native:
+    state: ~/.local/state/NVIDIA
+tags: [nvidia, gpu]

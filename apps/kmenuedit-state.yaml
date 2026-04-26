@@ -1,0 +1,8 @@
+name: kmenuedit-state
+display_name: KMenuEdit (state)
+category: utility
+homepage: https://userbase.kde.org/KMenuEdit
+locations:
+  native:
+    state: ~/.local/state/kmenueditstaterc
+tags: [kde, menu-editor]

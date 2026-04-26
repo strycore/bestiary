@@ -1,0 +1,8 @@
+name: rncbc
+display_name: rncbc.org plugins
+category: multimedia
+homepage: https://www.rncbc.org
+locations:
+  native:
+    config: ~/.config/rncbc.org
+tags: [audio, jack, qt]

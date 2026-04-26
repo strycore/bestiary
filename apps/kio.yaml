@@ -1,0 +1,8 @@
+name: kio
+display_name: KIO (KDE I/O)
+category: system
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    config: ~/.config/kiorc
+tags: [kde, framework, io]

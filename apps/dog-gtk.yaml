@@ -1,0 +1,8 @@
+name: dog-gtk
+display_name: Dog (GTK)
+category: communication
+homepage: https://codeberg.org/SOrg/Dog
+locations:
+  native:
+    data: ~/.var/app/page.codeberg.SOrg.DogGTK
+tags: [gtk, social]

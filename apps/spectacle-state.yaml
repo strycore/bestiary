@@ -1,0 +1,8 @@
+name: spectacle-state
+display_name: Spectacle (state)
+category: utility
+homepage: https://apps.kde.org/spectacle
+locations:
+  native:
+    state: ~/.local/state/spectaclestaterc
+tags: [kde, screenshot]

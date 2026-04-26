@@ -1,0 +1,8 @@
+name: ksslcalist
+display_name: KSSL CA list
+category: system
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    config: ~/.config/ksslcalist
+tags: [kde, ssl, certificates]

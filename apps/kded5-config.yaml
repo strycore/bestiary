@@ -1,0 +1,8 @@
+name: kded5-config
+display_name: KDED5 (config rc)
+category: system
+homepage: https://api.kde.org/frameworks/kded
+locations:
+  native:
+    config: ~/.config/kded5rc
+tags: [kde, daemon, legacy]

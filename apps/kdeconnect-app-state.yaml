@@ -1,0 +1,8 @@
+name: kdeconnect-app-state
+display_name: KDE Connect App (state)
+category: communication
+homepage: https://kdeconnect.kde.org
+locations:
+  native:
+    state: ~/.local/state/kdeconnect.appstaterc
+tags: [kde, kdeconnect]

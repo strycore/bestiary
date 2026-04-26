@@ -1,0 +1,8 @@
+name: kate-swp
+display_name: Kate (legacy swap files)
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    state: ~/.db.kate-swp
+tags: [kate, swap]

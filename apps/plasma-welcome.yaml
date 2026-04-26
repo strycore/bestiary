@@ -1,0 +1,8 @@
+name: plasma-welcome
+display_name: Plasma Welcome
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasma-welcomerc
+tags: [kde, plasma]

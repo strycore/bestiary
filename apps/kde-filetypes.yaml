@@ -1,0 +1,8 @@
+name: kde-filetypes
+display_name: KDE File Types
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/filetypesrc
+tags: [kde, mime]

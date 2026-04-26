@@ -1,0 +1,8 @@
+name: trunk-state
+display_name: Trunk (state dir)
+category: development
+homepage: https://trunk.io
+locations:
+  native:
+    state: ~/.local/state/trunk
+tags: [linter, code-quality]

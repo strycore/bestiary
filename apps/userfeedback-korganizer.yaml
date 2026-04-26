@@ -1,0 +1,8 @@
+name: userfeedback-korganizer
+display_name: KDE UserFeedback (KOrganizer)
+category: productivity
+homepage: https://apps.kde.org/korganizer
+locations:
+  native:
+    state: ~/.local/state/UserFeedback.org.kde.korganizer
+tags: [kde, telemetry]

@@ -1,0 +1,8 @@
+name: virtualenvs
+display_name: virtualenvwrapper (legacy)
+category: development
+homepage: https://virtualenvwrapper.readthedocs.io
+locations:
+  native:
+    data: ~/.virtualenvs
+tags: [python, virtualenv, legacy]

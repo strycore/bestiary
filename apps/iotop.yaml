@@ -1,0 +1,8 @@
+name: iotop
+display_name: iotop
+category: utility
+homepage: https://github.com/Tomas-M/iotop
+locations:
+  native:
+    config: ~/.config/iotop
+tags: [system-monitor, io]

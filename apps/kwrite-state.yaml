@@ -1,0 +1,8 @@
+name: kwrite-state
+display_name: KWrite (state)
+category: development
+homepage: https://apps.kde.org/kwrite
+locations:
+  native:
+    state: ~/.local/state/kwritestaterc
+tags: [kde, editor]

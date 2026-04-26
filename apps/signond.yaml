@@ -1,0 +1,8 @@
+name: signond
+display_name: Signond
+category: system
+homepage: https://gitlab.com/accounts-sso/signond
+locations:
+  native:
+    config: ~/.config/signond
+tags: [auth, accounts]

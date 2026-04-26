@@ -1,0 +1,8 @@
+name: zshenv
+display_name: Zsh (env)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    config: ~/.zshenv
+tags: [shell, zsh]

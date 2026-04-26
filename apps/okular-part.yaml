@@ -1,0 +1,8 @@
+name: okular-part
+display_name: Okular KPart
+category: productivity
+homepage: https://okular.kde.org
+locations:
+  native:
+    config: ~/.config/okularpartrc
+tags: [okular, kde, kpart]

@@ -1,0 +1,8 @@
+name: gamescope-stdout-log
+display_name: gamescope (stdout log)
+category: gaming
+homepage: https://github.com/ValveSoftware/gamescope
+locations:
+  native:
+    state: ~/.gamescope-stdout.log
+tags: [valve, compositor, logs]

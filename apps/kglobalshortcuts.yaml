@@ -1,0 +1,8 @@
+name: kglobalshortcuts
+display_name: KDE Global Shortcuts
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kglobalshortcutsrc
+tags: [kde, plasma, shortcuts]

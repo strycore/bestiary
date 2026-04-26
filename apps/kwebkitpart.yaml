@@ -1,0 +1,8 @@
+name: kwebkitpart
+display_name: KWebKitPart
+category: web
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/kwebkitpart.categories
+tags: [kde, webkit, legacy]

@@ -1,0 +1,8 @@
+name: var-app-root
+display_name: Flatpak Sandboxes (root)
+category: system
+homepage: https://flatpak.org
+locations:
+  native:
+    data: ~/.var
+tags: [flatpak, sandbox]

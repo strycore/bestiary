@@ -1,0 +1,8 @@
+name: ksmserver
+display_name: KSMServer (KDE session)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/ksmserverrc
+tags: [kde, plasma, session]

@@ -1,0 +1,8 @@
+name: kate-schema
+display_name: Kate (schema)
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    config: ~/.config/kateschemarc
+tags: [kate, kde, theming]

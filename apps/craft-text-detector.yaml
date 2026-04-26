@@ -1,0 +1,8 @@
+name: craft-text-detector
+display_name: craft-text-detector (cache)
+category: development
+homepage: https://github.com/fcakyon/craft-text-detector
+locations:
+  native:
+    cache: ~/.craft_text_detector
+tags: [python, ocr, ai]

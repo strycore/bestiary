@@ -1,0 +1,8 @@
+name: cadence-data
+display_name: Cadence (Cadence dir)
+category: multimedia
+homepage: https://kx.studio/Applications:Cadence
+locations:
+  native:
+    data: ~/.config/Cadence
+tags: [audio, jack, kx-studio]

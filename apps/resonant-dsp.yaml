@@ -1,0 +1,8 @@
+name: resonant-dsp
+display_name: Resonant DSP
+category: multimedia
+homepage: https://github.com
+locations:
+  native:
+    config: ~/.config/Resonant DSP
+tags: [audio, dsp, plugin]

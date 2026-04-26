@@ -1,0 +1,8 @@
+name: audacity-state
+display_name: Audacity (state dir)
+category: multimedia
+homepage: https://www.audacityteam.org
+locations:
+  native:
+    state: ~/.local/state/audacity
+tags: [audio-editor]

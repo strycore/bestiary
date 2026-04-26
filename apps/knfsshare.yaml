@@ -1,0 +1,8 @@
+name: knfsshare
+display_name: KNFSShare
+category: system
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/knfsshare
+tags: [kde, nfs, sharing]

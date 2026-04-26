@@ -1,0 +1,8 @@
+name: semantic-highlight-cache
+display_name: Semantic Highlight (cache)
+category: development
+homepage: https://github.com
+locations:
+  native:
+    cache: ~/.semantic-highlight-cache
+tags: [editor, syntax]

@@ -1,0 +1,8 @@
+name: plasma-emojier
+display_name: Plasma Emojier
+category: utility
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasma.emojierrc
+tags: [kde, plasma, emoji]

@@ -1,0 +1,8 @@
+name: krita-sysinfo-log
+display_name: Krita (sysinfo log)
+category: multimedia
+homepage: https://krita.org
+locations:
+  native:
+    state: ~/.local/share/krita-sysinfo.log
+tags: [krita, logs]

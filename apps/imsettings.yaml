@@ -1,0 +1,8 @@
+name: imsettings
+display_name: IMSettings
+category: system
+homepage: https://github.com/fujiwarat/imsettings
+locations:
+  native:
+    config: ~/.config/imsettings
+tags: [input-method]

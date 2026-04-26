@@ -1,0 +1,8 @@
+name: xdg-terminals
+display_name: XDG Terminals list
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    config: ~/.config/xdg-terminals.list
+tags: [xdg, terminal]

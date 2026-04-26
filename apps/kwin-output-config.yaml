@@ -1,0 +1,8 @@
+name: kwin-output-config
+display_name: KWin Output Config
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kwinoutputconfig.json
+tags: [kde, kwin, display]

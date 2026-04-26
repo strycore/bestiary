@@ -1,0 +1,8 @@
+name: baloo-fileinfo
+display_name: Baloo (file information rc)
+category: system
+homepage: https://community.kde.org/Baloo
+locations:
+  native:
+    config: ~/.config/baloofileinformationrc
+tags: [kde, indexing]

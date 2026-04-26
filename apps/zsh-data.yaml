@@ -1,0 +1,8 @@
+name: zsh-data
+display_name: Zsh (data dir)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    data: ~/.zsh
+tags: [shell, zsh]

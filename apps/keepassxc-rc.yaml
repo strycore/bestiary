@@ -1,0 +1,8 @@
+name: keepassxc-rc
+display_name: KeePassXC (rc file)
+category: productivity
+homepage: https://keepassxc.org
+locations:
+  native:
+    config: ~/.config/KeePassXCrc
+tags: [password-manager, kde]

@@ -1,0 +1,8 @@
+name: kate-vi
+display_name: Kate (vi mode)
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    config: ~/.config/katevirc
+tags: [kate, kde, vi]

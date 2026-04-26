@@ -1,0 +1,8 @@
+name: flatpak-hello
+display_name: Flatpak Hello (example)
+category: development
+homepage: https://docs.flatpak.org
+locations:
+  native:
+    data: ~/.var/app/org.flatpak.Hello
+tags: [flatpak, example]

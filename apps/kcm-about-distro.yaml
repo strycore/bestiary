@@ -1,0 +1,8 @@
+name: kcm-about-distro
+display_name: KCM About Distro
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kcm-about-distrorc
+tags: [kde, distro-info]

@@ -1,0 +1,8 @@
+name: steamos-session
+display_name: SteamOS Session Select
+category: gaming
+homepage: https://store.steampowered.com
+locations:
+  native:
+    config: ~/.config/steamos-session-select
+tags: [steamos, valve]

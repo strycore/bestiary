@@ -1,0 +1,8 @@
+name: sni-qt
+display_name: SNI Qt
+category: system
+homepage: https://github.com/AyatanaIndicators/sni-qt
+locations:
+  native:
+    config: ~/.config/sni-qt.conf
+tags: [tray, status-notifier]

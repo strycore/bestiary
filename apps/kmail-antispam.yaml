@@ -1,0 +1,8 @@
+name: kmail-antispam
+display_name: KMail Antispam
+category: communication
+homepage: https://apps.kde.org/kmail2
+locations:
+  native:
+    config: ~/.config/kmail.antispamrc
+tags: [kmail, antispam]

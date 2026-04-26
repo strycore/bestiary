@@ -1,0 +1,8 @@
+name: glib
+display_name: GLib
+category: system
+homepage: https://wiki.gnome.org/Projects/GLib
+locations:
+  native:
+    config: ~/.config/glib-2.0
+tags: [library, freedesktop]

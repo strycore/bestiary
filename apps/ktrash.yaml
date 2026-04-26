@@ -1,0 +1,8 @@
+name: ktrash
+display_name: KTrash (KDE)
+category: system
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    config: ~/.config/ktrashrc
+tags: [kde, trash]

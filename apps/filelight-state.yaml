@@ -1,0 +1,8 @@
+name: filelight-state
+display_name: Filelight (state)
+category: utility
+homepage: https://apps.kde.org/filelight
+locations:
+  native:
+    state: ~/.local/state/filelightstaterc
+tags: [kde, disk-usage]

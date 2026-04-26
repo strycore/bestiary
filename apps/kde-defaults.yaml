@@ -1,0 +1,8 @@
+name: kde-defaults
+display_name: KDE Defaults
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kdedefaults
+tags: [kde, plasma]

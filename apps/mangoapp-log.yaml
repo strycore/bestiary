@@ -1,0 +1,8 @@
+name: mangoapp-log
+display_name: MangoApp (stdout log)
+category: utility
+homepage: https://github.com/flightlessmango/MangoHud
+locations:
+  native:
+    state: ~/.mangoapp-stdout.log
+tags: [mangohud, logs]

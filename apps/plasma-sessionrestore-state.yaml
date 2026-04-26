@@ -1,0 +1,8 @@
+name: plasma-sessionrestore-state
+display_name: Plasma Session Restore (state)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    state: ~/.local/state/plasmasessionrestorestaterc
+tags: [kde, plasma, session]

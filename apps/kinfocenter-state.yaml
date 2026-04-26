@@ -1,0 +1,8 @@
+name: kinfocenter-state
+display_name: KInfoCenter (state)
+category: utility
+homepage: https://apps.kde.org/kinfocenter
+locations:
+  native:
+    state: ~/.local/state/kinfocenterstaterc
+tags: [kde, system-info]

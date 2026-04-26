@@ -1,0 +1,8 @@
+name: gnome-session
+display_name: GNOME Session
+category: system
+homepage: https://gitlab.gnome.org/GNOME/gnome-session
+locations:
+  native:
+    config: ~/.config/gnome-session
+tags: [gnome, session]

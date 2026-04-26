@@ -1,0 +1,8 @@
+name: konsole-ssh
+display_name: Konsole SSH manager
+category: development
+homepage: https://konsole.kde.org
+locations:
+  native:
+    config: ~/.config/konsolesshconfig
+tags: [konsole, ssh]

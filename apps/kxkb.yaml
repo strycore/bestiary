@@ -1,0 +1,8 @@
+name: kxkb
+display_name: KXKB (KDE keyboard)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kxkbrc
+tags: [kde, keyboard, layout]

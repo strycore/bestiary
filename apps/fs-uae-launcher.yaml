@@ -1,0 +1,8 @@
+name: fs-uae-launcher
+display_name: FS-UAE Launcher
+category: gaming
+homepage: https://fs-uae.net
+locations:
+  native:
+    config: ~/.config/fs-uae-launcher
+tags: [emulator, amiga]

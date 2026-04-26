@@ -1,0 +1,8 @@
+name: osc
+display_name: osc (Open Build Service CLI)
+category: development
+homepage: https://github.com/openSUSE/osc
+locations:
+  native:
+    config: ~/.config/osc
+tags: [build, opensuse]

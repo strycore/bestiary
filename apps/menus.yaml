@@ -1,0 +1,8 @@
+name: menus
+display_name: XDG Menus (user)
+category: system
+homepage: https://specifications.freedesktop.org/menu-spec
+locations:
+  native:
+    config: ~/.config/menus
+tags: [xdg, menu]

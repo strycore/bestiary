@@ -1,0 +1,8 @@
+name: qtchooser
+display_name: QtChooser
+category: system
+homepage: https://www.qt.io
+locations:
+  native:
+    config: ~/.config/qtchooser
+tags: [qt, version-selector]

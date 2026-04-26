@@ -1,0 +1,8 @@
+name: viminfo
+display_name: Vim (info file)
+category: development
+homepage: https://www.vim.org
+locations:
+  native:
+    state: ~/.viminfo
+tags: [editor, vim, history]

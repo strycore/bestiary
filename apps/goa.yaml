@@ -1,0 +1,8 @@
+name: goa
+display_name: GNOME Online Accounts
+category: communication
+homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
+locations:
+  native:
+    config: ~/.config/goa-1.0
+tags: [gnome, accounts]

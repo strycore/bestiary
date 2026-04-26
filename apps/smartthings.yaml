@@ -1,0 +1,8 @@
+name: smartthings
+display_name: Samsung SmartThings
+category: utility
+homepage: https://www.smartthings.com
+locations:
+  native:
+    config: ~/.config/@smartthings
+tags: [samsung, iot, smart-home]

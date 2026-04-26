@@ -1,0 +1,8 @@
+name: pavucontrol
+display_name: PulseAudio Volume Control
+category: multimedia
+homepage: https://freedesktop.org/software/pulseaudio/pavucontrol
+locations:
+  native:
+    config: ~/.config/pavucontrol.ini
+tags: [audio, pulseaudio]

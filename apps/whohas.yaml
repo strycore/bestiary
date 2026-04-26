@@ -1,0 +1,8 @@
+name: whohas
+display_name: whohas
+category: utility
+homepage: https://github.com/sourceperl/whohas
+locations:
+  native:
+    data: ~/.whohas
+tags: [package-search]

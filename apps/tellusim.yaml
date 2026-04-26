@@ -1,0 +1,8 @@
+name: tellusim
+display_name: Tellusim Engine
+category: development
+homepage: https://tellusim.com
+locations:
+  native:
+    data: ~/.tellusim
+tags: [engine, graphics]

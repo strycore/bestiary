@@ -1,0 +1,8 @@
+name: plasma-emojier-state
+display_name: Plasma Emojier (state)
+category: utility
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    state: ~/.local/state/plasma.emojierstaterc
+tags: [kde, plasma, emoji]

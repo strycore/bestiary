@@ -1,0 +1,8 @@
+name: kmouth
+display_name: KMouth
+category: utility
+homepage: https://userbase.kde.org/KMouth
+locations:
+  native:
+    config: ~/.config/kmouthrc
+tags: [kde, accessibility, tts]

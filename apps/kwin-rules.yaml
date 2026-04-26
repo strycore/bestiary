@@ -1,0 +1,8 @@
+name: kwin-rules
+display_name: KWin Rules
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kwinrulesrc
+tags: [kde, kwin, window-rules]

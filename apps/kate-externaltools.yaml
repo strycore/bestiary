@@ -1,0 +1,8 @@
+name: kate-externaltools
+display_name: Kate External Tools plugin
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    config: ~/.config/kate-externaltoolspluginrc
+tags: [kate, kde, plugin]

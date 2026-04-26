@@ -1,0 +1,8 @@
+name: kdeconnect-daemon-state
+display_name: KDE Connect Daemon (state)
+category: communication
+homepage: https://kdeconnect.kde.org
+locations:
+  native:
+    state: ~/.local/state/kdeconnect.daemonstaterc
+tags: [kde, kdeconnect]

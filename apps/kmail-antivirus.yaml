@@ -1,0 +1,8 @@
+name: kmail-antivirus
+display_name: KMail Antivirus
+category: communication
+homepage: https://apps.kde.org/kmail2
+locations:
+  native:
+    config: ~/.config/kmail.antivirusrc
+tags: [kmail, antivirus]

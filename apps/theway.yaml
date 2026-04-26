@@ -1,0 +1,8 @@
+name: theway
+display_name: TheWay
+category: utility
+homepage: https://github.com/out-of-cheese-error/the-way
+locations:
+  native:
+    data: ~/.theway
+tags: [snippet-manager]

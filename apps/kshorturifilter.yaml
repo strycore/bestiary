@@ -1,0 +1,8 @@
+name: kshorturifilter
+display_name: KShortUriFilter
+category: system
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    config: ~/.config/kshorturifilterrc
+tags: [kde, kio, web-shortcuts]

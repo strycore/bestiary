@@ -1,0 +1,8 @@
+name: kate-swp-missing
+display_name: "Kate (swap: missing-gog-games)"
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    state: ~/.missing-gog-games.kate-swp
+tags: [kate, swap]

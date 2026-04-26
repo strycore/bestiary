@@ -1,0 +1,8 @@
+name: isoimagewriter-state
+display_name: ISO Image Writer (state)
+category: utility
+homepage: https://apps.kde.org/isoimagewriter
+locations:
+  native:
+    state: ~/.local/state/isoimagewriterstaterc
+tags: [kde, iso]

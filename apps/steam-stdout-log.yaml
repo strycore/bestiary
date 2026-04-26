@@ -1,0 +1,8 @@
+name: steam-stdout-log
+display_name: Steam (stdout log)
+category: gaming
+homepage: https://store.steampowered.com
+locations:
+  native:
+    state: ~/.steam-stdout.log
+tags: [steam, valve, logs]

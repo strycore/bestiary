@@ -1,0 +1,8 @@
+name: plasma-shell-rc
+display_name: Plasma Shell (rc)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasmashellrc
+tags: [kde, plasma, shell]

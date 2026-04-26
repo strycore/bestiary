@@ -1,0 +1,8 @@
+name: gnome-initial-setup
+display_name: GNOME Initial Setup (marker)
+category: system
+homepage: https://gitlab.gnome.org/GNOME/gnome-initial-setup
+locations:
+  native:
+    state: ~/.config/gnome-initial-setup-done
+tags: [gnome, setup]

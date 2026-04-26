@@ -1,0 +1,8 @@
+name: akonadi-contacts
+display_name: Akonadi (Contacts resource)
+category: communication
+homepage: https://userbase.kde.org/Akonadi
+locations:
+  native:
+    config: ~/.config/akonadi_contacts_resource_0rc
+tags: [kde, akonadi, contacts]

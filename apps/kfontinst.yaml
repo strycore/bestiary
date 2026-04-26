@@ -1,0 +1,8 @@
+name: kfontinst
+display_name: Font Installer (KFontInst)
+category: utility
+homepage: https://userbase.kde.org/Font_Installer
+locations:
+  native:
+    config: ~/.config/kfontinstuirc
+tags: [kde, fonts]

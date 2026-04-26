@@ -1,0 +1,8 @@
+name: cosmic-initial-setup
+display_name: COSMIC Initial Setup (marker)
+category: system
+homepage: https://github.com/pop-os
+locations:
+  native:
+    state: ~/.config/cosmic-initial-setup-done
+tags: [cosmic, setup]

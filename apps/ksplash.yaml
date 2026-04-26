@@ -1,0 +1,8 @@
+name: ksplash
+display_name: KSplash
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/ksplashrc
+tags: [kde, plasma, splash]

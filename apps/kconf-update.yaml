@@ -1,0 +1,8 @@
+name: kconf-update
+display_name: KConf Update
+category: system
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/kconf_updaterc
+tags: [kde, framework]

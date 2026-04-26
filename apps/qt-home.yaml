@@ -1,0 +1,8 @@
+name: qt-home
+display_name: Qt (legacy ~/.qt)
+category: system
+homepage: https://www.qt.io
+locations:
+  native:
+    config: ~/.qt
+tags: [qt, framework, legacy]

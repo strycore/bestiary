@@ -1,0 +1,8 @@
+name: kde-event-views
+display_name: KDE Event Views
+category: communication
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/eventviewsrc
+tags: [kde, calendar, pim]

@@ -1,0 +1,8 @@
+name: bash-logout
+display_name: Bash (logout)
+category: development
+homepage: https://www.gnu.org/software/bash
+locations:
+  native:
+    config: ~/.bash_logout
+tags: [shell, cli]

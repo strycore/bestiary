@@ -1,0 +1,8 @@
+name: userfeedback-dolphin
+display_name: KDE UserFeedback (Dolphin)
+category: utility
+homepage: https://apps.kde.org/dolphin
+locations:
+  native:
+    state: ~/.local/state/UserFeedback.org.kde.dolphin
+tags: [kde, telemetry]

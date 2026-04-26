@@ -1,0 +1,8 @@
+name: kate-data
+display_name: Kate (data dir)
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    data: ~/.config/kate
+tags: [kate, kde]

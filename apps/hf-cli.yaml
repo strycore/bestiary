@@ -1,0 +1,8 @@
+name: hf-cli
+display_name: Hugging Face CLI
+category: development
+homepage: https://huggingface.co/docs/huggingface_hub/main/en/guides/cli
+locations:
+  native:
+    config: ~/.hf-cli
+tags: [ai, huggingface]

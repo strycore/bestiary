@@ -1,0 +1,8 @@
+name: soulseek-qt
+display_name: SoulseekQt
+category: communication
+homepage: https://www.slsknet.org
+locations:
+  native:
+    data: ~/.SoulseekQt
+tags: [p2p, music]

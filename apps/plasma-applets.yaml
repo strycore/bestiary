@@ -1,0 +1,8 @@
+name: plasma-applets
+display_name: Plasma Desktop Applets
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+tags: [kde, plasma, applets]

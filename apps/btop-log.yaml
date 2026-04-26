@@ -1,0 +1,8 @@
+name: btop-log
+display_name: btop (log)
+category: utility
+homepage: https://github.com/aristocratos/btop
+locations:
+  native:
+    state: ~/.local/state/btop.log
+tags: [system-monitor, logs]

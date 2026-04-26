@@ -1,0 +1,8 @@
+name: akonadi-maildir
+display_name: Akonadi (Maildir resource)
+category: communication
+homepage: https://userbase.kde.org/Akonadi
+locations:
+  native:
+    config: ~/.config/akonadi_maildir_resource_0rc
+tags: [kde, akonadi, mail]

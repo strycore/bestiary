@@ -1,0 +1,8 @@
+name: kate-meta
+display_name: Kate (metainfos)
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    config: ~/.config/katemetainfos
+tags: [kate, kde]

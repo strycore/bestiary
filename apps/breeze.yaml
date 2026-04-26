@@ -1,0 +1,8 @@
+name: breeze
+display_name: Breeze theme
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/breezerc
+tags: [kde, plasma, theming]

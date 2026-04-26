@@ -1,0 +1,8 @@
+name: kleopatra
+display_name: Kleopatra
+category: productivity
+homepage: https://apps.kde.org/kleopatra
+locations:
+  native:
+    config: ~/.config/libkleopatrarc
+tags: [kde, gpg, encryption]

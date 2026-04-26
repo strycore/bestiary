@@ -1,0 +1,8 @@
+name: libaccounts
+display_name: libaccounts-glib
+category: system
+homepage: https://gitlab.com/accounts-sso/libaccounts-glib
+locations:
+  native:
+    config: ~/.config/libaccounts-glib
+tags: [accounts, sso]

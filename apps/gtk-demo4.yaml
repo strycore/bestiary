@@ -1,0 +1,8 @@
+name: gtk-demo4
+display_name: GTK4 Demo
+category: development
+homepage: https://gtk.org
+locations:
+  native:
+    data: ~/.var/app/org.gtk.Demo4
+tags: [gtk, demo]

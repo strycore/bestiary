@@ -1,0 +1,8 @@
+name: mendingwall
+display_name: Mending Wall
+category: utility
+homepage: https://github.com/dougspeed/mendingwall
+locations:
+  native:
+    data: ~/.var/app/org.indii.mendingwall
+tags: [settings-backup, gnome]

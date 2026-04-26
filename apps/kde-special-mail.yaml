@@ -1,0 +1,8 @@
+name: kde-special-mail
+display_name: KDE Special Mail Collections
+category: communication
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/specialmailcollectionsrc
+tags: [kde, pim]

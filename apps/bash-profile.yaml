@@ -1,0 +1,8 @@
+name: bash-profile
+display_name: Bash (login profile)
+category: development
+homepage: https://www.gnu.org/software/bash
+locations:
+  native:
+    config: ~/.bash_profile
+tags: [shell, cli]

@@ -1,0 +1,8 @@
+name: plasma-workspace
+display_name: Plasma Workspace
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasma-workspace
+tags: [kde, plasma]

@@ -1,0 +1,8 @@
+name: kwrite-meta
+display_name: KWrite (metainfos)
+category: development
+homepage: https://apps.kde.org/kwrite
+locations:
+  native:
+    config: ~/.config/kwritemetainfos
+tags: [kwrite, kde]

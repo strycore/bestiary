@@ -1,0 +1,8 @@
+name: local-share-data
+display_name: XDG (generic 'data' subdir)
+category: system
+homepage: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+locations:
+  native:
+    data: ~/.local/share/data
+tags: [xdg, freedesktop]

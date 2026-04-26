@@ -1,0 +1,8 @@
+name: kwin-dialogs
+display_name: KWin Dialogs
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kwin_dialogsrc
+tags: [kde, kwin]

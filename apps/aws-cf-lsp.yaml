@@ -1,0 +1,8 @@
+name: aws-cf-lsp
+display_name: AWS CloudFormation Language Server
+category: development
+homepage: https://github.com/aws/aws-cfn-lsp
+locations:
+  native:
+    state: ~/.local/state/aws-cloudformation-languageserver
+tags: [aws, lsp]

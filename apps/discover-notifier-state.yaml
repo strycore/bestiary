@@ -1,0 +1,8 @@
+name: discover-notifier-state
+display_name: Discover Notifier (state)
+category: utility
+homepage: https://apps.kde.org/discover
+locations:
+  native:
+    state: ~/.local/state/discovernotifierstaterc
+tags: [kde, plasma, discover]

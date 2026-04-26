@@ -1,0 +1,8 @@
+name: taskmanager-rules
+display_name: Task Manager Rules (KDE)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/taskmanagerrulesrc
+tags: [kde, plasma]

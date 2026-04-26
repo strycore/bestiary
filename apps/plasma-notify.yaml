@@ -1,0 +1,8 @@
+name: plasma-notify
+display_name: Plasma Notifications
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasmanotifyrc
+tags: [kde, plasma, notifications]

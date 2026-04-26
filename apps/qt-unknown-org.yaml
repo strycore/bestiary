@@ -1,0 +1,8 @@
+name: qt-unknown-org
+display_name: Qt (Unknown Organization)
+category: system
+homepage: https://www.qt.io
+locations:
+  native:
+    config: ~/.config/Unknown Organization
+tags: [qt, framework]

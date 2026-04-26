@@ -1,0 +1,8 @@
+name: zcompdump
+display_name: Zsh (completion cache)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    cache: ~/.zcompdump
+tags: [shell, zsh, completion]

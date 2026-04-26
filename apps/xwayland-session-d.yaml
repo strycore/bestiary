@@ -1,0 +1,8 @@
+name: xwayland-session-d
+display_name: Xwayland session.d
+category: system
+homepage: https://wayland.freedesktop.org
+locations:
+  native:
+    config: ~/.config/Xwayland-session.d
+tags: [wayland, xwayland]

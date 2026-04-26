@@ -1,0 +1,8 @@
+name: robotframework-ls
+display_name: Robot Framework Language Server
+category: development
+homepage: https://robotframework.org
+locations:
+  native:
+    data: ~/.robotframework-ls
+tags: [rpa, lsp]

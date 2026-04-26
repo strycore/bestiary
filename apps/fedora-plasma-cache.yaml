@@ -1,0 +1,8 @@
+name: fedora-plasma-cache
+display_name: Fedora Plasma Cache
+category: system
+homepage: https://fedoraproject.org
+locations:
+  native:
+    config: ~/.config/fedora-plasma-cacherc
+tags: [kde, plasma, fedora]

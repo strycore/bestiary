@@ -1,0 +1,8 @@
+name: ui-config
+display_name: UI (generic config dir)
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    config: ~/.config/ui
+tags: [config]

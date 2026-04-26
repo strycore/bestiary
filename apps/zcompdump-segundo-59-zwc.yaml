@@ -1,0 +1,8 @@
+name: zcompdump-segundo-59-zwc
+display_name: Zsh (completion cache compiled - segundo-5.9)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    cache: ~/.zcompdump-segundo-5.9.zwc
+tags: [shell, zsh, completion]

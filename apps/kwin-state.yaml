@@ -1,0 +1,8 @@
+name: kwin-state
+display_name: KWin (state)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    state: ~/.local/state/kwinstaterc
+tags: [kde, kwin]

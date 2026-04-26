@@ -1,0 +1,8 @@
+name: obs-rc
+display_name: OBS Studio (rc)
+category: multimedia
+homepage: https://obsproject.com
+locations:
+  native:
+    config: ~/.config/obsrc
+tags: [obs, video]

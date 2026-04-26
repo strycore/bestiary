@@ -1,0 +1,8 @@
+name: plasma-locale
+display_name: Plasma Locale
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasma-localerc
+tags: [kde, plasma, i18n]

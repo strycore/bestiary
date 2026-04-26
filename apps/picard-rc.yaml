@@ -1,0 +1,8 @@
+name: picard-rc
+display_name: MusicBrainz Picard (rc)
+category: multimedia
+homepage: https://picard.musicbrainz.org
+locations:
+  native:
+    config: ~/.config/Picardrc
+tags: [picard, music]

@@ -1,0 +1,8 @@
+name: plasma-systemmonitor-state
+display_name: Plasma System Monitor (state)
+category: utility
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    state: ~/.local/state/plasma-systemmonitorstaterc
+tags: [kde, plasma, monitor]

@@ -1,0 +1,8 @@
+name: userfeedback-plasmashell
+display_name: KDE UserFeedback (Plasma Shell)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    state: ~/.local/state/UserFeedback.org.kde.plasmashell
+tags: [kde, telemetry]

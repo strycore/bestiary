@@ -1,0 +1,8 @@
+name: trolltech
+display_name: Trolltech (legacy Qt)
+category: system
+homepage: https://www.qt.io
+locations:
+  native:
+    config: ~/.config/Trolltech.conf
+tags: [qt, legacy]

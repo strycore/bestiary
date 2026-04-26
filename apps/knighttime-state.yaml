@@ -1,0 +1,8 @@
+name: knighttime-state
+display_name: KNightTime (state)
+category: utility
+homepage: https://kde.org
+locations:
+  native:
+    state: ~/.local/state/knighttimestaterc
+tags: [kde, plasma]

@@ -1,0 +1,8 @@
+name: powermanagement-profiles
+display_name: Power Management Profiles (KDE)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/powermanagementprofilesrc
+tags: [kde, plasma, power]

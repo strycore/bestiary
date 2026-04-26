@@ -1,0 +1,8 @@
+name: local-share-doc
+display_name: XDG (generic 'doc' subdir)
+category: system
+homepage: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+locations:
+  native:
+    data: ~/.local/share/doc
+tags: [xdg, docs]

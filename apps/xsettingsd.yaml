@@ -1,0 +1,8 @@
+name: xsettingsd
+display_name: xsettingsd
+category: system
+homepage: https://github.com/derat/xsettingsd
+locations:
+  native:
+    config: ~/.config/xsettingsd
+tags: [x11, settings]

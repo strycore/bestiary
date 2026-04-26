@@ -1,0 +1,8 @@
+name: emulator-token
+display_name: Android Emulator (auth token)
+category: development
+homepage: https://developer.android.com/studio/run/emulator
+locations:
+  native:
+    state: ~/.emulator_console_auth_token
+tags: [android, emulator]

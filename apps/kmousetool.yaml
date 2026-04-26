@@ -1,0 +1,8 @@
+name: kmousetool
+display_name: KMouseTool
+category: utility
+homepage: https://userbase.kde.org/KMouseTool
+locations:
+  native:
+    config: ~/.config/kmousetool_strokes.txt
+tags: [kde, accessibility]

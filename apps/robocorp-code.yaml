@@ -1,0 +1,8 @@
+name: robocorp-code
+display_name: Robocorp Code
+category: development
+homepage: https://robocorp.com
+locations:
+  native:
+    data: ~/.robocorp-code
+tags: [rpa, automation]

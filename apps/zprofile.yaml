@@ -1,0 +1,8 @@
+name: zprofile
+display_name: Zsh (login profile)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    config: ~/.zprofile
+tags: [shell, zsh]

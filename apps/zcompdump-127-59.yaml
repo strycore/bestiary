@@ -1,0 +1,8 @@
+name: zcompdump-127-59
+display_name: Zsh (completion cache - 127-5.9)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    cache: ~/.zcompdump-127-5.9
+tags: [shell, zsh, completion]

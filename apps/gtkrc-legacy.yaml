@@ -1,0 +1,8 @@
+name: gtkrc-legacy
+display_name: GTK 1 (legacy gtkrc)
+category: system
+homepage: https://gtk.org
+locations:
+  native:
+    config: ~/.config/gtkrc
+tags: [gtk, legacy]

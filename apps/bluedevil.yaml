@@ -1,0 +1,8 @@
+name: bluedevil
+display_name: BlueDevil
+category: system
+homepage: https://userbase.kde.org/BlueDevil
+locations:
+  native:
+    config: ~/.config/bluedevilglobalrc
+tags: [kde, bluetooth, plasma]

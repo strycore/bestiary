@@ -1,0 +1,8 @@
+name: kruler
+display_name: KRuler
+category: utility
+homepage: https://apps.kde.org/kruler
+locations:
+  native:
+    config: ~/.config/krulerrc
+tags: [kde, screen-ruler]

@@ -1,0 +1,8 @@
+name: kcminput
+display_name: KCM Input (mouse/touch)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kcminputrc
+tags: [kde, plasma, input]

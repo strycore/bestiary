@@ -1,0 +1,8 @@
+name: sudo-as-admin
+display_name: sudo (admin marker)
+category: system
+homepage: https://www.sudo.ws
+locations:
+  native:
+    state: ~/.sudo_as_admin_successful
+tags: [sudo]

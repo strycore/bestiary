@@ -1,0 +1,8 @@
+name: kfind
+display_name: KFind
+category: utility
+homepage: https://apps.kde.org/kfind
+locations:
+  native:
+    config: ~/.config/kfindrc
+tags: [kde, search]

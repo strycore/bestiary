@@ -1,0 +1,8 @@
+name: kde-webengine-adblock
+display_name: KDE WebEngine URL adblocker
+category: web
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/webengineurlinterceptoradblockrc
+tags: [kde, webengine, adblock]

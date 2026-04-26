@@ -5,4 +5,5 @@ homepage: https://poncle.itch.io/vampire-survivors
 locations:
   native:
     config: ~/.config/Vampire_Survivors
+    data: ~/.config/Vampire_Survivors_Data
 tags: [game, roguelike, action]

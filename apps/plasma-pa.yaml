@@ -1,0 +1,8 @@
+name: plasma-pa
+display_name: Plasma PulseAudio
+category: multimedia
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/plasmaparc
+tags: [kde, plasma, audio]

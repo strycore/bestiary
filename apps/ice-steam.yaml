@@ -1,0 +1,8 @@
+name: ice-steam
+display_name: Ice (Steam ROM Manager)
+category: gaming
+homepage: https://github.com/scottrice/Ice
+locations:
+  native:
+    data: ~/.local/share/ice
+tags: [steam, rom-manager]

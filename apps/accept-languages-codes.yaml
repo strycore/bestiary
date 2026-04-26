@@ -1,0 +1,8 @@
+name: accept-languages-codes
+display_name: Accept-Language Codes
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    config: ~/.config/accept-languages.codes
+tags: [i18n, locale]

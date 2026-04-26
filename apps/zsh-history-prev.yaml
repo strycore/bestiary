@@ -1,0 +1,8 @@
+name: zsh-history-prev
+display_name: Zsh (previous history)
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    state: ~/.zsh_history.prev
+tags: [shell, cli, history]

@@ -1,0 +1,8 @@
+name: wget-hsts
+display_name: wget (HSTS database)
+category: utility
+homepage: https://www.gnu.org/software/wget
+locations:
+  native:
+    state: ~/.wget-hsts
+tags: [wget, security, hsts]

@@ -1,0 +1,8 @@
+name: ktimezoned
+display_name: KTimeZoned
+category: system
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/ktimezonedrc
+tags: [kde, time]

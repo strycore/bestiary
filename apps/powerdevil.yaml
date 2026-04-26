@@ -1,0 +1,8 @@
+name: powerdevil
+display_name: PowerDevil
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/powerdevilrc
+tags: [kde, plasma, power]

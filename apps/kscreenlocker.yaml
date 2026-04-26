@@ -1,0 +1,8 @@
+name: kscreenlocker
+display_name: KScreenLocker
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kscreenlockerrc
+tags: [kde, plasma, lock-screen]

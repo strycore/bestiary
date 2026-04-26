@@ -1,0 +1,8 @@
+name: a2j
+display_name: a2jmidid
+category: multimedia
+homepage: https://github.com/jackaudio/a2jmidid
+locations:
+  native:
+    config: ~/.config/a2j
+tags: [midi, jack, alsa]

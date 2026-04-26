@@ -1,0 +1,8 @@
+name: session-config
+display_name: Session (KDE/Plasma)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/session
+tags: [kde, plasma, session]

@@ -1,0 +1,8 @@
+name: kde-email-defaults
+display_name: KDE Email Defaults
+category: communication
+homepage: https://api.kde.org
+locations:
+  native:
+    config: ~/.config/emaildefaults
+tags: [kde, pim, email]

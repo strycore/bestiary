@@ -1,0 +1,8 @@
+name: pop-launcher
+display_name: Pop Launcher
+category: utility
+homepage: https://github.com/pop-os/launcher
+locations:
+  native:
+    state: ~/.local/state/pop-launcher
+tags: [pop-os, launcher]

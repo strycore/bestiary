@@ -1,0 +1,8 @@
+name: xdg-config-root
+display_name: XDG Config Home (root)
+category: system
+homepage: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+locations:
+  native:
+    config: ~/.config
+tags: [xdg, freedesktop]

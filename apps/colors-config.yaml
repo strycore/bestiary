@@ -1,0 +1,8 @@
+name: colors-config
+display_name: Colors config dir
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    config: ~/.config/colors
+tags: [theming, colors]

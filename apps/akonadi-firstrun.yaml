@@ -1,0 +1,8 @@
+name: akonadi-firstrun
+display_name: Akonadi (firstrun marker)
+category: communication
+homepage: https://userbase.kde.org/Akonadi
+locations:
+  native:
+    config: ~/.config/akonadi-firstrunrc
+tags: [kde, akonadi]

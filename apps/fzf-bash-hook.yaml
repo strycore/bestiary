@@ -1,0 +1,8 @@
+name: fzf-bash-hook
+display_name: fzf (bash hook)
+category: development
+homepage: https://github.com/junegunn/fzf
+locations:
+  native:
+    config: ~/.fzf.bash
+tags: [shell, fzf]

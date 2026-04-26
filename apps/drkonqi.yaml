@@ -1,0 +1,8 @@
+name: drkonqi
+display_name: DrKonqi
+category: system
+homepage: https://userbase.kde.org/Plasma
+locations:
+  native:
+    config: ~/.config/drkonqirc
+tags: [kde, crash-handler, plasma]
