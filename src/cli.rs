@@ -24,6 +24,9 @@ pub enum Command {
     Lookup(LookupArgs),
     /// Dump the catalog as JSON (defaults to stdout).
     Dump(DumpArgs),
+    /// Walk standard XDG roots + home dotfiles and report which paths
+    /// the catalog claims, plus what's still unmapped.
+    Scan(ScanArgs),
 }
 
 #[derive(clap::Args)]
@@ -57,12 +60,30 @@ pub struct DumpArgs {
     pub out: Option<PathBuf>,
 }
 
+#[derive(clap::Args)]
+pub struct ScanArgs {
+    /// Directories to scan instead of the default XDG roots. Their
+    /// immediate children are looked up. Repeatable.
+    #[arg(long = "root")]
+    pub roots: Vec<PathBuf>,
+    /// Print only paths the catalog doesn't claim.
+    #[arg(short = 'u', long)]
+    pub unknown_only: bool,
+    /// Print only the matched paths (with their owning app).
+    #[arg(short = 'k', long, conflicts_with = "unknown_only")]
+    pub known_only: bool,
+    /// Emit JSON instead of human-readable output.
+    #[arg(long)]
+    pub json: bool,
+}
+
 pub fn run(cli: Cli) -> Result<()> {
     match cli.command {
         Command::Ls(a) => ls(a),
         Command::Show(a) => show(a),
         Command::Lookup(a) => lookup(a),
         Command::Dump(a) => dump(a),
+        Command::Scan(a) => scan(a),
     }
 }
 
@@ -154,6 +175,120 @@ fn lookup(args: LookupArgs) -> Result<()> {
             anyhow::bail!("no app claims {}", path.display());
         }
     }
+}
+
+fn scan(args: ScanArgs) -> Result<()> {
+    let cat = Catalog::load()?;
+    let roots = if args.roots.is_empty() {
+        default_scan_roots()
+    } else {
+        args.roots
+    };
+
+    let mut entries = collect_scan_entries(&roots);
+    entries.sort();
+    entries.dedup();
+
+    let mut known: Vec<(PathBuf, String)> = Vec::new();
+    let mut unknown: Vec<PathBuf> = Vec::new();
+    for p in &entries {
+        match cat.lookup_path(p) {
+            Some(e) => known.push((p.clone(), e.creature.name.clone())),
+            None => unknown.push(p.clone()),
+        }
+    }
+
+    if args.json {
+        let known_json: Vec<_> = known
+            .iter()
+            .map(|(p, n)| serde_json::json!({"path": p, "app": n}))
+            .collect();
+        let unknown_json: Vec<_> = unknown.iter().map(|p| serde_json::json!(p)).collect();
+        let out = serde_json::json!({
+            "total": entries.len(),
+            "known": known.len(),
+            "unknown": unknown.len(),
+            "matches": known_json,
+            "unmatched": unknown_json,
+        });
+        println!("{}", serde_json::to_string_pretty(&out)?);
+        return Ok(());
+    }
+
+    // Default mode: list unknowns (most actionable). `--known-only`
+    // flips that to list matches with their owning app. `--unknown-only`
+    // is the same as the default but explicit (and suppresses the summary
+    // when piped, since callers in scripts likely don't want it).
+    if args.known_only {
+        for (p, name) in &known {
+            println!("{}\t{}", p.display(), name);
+        }
+    } else {
+        for p in &unknown {
+            println!("{}", p.display());
+        }
+    }
+
+    let pct = if entries.is_empty() {
+        0.0
+    } else {
+        100.0 * known.len() as f64 / entries.len() as f64
+    };
+    eprintln!(
+        "scanned {} paths: {} known, {} unknown ({:.1}% covered)",
+        entries.len(),
+        known.len(),
+        unknown.len(),
+        pct
+    );
+    Ok(())
+}
+
+/// Default roots for `bestiary scan`: XDG dirs + flatpak sandbox root +
+/// top-level home dotfiles. Each yields its immediate children as scan
+/// targets (we don't recurse — `lookup_path` already covers descendants
+/// of any matched dir).
+fn default_scan_roots() -> Vec<PathBuf> {
+    let home = match std::env::var_os("HOME") {
+        Some(h) => PathBuf::from(h),
+        None => return vec![],
+    };
+    vec![
+        home.join(".config"),
+        home.join(".local/share"),
+        home.join(".local/state"),
+        home.join(".var/app"),
+        home.clone(),
+    ]
+}
+
+/// Collect immediate children of each root. For `$HOME` we only emit
+/// dot-prefixed entries (regular files & dirs in `$HOME` aren't bestiary's
+/// concern).
+fn collect_scan_entries(roots: &[PathBuf]) -> Vec<PathBuf> {
+    let mut out = Vec::new();
+    let home = std::env::var_os("HOME").map(PathBuf::from);
+    for root in roots {
+        let dotfiles_only = home.as_ref().is_some_and(|h| h == root);
+        let Ok(rd) = std::fs::read_dir(root) else {
+            continue;
+        };
+        for ent in rd.flatten() {
+            let p = ent.path();
+            if dotfiles_only {
+                let name = p.file_name().and_then(|s| s.to_str()).unwrap_or("");
+                if !name.starts_with('.') {
+                    continue;
+                }
+                // Skip `.` and `..` (defensive — read_dir shouldn't emit them).
+                if name == "." || name == ".." {
+                    continue;
+                }
+            }
+            out.push(p);
+        }
+    }
+    out
 }
 
 fn dump(args: DumpArgs) -> Result<()> {

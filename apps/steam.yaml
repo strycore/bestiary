@@ -6,6 +6,9 @@ locations:
   native:
     config: ~/.steam
     data: ~/.local/share/Steam
+    state:
+      - ~/.steampid
+      - ~/.steampath
 backup_exclude:
   - "appcache/*"
   - "steamapps/downloading/*"

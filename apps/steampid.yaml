@@ -1,8 +1,0 @@
-name: steampid
-display_name: Steam (legacy state files)
-category: gaming
-homepage: https://store.steampowered.com
-locations:
-  native:
-    state: ~/.steampid
-tags: [valve, steam, runtime]
