@@ -76,12 +76,21 @@ impl Catalog {
         self.entries.is_empty()
     }
 
-    /// Look up the creature whose dwelling-paths cover `query`. The longest
-    /// matching path wins, so an entry for `~/.config/discord` matches a
-    /// query of `~/.config/discord/settings.json`.
+    /// Look up the creature whose dwelling-paths cover `query`.
+    ///
+    /// Resolution strategy, in order:
+    /// 1. **Longest declared-path prefix.** Exact match to a path on some
+    ///    flavor's dwelling, or any descendant of it. Longest path wins.
+    /// 2. **Flatpak-id sandbox match.** Query under `~/.var/app/<id>/...`
+    ///    falls back to looking up `<id>` against any dwelling's
+    ///    `flatpak_id`. Catches the bare sandbox dir without each entry
+    ///    having to declare it explicitly.
+    /// 3. **Snap-name sandbox match.** Same for `~/snap/<name>/...`.
     pub fn lookup_path(&self, query: &Path) -> Option<&CatalogEntry> {
         let query = expand_tilde(query);
         let query_str = query.to_string_lossy();
+
+        // 1. Longest declared-path prefix.
         let mut best: Option<(usize, &CatalogEntry)> = None;
         for entry in self.entries.values() {
             for dwelling in entry.creature.dwellings.values() {
@@ -99,7 +108,43 @@ impl Catalog {
                 }
             }
         }
-        best.map(|(_, e)| e)
+        if let Some((_, e)) = best {
+            return Some(e);
+        }
+
+        // 2. Flatpak sandbox id (~/.var/app/<id>).
+        if let Some(id) = sandbox_segment(&query_str, "/.var/app/")
+            && let Some(e) = self.find_by_flatpak_id(id)
+        {
+            return Some(e);
+        }
+
+        // 3. Snap sandbox name (~/snap/<name>).
+        if let Some(name) = sandbox_segment(&query_str, "/snap/")
+            && let Some(e) = self.find_by_snap_name(name)
+        {
+            return Some(e);
+        }
+
+        None
+    }
+
+    fn find_by_flatpak_id(&self, id: &str) -> Option<&CatalogEntry> {
+        self.entries.values().find(|e| {
+            e.creature
+                .dwellings
+                .values()
+                .any(|d| d.flatpak_id.as_deref() == Some(id))
+        })
+    }
+
+    fn find_by_snap_name(&self, name: &str) -> Option<&CatalogEntry> {
+        self.entries.values().find(|e| {
+            e.creature
+                .dwellings
+                .values()
+                .any(|d| d.snap_name.as_deref() == Some(name))
+        })
     }
 
     /// Translate a path under one flavor's dwelling to the equivalent path
@@ -215,6 +260,21 @@ fn personal_apps_dir() -> Option<PathBuf> {
     Some(base.join("bestiary").join("apps"))
 }
 
+/// Pull the immediate child segment under `marker` out of `path`. e.g.
+/// `sandbox_segment("/home/me/.var/app/com.foo.Bar/config/foo", "/.var/app/")`
+/// returns `Some("com.foo.Bar")`. Trailing-slash queries (the bare sandbox
+/// dir itself) also match.
+fn sandbox_segment<'a>(path: &'a str, marker: &str) -> Option<&'a str> {
+    let idx = path.find(marker)?;
+    let after = &path[idx + marker.len()..];
+    let segment = after.split('/').next()?;
+    if segment.is_empty() {
+        None
+    } else {
+        Some(segment)
+    }
+}
+
 fn expand_tilde(p: &Path) -> PathBuf {
     let s = p.to_string_lossy();
     if let Some(rest) = s.strip_prefix("~/") {
@@ -284,6 +344,51 @@ mod tests {
     fn lookup_path_misses_unrelated() {
         let cat = Catalog::from_creatures(vec![fake("foo", "/home/me/.config/foo", None)]);
         assert!(cat.lookup_path(Path::new("/home/me/.config/bar")).is_none());
+    }
+
+    #[test]
+    fn lookup_path_resolves_bare_flatpak_sandbox_dir() {
+        // The catalog declares paths INSIDE the flatpak sandbox dir; a query
+        // for the bare sandbox dir itself should still resolve via flatpak_id.
+        let cat = Catalog::from_creatures(vec![fake(
+            "foo",
+            "/home/me/.config/foo",
+            Some(("com.foo.Foo", "/home/me/.var/app/com.foo.Foo/config/foo")),
+        )]);
+        let hit = cat
+            .lookup_path(Path::new("/home/me/.var/app/com.foo.Foo"))
+            .expect("bare sandbox dir should resolve");
+        assert_eq!(hit.creature.name, "foo");
+    }
+
+    #[test]
+    fn lookup_path_resolves_subpath_under_unmapped_flatpak_dir() {
+        // Catalog only declares a config subpath; a query for the cache subdir
+        // (which isn't catalogued) should still resolve via flatpak_id.
+        let cat = Catalog::from_creatures(vec![fake(
+            "foo",
+            "/home/me/.config/foo",
+            Some(("com.foo.Foo", "/home/me/.var/app/com.foo.Foo/config/foo")),
+        )]);
+        let hit = cat
+            .lookup_path(Path::new(
+                "/home/me/.var/app/com.foo.Foo/cache/foo/sessions",
+            ))
+            .expect("uncatalogued subpath under known flatpak id should resolve");
+        assert_eq!(hit.creature.name, "foo");
+    }
+
+    #[test]
+    fn lookup_path_misses_unknown_flatpak_id() {
+        let cat = Catalog::from_creatures(vec![fake(
+            "foo",
+            "/home/me/.config/foo",
+            Some(("com.foo.Foo", "/home/me/.var/app/com.foo.Foo/config/foo")),
+        )]);
+        assert!(
+            cat.lookup_path(Path::new("/home/me/.var/app/com.somebody.Else"))
+                .is_none()
+        );
     }
 
     #[test]
