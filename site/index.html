@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>bestiary — Linux app data location catalog</title>
+  <meta name="description" content="A catalog of Linux apps and where they keep their data." />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🐾</text></svg>" />
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="#/" id="home-link">bestiary</a>
+      <span class="tag" id="count" title="entries shown / total"></span>
+    </h1>
+    <input id="search" type="search" placeholder="search by name, display name, tag…" autocomplete="off" />
+    <nav id="categories"></nav>
+    <p class="meta">
+      <a href="./catalog.json">catalog.json</a>
+      ·
+      <a href="https://github.com/strycore/bestiary">github</a>
+      ·
+      <a href="https://github.com/strycore/bestiary#contributing">contribute</a>
+    </p>
+  </header>
+
+  <main id="main"></main>
+
+  <template id="card-template">
+    <a class="card" data-name="">
+      <div class="head">
+        <span class="name"></span>
+        <span class="display"></span>
+      </div>
+      <div class="meta">
+        <span class="cat"></span>
+        <span class="flavors"></span>
+      </div>
+    </a>
+  </template>
+
+  <script src="./app.js"></script>
+</body>
+</html>

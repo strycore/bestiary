@@ -1,0 +1,63 @@
+name: Pages
+
+# On every push to main, build the catalog dump and deploy site/ to
+# GitHub Pages. The site/ files are static; the only build artifact is
+# catalog.json produced by `bestiary dump`.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build bestiary
+        run: cargo build --release
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/apps
+          cp -r site/. _site/
+          ./target/release/bestiary dump --out _site/catalog.json
+          # Split the catalog into per-app JSON files for direct GET access.
+          python3 - <<'PY'
+          import json, pathlib
+          data = json.load(open("_site/catalog.json"))
+          out = pathlib.Path("_site/apps")
+          out.mkdir(parents=True, exist_ok=True)
+          for name, entry in data.items():
+              (out / f"{name}.json").write_text(json.dumps(entry, indent=2) + "\n")
+          PY
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
