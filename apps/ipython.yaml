@@ -1,0 +1,8 @@
+name: ipython
+display_name: IPython
+category: development
+homepage: https://ipython.org
+locations:
+  native:
+    data: ~/.ipython
+tags: [python, repl, jupyter]

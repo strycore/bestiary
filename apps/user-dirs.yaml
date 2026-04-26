@@ -1,0 +1,8 @@
+name: user-dirs
+display_name: XDG User Dirs
+category: system
+homepage: https://www.freedesktop.org/wiki/Software/xdg-user-dirs
+locations:
+  native:
+    config: ~/.config/user-dirs.dirs
+tags: [xdg, freedesktop, config]

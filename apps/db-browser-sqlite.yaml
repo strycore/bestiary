@@ -1,0 +1,8 @@
+name: db-browser-sqlite
+display_name: DB Browser for SQLite (config)
+category: development
+homepage: https://sqlitebrowser.org
+locations:
+  native:
+    config: ~/.config/DB Browser for SQLiterc
+tags: [sqlite, database]

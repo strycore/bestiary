@@ -1,0 +1,9 @@
+name: fili
+display_name: fili
+category: utility
+homepage: https://github.com/strycore/fili
+locations:
+  native:
+    data: ~/.local/share/fili
+    state: ~/.fili.db
+tags: [files, classifier, backup]

@@ -1,0 +1,10 @@
+name: npm
+display_name: npm
+category: development
+homepage: https://www.npmjs.com
+locations:
+  native:
+    config: ~/.npmrc
+    cache: ~/.npm
+    data: ~/.npm-global
+tags: [javascript, package-manager, nodejs]

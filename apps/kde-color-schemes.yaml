@@ -1,0 +1,8 @@
+name: kde-color-schemes
+display_name: KDE Color Schemes
+category: system
+homepage: https://userbase.kde.org/Plasma/ColorScheme
+locations:
+  native:
+    data: ~/.local/share/color-schemes
+tags: [kde, plasma, theming]

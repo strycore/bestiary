@@ -1,0 +1,9 @@
+name: r2modman
+display_name: r2modman
+category: gaming
+homepage: https://thunderstore.io/package/ebkr/r2modman
+locations:
+  native:
+    config: ~/.config/r2modman
+    data: ~/.config/r2modmanPlus-local
+tags: [mod-manager, thunderstore]

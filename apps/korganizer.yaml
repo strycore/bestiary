@@ -1,0 +1,9 @@
+name: korganizer
+display_name: KOrganizer
+category: productivity
+homepage: https://apps.kde.org/korganizer
+locations:
+  native:
+    config: ~/.config/korganizerrc
+    data: ~/.local/share/korganizer
+tags: [calendar, kde, pim]

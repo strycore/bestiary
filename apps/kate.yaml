@@ -1,0 +1,9 @@
+name: kate
+display_name: Kate
+category: development
+homepage: https://kate-editor.org
+locations:
+  native:
+    config: ~/.config/katerc
+    data: ~/.local/share/kate
+tags: [editor, kde]

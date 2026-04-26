@@ -1,0 +1,8 @@
+name: bards-tale
+display_name: The Bard's Tale
+category: gaming
+homepage: https://store.steampowered.com/app/40800
+locations:
+  native:
+    data: ~/.local/share/BardTale
+tags: [game, rpg]

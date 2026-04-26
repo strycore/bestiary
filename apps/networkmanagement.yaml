@@ -1,0 +1,9 @@
+name: networkmanagement
+display_name: KDE Network Management
+category: system
+homepage: https://invent.kde.org/plasma/plasma-nm
+locations:
+  native:
+    data: ~/.local/share/networkmanagement
+    config: ~/.config/plasma-nm
+tags: [kde, network, plasma]

@@ -1,0 +1,8 @@
+name: p10k
+display_name: Powerlevel10k
+category: development
+homepage: https://github.com/romkatv/powerlevel10k
+locations:
+  native:
+    config: ~/.p10k.zsh
+tags: [zsh, prompt, theme]

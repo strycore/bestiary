@@ -1,0 +1,9 @@
+name: primehack
+display_name: Primehack
+category: gaming
+homepage: https://github.com/shiiion/dolphin
+locations:
+  flatpak:
+    flatpak_id: io.github.shiiion.primehack
+    data: ~/.var/app/io.github.shiiion.primehack
+tags: [emulator, dolphin, metroid-prime]

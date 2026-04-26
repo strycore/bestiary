@@ -1,0 +1,8 @@
+name: umu
+display_name: umu (Unified Linux Wine Game Launcher)
+category: gaming
+homepage: https://github.com/Open-Wine-Components/umu-launcher
+locations:
+  native:
+    data: ~/.local/share/umu
+tags: [wine, proton, launcher]

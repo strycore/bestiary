@@ -1,0 +1,8 @@
+name: obsidianirc
+display_name: ObsidianIRC
+category: communication
+homepage: https://github.com/ObsidianIRC/ObsidianIRC
+locations:
+  native:
+    data: ~/.local/share/ObsidianIRC
+tags: [irc, chat]

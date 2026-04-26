@@ -1,0 +1,8 @@
+name: krunner
+display_name: KRunner
+category: utility
+homepage: https://userbase.kde.org/Plasma/Krunner
+locations:
+  native:
+    config: ~/.config/krunnerrc
+tags: [kde, launcher, plasma]

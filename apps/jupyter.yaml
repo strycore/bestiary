@@ -1,0 +1,8 @@
+name: jupyter
+display_name: Jupyter
+category: development
+homepage: https://jupyter.org
+locations:
+  native:
+    data: ~/.local/share/jupyter
+tags: [python, notebook, datascience]

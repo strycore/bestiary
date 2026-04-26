@@ -1,0 +1,9 @@
+name: folks
+display_name: libfolks (contacts)
+category: communication
+homepage: https://wiki.gnome.org/Projects/Folks
+locations:
+  native:
+    data: ~/.local/share/folks
+    config: ~/.local/share/contacts
+tags: [contacts, gnome]

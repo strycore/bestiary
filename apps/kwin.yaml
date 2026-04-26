@@ -1,0 +1,8 @@
+name: kwin
+display_name: KWin
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kwinrc
+tags: [kde, window-manager, plasma]

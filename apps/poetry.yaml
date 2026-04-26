@@ -1,0 +1,9 @@
+name: poetry
+display_name: Poetry
+category: development
+homepage: https://python-poetry.org
+locations:
+  native:
+    config: ~/.config/pypoetry
+    cache: ~/.cache/pypoetry
+tags: [python, package-manager]

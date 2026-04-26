@@ -1,0 +1,8 @@
+name: podman
+display_name: Podman
+category: development
+homepage: https://podman.io
+locations:
+  native:
+    data: ~/.local/share/containers
+tags: [containers, oci]

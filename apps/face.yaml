@@ -1,0 +1,8 @@
+name: face
+display_name: User Face Image
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    data: ~/.face
+tags: [accountsservice, avatar]

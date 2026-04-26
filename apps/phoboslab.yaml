@@ -1,0 +1,8 @@
+name: phoboslab
+display_name: phoboslab (saves dir)
+category: gaming
+homepage: https://phoboslab.org
+locations:
+  native:
+    data: ~/.local/share/phoboslab
+tags: [game-publisher, saves]

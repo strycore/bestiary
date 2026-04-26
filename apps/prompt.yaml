@@ -1,0 +1,9 @@
+name: prompt
+display_name: Prompt
+category: development
+homepage: https://gitlab.gnome.org/chergert/prompt
+locations:
+  flatpak:
+    flatpak_id: org.gnome.Prompt
+    data: ~/.var/app/org.gnome.Prompt
+tags: [terminal, gnome]

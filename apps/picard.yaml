@@ -1,0 +1,8 @@
+name: picard
+display_name: MusicBrainz Picard
+category: multimedia
+homepage: https://picard.musicbrainz.org
+locations:
+  native:
+    config: ~/.config/MusicBrainz
+tags: [music, tagging, metadata]

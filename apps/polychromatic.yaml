@@ -1,0 +1,8 @@
+name: polychromatic
+display_name: Polychromatic
+category: utility
+homepage: https://polychromatic.app
+locations:
+  native:
+    config: ~/.config/polychromatic
+tags: [razer, rgb, hardware]

@@ -1,0 +1,8 @@
+name: abrt
+display_name: ABRT
+category: system
+homepage: https://abrt.readthedocs.io
+locations:
+  native:
+    config: ~/.config/abrt
+tags: [crash-reporting, fedora]

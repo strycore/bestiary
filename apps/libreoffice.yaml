@@ -1,0 +1,11 @@
+name: libreoffice
+display_name: LibreOffice
+category: productivity
+homepage: https://www.libreoffice.org
+locations:
+  native:
+    config: ~/.config/libreoffice
+backup_exclude:
+  - "*/user/backup/*"
+  - "*/user/extensions/bundled/*"
+tags: [office, document]

@@ -1,0 +1,8 @@
+name: nobara-updater
+display_name: Nobara Updater
+category: system
+homepage: https://nobaraproject.org
+locations:
+  native:
+    data: ~/.local/share/nobara-updater
+tags: [nobara, fedora, updater]

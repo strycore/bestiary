@@ -1,0 +1,11 @@
+name: menulibre
+display_name: MenuLibre
+category: productivity
+homepage: https://bluesabre.org/menulibre
+locations:
+  native:
+    data: ~/.local/share/applications
+  flatpak:
+    flatpak_id: org.bluesabre.MenuLibre
+    data: ~/.var/app/org.bluesabre.MenuLibre
+tags: [menu, desktop, xdg]

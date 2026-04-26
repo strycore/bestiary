@@ -1,0 +1,8 @@
+name: mozbuild
+display_name: mozbuild (Firefox build env)
+category: development
+homepage: https://firefox-source-docs.mozilla.org
+locations:
+  native:
+    data: ~/.mozbuild
+tags: [firefox, mozilla, build]

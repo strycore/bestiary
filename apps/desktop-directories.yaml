@@ -1,0 +1,8 @@
+name: desktop-directories
+display_name: XDG Desktop Directories
+category: system
+homepage: https://specifications.freedesktop.org/menu-spec/latest
+locations:
+  native:
+    data: ~/.local/share/desktop-directories
+tags: [xdg, freedesktop, menu]

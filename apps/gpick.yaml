@@ -1,0 +1,8 @@
+name: gpick
+display_name: Gpick
+category: utility
+homepage: http://www.gpick.org
+locations:
+  native:
+    config: ~/.config/gpick
+tags: [color-picker]

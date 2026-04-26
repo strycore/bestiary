@@ -1,0 +1,9 @@
+name: hytale-launcher
+display_name: Hytale Launcher
+category: gaming
+homepage: https://hytale.com
+locations:
+  flatpak:
+    flatpak_id: com.hypixel.HytaleLauncher
+    data: ~/.var/app/com.hypixel.HytaleLauncher
+tags: [game-launcher, hytale, hypixel]

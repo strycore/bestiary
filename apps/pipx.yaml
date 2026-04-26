@@ -1,0 +1,8 @@
+name: pipx
+display_name: pipx
+category: development
+homepage: https://pipx.pypa.io
+locations:
+  native:
+    data: ~/.local/share/pipx
+tags: [python, package-manager, cli]

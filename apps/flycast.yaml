@@ -1,0 +1,8 @@
+name: flycast
+display_name: Flycast
+category: gaming
+homepage: https://github.com/flyinghead/flycast
+locations:
+  native:
+    config: ~/.config/flycast
+tags: [emulator, dreamcast, sega]

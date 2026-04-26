@@ -1,0 +1,9 @@
+name: okular
+display_name: Okular
+category: productivity
+homepage: https://okular.kde.org
+locations:
+  native:
+    config: ~/.config/okularrc
+    data: ~/.local/share/okular
+tags: [pdf, document-viewer, kde]

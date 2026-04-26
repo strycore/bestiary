@@ -1,0 +1,8 @@
+name: ibus-typing-booster
+display_name: IBus Typing Booster
+category: system
+homepage: https://github.com/mike-fabian/ibus-typing-booster
+locations:
+  native:
+    data: ~/.local/share/ibus-typing-booster
+tags: [input-method, ibus]

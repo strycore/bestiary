@@ -1,0 +1,8 @@
+name: environment-d
+display_name: User environment.d
+category: system
+homepage: https://www.freedesktop.org/software/systemd/man/environment.d.html
+locations:
+  native:
+    config: ~/.config/environment.d
+tags: [systemd, environment, xdg]

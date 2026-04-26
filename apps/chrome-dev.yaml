@@ -1,0 +1,14 @@
+name: chrome-dev
+display_name: Google Chrome (Dev channel)
+category: web
+homepage: https://www.google.com/chrome/dev
+locations:
+  flatpak:
+    flatpak_id: com.google.ChromeDev
+    data: ~/.var/app/com.google.ChromeDev
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+  - "Service Worker/*"
+tags: [browser, chromium, dev-channel]

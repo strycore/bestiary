@@ -1,0 +1,8 @@
+name: kdenlive-layouts
+display_name: Kdenlive (layout configs)
+category: multimedia
+homepage: https://kdenlive.org
+locations:
+  native:
+    config: ~/.config/kdenlive-layoutsrc
+tags: [video-editor, kde]

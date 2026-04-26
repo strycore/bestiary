@@ -1,0 +1,11 @@
+name: razergenie
+display_name: RazerGenie
+category: utility
+homepage: https://github.com/z3ntu/RazerGenie
+locations:
+  native:
+    config: ~/.config/razergenie
+  flatpak:
+    flatpak_id: xyz.z3ntu.razergenie
+    data: ~/.var/app/xyz.z3ntu.razergenie
+tags: [razer, hardware, peripheral]

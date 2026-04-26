@@ -1,0 +1,8 @@
+name: keyecho
+display_name: KeyEcho
+category: utility
+homepage: https://keyecho.com
+locations:
+  native:
+    data: ~/.local/share/xyz.waveapps.keyecho
+tags: [keyboard, sound]

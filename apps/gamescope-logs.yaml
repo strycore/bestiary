@@ -1,0 +1,8 @@
+name: gamescope-logs
+display_name: gamescope (logs)
+category: gaming
+homepage: https://github.com/ValveSoftware/gamescope
+locations:
+  native:
+    state: ~/.gamescope-cmd.log
+tags: [valve, compositor, steam, logs]

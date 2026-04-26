@@ -1,0 +1,11 @@
+name: slade
+display_name: SLADE
+category: development
+homepage: https://slade.mancubus.net
+locations:
+  native:
+    config: ~/.config/SLADE3
+  flatpak:
+    flatpak_id: net.mancubus.SLADE
+    data: ~/.var/app/net.mancubus.SLADE
+tags: [doom, level-editor, modding]

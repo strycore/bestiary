@@ -1,0 +1,8 @@
+name: sonnet
+display_name: Sonnet (KDE spell-check)
+category: system
+homepage: https://api.kde.org/frameworks/sonnet
+locations:
+  native:
+    data: ~/.local/share/Sonnet
+tags: [kde, spell-check]

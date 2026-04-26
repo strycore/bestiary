@@ -1,0 +1,8 @@
+name: freebirdgames
+display_name: Freebird Games (saves dir)
+category: gaming
+homepage: https://freebirdgames.com
+locations:
+  native:
+    data: ~/.local/share/freebirdgames
+tags: [game-publisher, to-the-moon]

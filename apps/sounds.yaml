@@ -1,0 +1,8 @@
+name: sounds
+display_name: User Sound Themes
+category: system
+homepage: http://0pointer.de/public/sound-theme-spec.html
+locations:
+  native:
+    data: ~/.local/share/sounds
+tags: [xdg, sound-theme]

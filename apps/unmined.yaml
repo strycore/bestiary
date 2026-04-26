@@ -1,0 +1,8 @@
+name: unmined
+display_name: uNmINeD
+category: gaming
+homepage: https://unmined.net
+locations:
+  native:
+    data: ~/.local/share/uNmINeD
+tags: [minecraft, mapping]

@@ -1,0 +1,8 @@
+name: steamtinkerlaunch
+display_name: SteamTinkerLaunch
+category: gaming
+homepage: https://github.com/sonic2kk/steamtinkerlaunch
+locations:
+  native:
+    config: ~/.config/steamtinkerlaunch
+tags: [steam, proton, wine]

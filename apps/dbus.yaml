@@ -1,0 +1,8 @@
+name: dbus
+display_name: D-Bus (user)
+category: system
+homepage: https://www.freedesktop.org/wiki/Software/dbus
+locations:
+  native:
+    data: ~/.dbus
+tags: [ipc, freedesktop]

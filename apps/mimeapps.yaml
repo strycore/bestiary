@@ -1,0 +1,8 @@
+name: mimeapps
+display_name: XDG MIME Apps
+category: system
+homepage: https://specifications.freedesktop.org/mime-apps-spec/mime-apps-spec-latest.html
+locations:
+  native:
+    config: ~/.config/mimeapps.list
+tags: [xdg, freedesktop, mime, default-apps]

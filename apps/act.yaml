@@ -1,0 +1,8 @@
+name: act
+display_name: act
+category: development
+homepage: https://github.com/nektos/act
+locations:
+  native:
+    config: ~/.config/act
+tags: [github-actions, ci, local]

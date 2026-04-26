@@ -1,0 +1,8 @@
+name: eruption
+display_name: Eruption
+category: utility
+homepage: https://eruption-project.org
+locations:
+  native:
+    data: ~/.local/share/eruption-process-monitor
+tags: [rgb, hardware, peripheral]

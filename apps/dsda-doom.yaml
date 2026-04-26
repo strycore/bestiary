@@ -1,0 +1,8 @@
+name: dsda-doom
+display_name: DSDA-Doom
+category: gaming
+homepage: https://github.com/kraflab/dsda-doom
+locations:
+  native:
+    data: ~/.local/share/dsda-doom
+tags: [doom, sourceport, speedrun]

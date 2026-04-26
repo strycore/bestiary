@@ -1,0 +1,8 @@
+name: signal-cli
+display_name: signal-cli
+category: communication
+homepage: https://github.com/AsamK/signal-cli
+locations:
+  native:
+    data: ~/.local/share/signal-cli
+tags: [signal, cli, messaging]

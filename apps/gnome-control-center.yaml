@@ -1,0 +1,8 @@
+name: gnome-control-center
+display_name: GNOME Settings (gnome-control-center)
+category: system
+homepage: https://wiki.gnome.org/Projects/SystemSettings
+locations:
+  native:
+    config: ~/.config/gnome-control-center
+tags: [settings, gnome]

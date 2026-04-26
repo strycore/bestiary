@@ -1,0 +1,8 @@
+name: oh-my-zsh
+display_name: Oh My Zsh
+category: development
+homepage: https://ohmyz.sh
+locations:
+  native:
+    data: ~/.oh-my-zsh
+tags: [zsh, shell, framework]

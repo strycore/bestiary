@@ -1,0 +1,12 @@
+name: hydrogen
+display_name: Hydrogen
+category: multimedia
+homepage: http://www.hydrogen-music.org
+locations:
+  native:
+    config: ~/.config/hydrogen
+    data: ~/.local/share/hydrogen
+  flatpak:
+    flatpak_id: org.hydrogenmusic.Hydrogen
+    data: ~/.var/app/org.hydrogenmusic.Hydrogen
+tags: [drum-machine, audio, music-production]

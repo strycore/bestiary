@@ -1,0 +1,8 @@
+name: user-places
+display_name: User Places (KDE bookmarks)
+category: system
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    data: ~/.local/share/user-places.xbel
+tags: [kde, bookmarks]

@@ -1,0 +1,8 @@
+name: valve
+display_name: Valve (shared config dir)
+category: gaming
+homepage: https://www.valvesoftware.com
+locations:
+  native:
+    config: ~/.config/Valve
+tags: [valve, steam, source]

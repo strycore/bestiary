@@ -1,0 +1,8 @@
+name: steam-achievement-notifier
+display_name: Steam Achievement Notifier
+category: gaming
+homepage: https://github.com/SNESpro64/steamachievementnotifier
+locations:
+  native:
+    config: ~/.config/steamachievementnotifierv1.9
+tags: [steam, achievements, overlay]

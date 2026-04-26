@@ -1,0 +1,8 @@
+name: libvirt
+display_name: libvirt
+category: utility
+homepage: https://libvirt.org
+locations:
+  native:
+    config: ~/.config/libvirt
+tags: [virtualization, vm, qemu, kvm]

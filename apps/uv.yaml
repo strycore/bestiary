@@ -1,0 +1,9 @@
+name: uv
+display_name: uv
+category: development
+homepage: https://github.com/astral-sh/uv
+locations:
+  native:
+    config: ~/.config/uv
+    cache: ~/.cache/uv
+tags: [python, package-manager]

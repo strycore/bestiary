@@ -1,0 +1,8 @@
+name: tiny-glade
+display_name: Tiny Glade
+category: gaming
+homepage: https://pouncelight.games
+locations:
+  native:
+    data: ~/.local/share/Tiny Glade
+tags: [game, building, sandbox]

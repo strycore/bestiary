@@ -1,0 +1,11 @@
+name: postman
+display_name: Postman
+category: development
+homepage: https://www.postman.com
+locations:
+  native:
+    config: ~/.config/Postman
+backup_exclude:
+  - "Cache/*"
+  - "Code Cache/*"
+tags: [api, http, testing]

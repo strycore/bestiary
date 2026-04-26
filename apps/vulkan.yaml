@@ -1,0 +1,8 @@
+name: vulkan
+display_name: Vulkan (user data dir)
+category: system
+homepage: https://www.vulkan.org
+locations:
+  native:
+    data: ~/.local/share/vulkan
+tags: [graphics, khronos]

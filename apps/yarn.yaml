@@ -1,0 +1,9 @@
+name: yarn
+display_name: Yarn
+category: development
+homepage: https://yarnpkg.com
+locations:
+  native:
+    config: ~/.config/yarn
+    cache: ~/.cache/yarn
+tags: [javascript, package-manager, npm]

@@ -1,0 +1,8 @@
+name: shadps4
+display_name: shadPS4
+category: gaming
+homepage: https://shadps4.net
+locations:
+  native:
+    config: ~/.config/shadps4rc
+tags: [emulator, ps4, sony]

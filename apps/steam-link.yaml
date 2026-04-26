@@ -1,0 +1,9 @@
+name: steam-link
+display_name: Steam Link
+category: gaming
+homepage: https://store.steampowered.com/steamlink
+locations:
+  flatpak:
+    flatpak_id: com.valvesoftware.SteamLink
+    data: ~/.var/app/com.valvesoftware.SteamLink
+tags: [streaming, steam, valve]

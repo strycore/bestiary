@@ -1,0 +1,8 @@
+name: hhd
+display_name: Handheld Daemon
+category: utility
+homepage: https://github.com/hhd-dev/hhd
+locations:
+  native:
+    config: ~/.config/hhd
+tags: [handheld, gaming, controller]

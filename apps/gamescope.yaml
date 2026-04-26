@@ -1,0 +1,8 @@
+name: gamescope
+display_name: gamescope
+category: gaming
+homepage: https://github.com/ValveSoftware/gamescope
+locations:
+  native:
+    config: ~/.config/gamescope
+tags: [valve, compositor, steam]

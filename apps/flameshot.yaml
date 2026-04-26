@@ -1,0 +1,8 @@
+name: flameshot
+display_name: Flameshot
+category: utility
+homepage: https://flameshot.org
+locations:
+  native:
+    config: ~/.config/flameshot
+tags: [screenshot, annotation]

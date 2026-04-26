@@ -1,0 +1,8 @@
+name: aspnet
+display_name: ASP.NET
+category: development
+homepage: https://dotnet.microsoft.com/apps/aspnet
+locations:
+  native:
+    data: ~/.aspnet
+tags: [dotnet, web]

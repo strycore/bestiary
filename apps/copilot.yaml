@@ -1,0 +1,8 @@
+name: copilot
+display_name: GitHub Copilot
+category: development
+homepage: https://github.com/features/copilot
+locations:
+  native:
+    config: ~/.copilot
+tags: [ai, github, code-assist]

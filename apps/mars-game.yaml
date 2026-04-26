@@ -1,0 +1,9 @@
+name: mars-game
+display_name: M.A.R.S.
+category: gaming
+homepage: http://mars-game.sourceforge.net
+locations:
+  flatpak:
+    flatpak_id: net.sourceforge.mars-game
+    data: ~/.var/app/net.sourceforge.mars-game
+tags: [shooter, arcade, space]

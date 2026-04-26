@@ -1,0 +1,8 @@
+name: mcp
+display_name: Model Context Protocol
+category: development
+homepage: https://modelcontextprotocol.io
+locations:
+  native:
+    config: ~/.mcp
+tags: [ai, protocol, anthropic]

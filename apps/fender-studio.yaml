@@ -1,0 +1,9 @@
+name: fender-studio
+display_name: Fender Studio
+category: multimedia
+homepage: https://www.fender.com/studio
+locations:
+  flatpak:
+    flatpak_id: com.fender.studio
+    data: ~/.var/app/com.fender.studio
+tags: [audio, music, recording, fender]

@@ -1,0 +1,11 @@
+name: extreme-tux-racer
+display_name: Extreme Tux Racer
+category: gaming
+homepage: https://sourceforge.net/projects/extremetuxracer
+locations:
+  native:
+    config: ~/.etr
+  flatpak:
+    flatpak_id: net.sourceforge.ExtremeTuxRacer
+    data: ~/.var/app/net.sourceforge.ExtremeTuxRacer
+tags: [racing, tux, classic]

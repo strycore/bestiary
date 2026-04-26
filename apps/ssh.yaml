@@ -1,0 +1,8 @@
+name: ssh
+display_name: OpenSSH
+category: communication
+homepage: https://www.openssh.com
+locations:
+  native:
+    config: ~/.ssh
+tags: [ssh, security, networking]

@@ -1,0 +1,9 @@
+name: dolphin-fm
+display_name: Dolphin (file manager)
+category: utility
+homepage: https://apps.kde.org/dolphin
+locations:
+  native:
+    config: ~/.config/dolphinrc
+    data: ~/.local/share/dolphin
+tags: [file-manager, kde]

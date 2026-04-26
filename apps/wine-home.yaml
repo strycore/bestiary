@@ -1,0 +1,8 @@
+name: wine-home
+display_name: Wine (default prefix)
+category: utility
+homepage: https://www.winehq.org
+locations:
+  native:
+    data: ~/.wine
+tags: [windows, compatibility, wineprefix]

@@ -1,0 +1,8 @@
+name: protonvpn-cli
+display_name: ProtonVPN (native config)
+category: communication
+homepage: https://protonvpn.com
+locations:
+  native:
+    config: ~/.config/protonvpn
+tags: [vpn, privacy, proton]

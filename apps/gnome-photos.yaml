@@ -1,0 +1,8 @@
+name: gnome-photos
+display_name: GNOME Photos
+category: multimedia
+homepage: https://wiki.gnome.org/Apps/Photos
+locations:
+  native:
+    data: ~/.local/share/gnome-photos
+tags: [gnome, photo-manager]

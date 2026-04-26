@@ -1,0 +1,8 @@
+name: trash
+display_name: XDG Trash
+category: system
+homepage: https://specifications.freedesktop.org/trash-spec/trashspec-latest.html
+locations:
+  native:
+    data: ~/.local/share/Trash
+tags: [xdg, trash, freedesktop]

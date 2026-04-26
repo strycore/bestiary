@@ -1,0 +1,8 @@
+name: alvr
+display_name: ALVR
+category: utility
+homepage: https://github.com/alvr-org/ALVR
+locations:
+  native:
+    config: ~/.config/alvr
+tags: [vr, streaming, openxr]

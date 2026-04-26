@@ -1,0 +1,9 @@
+name: cortex-command
+display_name: Cortex Command Community Project
+category: gaming
+homepage: https://cortexcommand.com
+locations:
+  flatpak:
+    flatpak_id: io.github.cortex_command_community.Cortex-Command-Community-Project
+    data: ~/.var/app/io.github.cortex_command_community.Cortex-Command-Community-Project
+tags: [game, action, sandbox]

@@ -1,0 +1,8 @@
+name: rustup
+display_name: rustup
+category: development
+homepage: https://rustup.rs
+locations:
+  native:
+    data: ~/.rustup
+tags: [rust, toolchain]

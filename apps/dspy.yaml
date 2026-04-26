@@ -1,0 +1,9 @@
+name: dspy
+display_name: D-Spy
+category: development
+homepage: https://apps.gnome.org/Dspy
+locations:
+  flatpak:
+    flatpak_id: org.gnome.dspy
+    data: ~/.var/app/org.gnome.dspy
+tags: [dbus, gnome, debugging]

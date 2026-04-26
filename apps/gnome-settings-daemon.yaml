@@ -1,0 +1,8 @@
+name: gnome-settings-daemon
+display_name: GNOME Settings Daemon
+category: system
+homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+locations:
+  native:
+    data: ~/.local/share/gnome-settings-daemon
+tags: [gnome, daemon]

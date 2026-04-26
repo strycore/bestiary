@@ -1,0 +1,9 @@
+name: nautilus
+display_name: Files (Nautilus)
+category: utility
+homepage: https://apps.gnome.org/Nautilus
+locations:
+  native:
+    config: ~/.config/nautilus
+    data: ~/.local/share/nautilus
+tags: [file-manager, gnome]

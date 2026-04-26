@@ -1,0 +1,8 @@
+name: templateengine
+display_name: .NET Template Engine
+category: development
+homepage: https://github.com/dotnet/templating
+locations:
+  native:
+    data: ~/.templateengine
+tags: [dotnet, templates]

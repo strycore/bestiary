@@ -1,0 +1,8 @@
+name: configstore
+display_name: configstore (npm)
+category: development
+homepage: https://github.com/yeoman/configstore
+locations:
+  native:
+    config: ~/.config/configstore
+tags: [npm, nodejs, library]

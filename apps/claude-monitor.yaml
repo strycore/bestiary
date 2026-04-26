@@ -1,0 +1,8 @@
+name: claude-monitor
+display_name: Claude Monitor
+category: development
+homepage: https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor
+locations:
+  native:
+    data: ~/.claude-monitor
+tags: [ai, anthropic, monitoring]

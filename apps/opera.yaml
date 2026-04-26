@@ -1,0 +1,17 @@
+name: opera
+display_name: Opera
+category: web
+homepage: https://www.opera.com
+locations:
+  native:
+    config: ~/.config/opera
+    cache: ~/.cache/opera
+  flatpak:
+    flatpak_id: com.opera.Opera
+    data: ~/.var/app/com.opera.Opera
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+  - "Service Worker/*"
+tags: [browser, chromium]

@@ -1,0 +1,8 @@
+name: lftp
+display_name: lftp
+category: utility
+homepage: https://lftp.yar.ru
+locations:
+  native:
+    config: ~/.config/lftp
+tags: [ftp, cli, file-transfer]

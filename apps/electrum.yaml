@@ -1,0 +1,8 @@
+name: electrum
+display_name: Electrum
+category: productivity
+homepage: https://electrum.org
+locations:
+  native:
+    data: ~/.electrum
+tags: [bitcoin, wallet, crypto]

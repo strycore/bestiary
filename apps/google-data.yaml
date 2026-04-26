@@ -1,0 +1,9 @@
+name: google-data
+display_name: Google (data dir)
+category: utility
+homepage: https://www.google.com
+locations:
+  native:
+    data: ~/.local/share/Google
+    config: ~/.config/Google
+tags: [google, shared]

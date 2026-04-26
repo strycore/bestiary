@@ -1,0 +1,9 @@
+name: elisa
+display_name: Elisa
+category: multimedia
+homepage: https://apps.kde.org/elisa
+locations:
+  native:
+    config: ~/.config/elisarc
+    data: ~/.local/share/elisa
+tags: [music-player, kde]

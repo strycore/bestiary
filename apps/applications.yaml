@@ -1,0 +1,8 @@
+name: applications
+display_name: XDG Applications (.desktop dir)
+category: system
+homepage: https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+locations:
+  native:
+    data: ~/.local/share/applications
+tags: [xdg, freedesktop, desktop-entries]

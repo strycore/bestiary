@@ -1,0 +1,8 @@
+name: opencode-home
+display_name: opencode (user dir)
+category: development
+homepage: https://opencode.ai
+locations:
+  native:
+    data: ~/.opencode
+tags: [ai, cli, agent]

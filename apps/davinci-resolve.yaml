@@ -1,0 +1,8 @@
+name: davinci-resolve
+display_name: DaVinci Resolve
+category: multimedia
+homepage: https://www.blackmagicdesign.com/products/davinciresolve
+locations:
+  native:
+    data: ~/.local/share/DaVinciResolve
+tags: [video-editor, color-grading, blackmagic]

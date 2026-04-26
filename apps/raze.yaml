@@ -1,0 +1,8 @@
+name: raze
+display_name: Raze
+category: gaming
+homepage: https://github.com/ZDoom/Raze
+locations:
+  native:
+    config: ~/.config/raze
+tags: [build-engine, sourceport, duke-nukem]

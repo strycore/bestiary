@@ -1,0 +1,8 @@
+name: gtk
+display_name: GTK (theme/config)
+category: system
+homepage: https://gtk.org
+locations:
+  native:
+    config: ~/.config/gtk-3.0
+tags: [toolkit, gtk, theming]

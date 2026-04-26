@@ -1,0 +1,8 @@
+name: gemini
+display_name: Gemini CLI
+category: development
+homepage: https://ai.google.dev/gemini
+locations:
+  native:
+    config: ~/.gemini
+tags: [ai, google, agent]

@@ -1,0 +1,9 @@
+name: flutter-home
+display_name: Flutter (user dir)
+category: development
+homepage: https://flutter.dev
+locations:
+  native:
+    data: ~/.flutter
+    cache: ~/.flutter-devtools
+tags: [flutter, dart, mobile]

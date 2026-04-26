@@ -1,0 +1,8 @@
+name: starship
+display_name: Starship
+category: development
+homepage: https://starship.rs
+locations:
+  native:
+    config: ~/.config/starship.toml
+tags: [shell, prompt, cli]

@@ -1,0 +1,8 @@
+name: warp-terminal
+display_name: Warp Terminal
+category: development
+homepage: https://www.warp.dev
+locations:
+  native:
+    config: ~/.config/warp-terminal
+tags: [terminal, ai]

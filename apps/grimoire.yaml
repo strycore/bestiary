@@ -1,0 +1,8 @@
+name: grimoire
+display_name: grimoire
+category: utility
+homepage: https://github.com/strycore/grimoire
+locations:
+  native:
+    state: ~/.local/state/grimoire
+tags: [declarative, system-state, cli]

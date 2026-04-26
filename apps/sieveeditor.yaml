@@ -1,0 +1,9 @@
+name: sieveeditor
+display_name: KMail Sieve Editor
+category: communication
+homepage: https://apps.kde.org/sieveeditor
+locations:
+  native:
+    config: ~/.config/sieveeditorrc
+    data: ~/.local/share/sieveeditor
+tags: [kde, kmail, sieve]

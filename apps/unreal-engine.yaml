@@ -1,0 +1,8 @@
+name: unreal-engine
+display_name: Unreal Engine
+category: development
+homepage: https://www.unrealengine.com
+locations:
+  native:
+    config: ~/.config/Unreal Engine
+tags: [unreal, game-engine, ide]

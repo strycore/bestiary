@@ -1,0 +1,8 @@
+name: aws
+display_name: AWS CLI
+category: development
+homepage: https://aws.amazon.com/cli
+locations:
+  native:
+    config: ~/.aws
+tags: [aws, amazon, cloud, cli]

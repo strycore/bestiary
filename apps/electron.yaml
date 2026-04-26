@@ -1,0 +1,8 @@
+name: electron
+display_name: Electron (default app data)
+category: development
+homepage: https://www.electronjs.org
+locations:
+  native:
+    config: ~/.config/Electron
+tags: [framework, javascript, desktop]

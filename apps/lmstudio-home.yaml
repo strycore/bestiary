@@ -1,0 +1,8 @@
+name: lmstudio-home
+display_name: LM Studio (user dir)
+category: development
+homepage: https://lmstudio.ai
+locations:
+  native:
+    data: ~/.lmstudio
+tags: [ai, llm, local]

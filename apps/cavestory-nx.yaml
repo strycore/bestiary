@@ -1,0 +1,9 @@
+name: cavestory-nx
+display_name: NXEngine-evo (Cave Story)
+category: gaming
+homepage: https://github.com/nxengine/nxengine-evo
+locations:
+  flatpak:
+    flatpak_id: com.gitlab.coringao.cavestory-nx
+    data: ~/.var/app/com.gitlab.coringao.cavestory-nx
+tags: [game, cave-story, indie]

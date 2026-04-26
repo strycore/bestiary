@@ -1,0 +1,10 @@
+name: evolution
+display_name: Evolution
+category: communication
+homepage: https://wiki.gnome.org/Apps/Evolution
+locations:
+  native:
+    config: ~/.config/evolution
+    data: ~/.local/share/evolution
+    cache: ~/.cache/evolution
+tags: [email, calendar, gnome]

@@ -1,0 +1,8 @@
+name: playtron-gog
+display_name: Playtron (GOG integration)
+category: gaming
+homepage: https://playtron.one
+locations:
+  native:
+    config: ~/.config/playtron-gog
+tags: [game-launcher, gog]

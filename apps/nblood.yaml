@@ -1,0 +1,8 @@
+name: nblood
+display_name: NBlood
+category: gaming
+homepage: https://github.com/nukeykt/NBlood
+locations:
+  native:
+    config: ~/.config/nblood
+tags: [build-engine, blood, sourceport]

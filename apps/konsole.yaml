@@ -1,0 +1,9 @@
+name: konsole
+display_name: Konsole
+category: development
+homepage: https://konsole.kde.org
+locations:
+  native:
+    config: ~/.config/konsolerc
+    data: ~/.local/share/konsole
+tags: [terminal, kde]

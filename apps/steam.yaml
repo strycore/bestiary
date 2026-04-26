@@ -1,0 +1,14 @@
+name: steam
+display_name: Steam
+category: gaming
+homepage: https://store.steampowered.com
+locations:
+  native:
+    config: ~/.steam
+    data: ~/.local/share/Steam
+backup_exclude:
+  - "appcache/*"
+  - "steamapps/downloading/*"
+  - "logs/*"
+  - "package/*"
+tags: [valve, game-launcher]

@@ -1,0 +1,8 @@
+name: pnpm
+display_name: pnpm
+category: development
+homepage: https://pnpm.io
+locations:
+  native:
+    data: ~/.local/share/pnpm
+tags: [javascript, package-manager, npm]

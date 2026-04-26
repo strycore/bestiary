@@ -1,0 +1,8 @@
+name: dreamm
+display_name: DREAMM
+category: gaming
+homepage: https://dreamm.aarongiles.com
+locations:
+  native:
+    data: ~/.local/share/Aaron Giles
+tags: [emulator, lucasarts, preservation]

@@ -1,0 +1,9 @@
+name: kwallet
+display_name: KWallet
+category: productivity
+homepage: https://apps.kde.org/kwalletmanager5
+locations:
+  native:
+    config: ~/.config/kwalletrc
+    data: ~/.local/share/kwalletd
+tags: [kde, password-manager, security]

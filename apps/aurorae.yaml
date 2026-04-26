@@ -1,0 +1,9 @@
+name: aurorae
+display_name: Aurorae (KWin theme engine)
+category: system
+homepage: https://github.com/KDE/kwin
+locations:
+  native:
+    config: ~/.config/auroraerc
+    data: ~/.local/share/aurorae
+tags: [kde, kwin, theming]

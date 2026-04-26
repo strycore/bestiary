@@ -1,0 +1,8 @@
+name: quake2rtx
+display_name: Quake II RTX
+category: gaming
+homepage: https://www.nvidia.com/en-us/geforce/campaigns/quake-II-rtx
+locations:
+  native:
+    data: ~/.local/share/quake2rtx
+tags: [game, fps, quake, rtx]

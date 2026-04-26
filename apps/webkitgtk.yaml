@@ -1,0 +1,8 @@
+name: webkitgtk
+display_name: WebKitGTK (cookies/storage)
+category: system
+homepage: https://webkitgtk.org
+locations:
+  native:
+    data: ~/.local/share/webkitgtk
+tags: [browser-engine, gtk]

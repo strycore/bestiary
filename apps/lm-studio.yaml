@@ -1,0 +1,9 @@
+name: lm-studio
+display_name: LM Studio
+category: development
+homepage: https://lmstudio.ai
+locations:
+  native:
+    config: ~/.config/LM Studio
+    data: ~/.cache/lm-studio
+tags: [ai, llm, local]

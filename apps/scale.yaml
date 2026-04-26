@@ -1,0 +1,8 @@
+name: scale
+display_name: scale
+category: development
+homepage: https://github.com/scaleway/scaleway-cli
+locations:
+  native:
+    config: ~/.config/scale
+tags: [scaleway, cli, cloud]

@@ -1,0 +1,8 @@
+name: mono
+display_name: Mono
+category: development
+homepage: https://www.mono-project.com
+locations:
+  native:
+    data: ~/.mono
+tags: [dotnet, runtime]

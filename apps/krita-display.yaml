@@ -1,0 +1,8 @@
+name: krita-display
+display_name: Krita (display config)
+category: multimedia
+homepage: https://krita.org
+locations:
+  native:
+    config: ~/.config/kritadisplayrc
+tags: [krita, display, kde]

@@ -1,0 +1,8 @@
+name: looking-glass
+display_name: Looking Glass
+category: utility
+homepage: https://looking-glass.io
+locations:
+  native:
+    config: ~/.config/looking-glass
+tags: [vfio, vm, gpu-passthrough]

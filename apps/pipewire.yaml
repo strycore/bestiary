@@ -1,0 +1,8 @@
+name: pipewire
+display_name: PipeWire
+category: system
+homepage: https://pipewire.org
+locations:
+  native:
+    config: ~/.config/pipewire
+tags: [audio, video, server]

@@ -1,0 +1,8 @@
+name: qt
+display_name: Qt (per-vendor app configs)
+category: system
+homepage: https://www.qt.io
+locations:
+  native:
+    config: ~/.config/QtProject
+tags: [toolkit, qt]

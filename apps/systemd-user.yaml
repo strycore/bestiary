@@ -1,0 +1,8 @@
+name: systemd-user
+display_name: systemd (user units)
+category: system
+homepage: https://systemd.io
+locations:
+  native:
+    config: ~/.config/systemd
+tags: [systemd, init, services]

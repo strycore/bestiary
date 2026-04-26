@@ -1,0 +1,8 @@
+name: pyenv
+display_name: pyenv
+category: development
+homepage: https://github.com/pyenv/pyenv
+locations:
+  native:
+    data: ~/.pyenv
+tags: [python, version-manager]

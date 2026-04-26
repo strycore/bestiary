@@ -1,0 +1,8 @@
+name: helm
+display_name: Helm
+category: development
+homepage: https://helm.sh
+locations:
+  native:
+    config: ~/.helm
+tags: [kubernetes, package-manager]

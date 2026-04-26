@@ -1,0 +1,11 @@
+name: glade
+display_name: Glade
+category: development
+homepage: https://glade.gnome.org
+locations:
+  native:
+    config: ~/.config/glade
+  flatpak:
+    flatpak_id: org.gnome.Glade
+    data: ~/.var/app/org.gnome.Glade
+tags: [gtk, ui-designer]

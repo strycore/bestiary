@@ -1,0 +1,8 @@
+name: hyperion
+display_name: Hyperion (ambient lighting)
+category: utility
+homepage: https://www.hyperion-project.org
+locations:
+  native:
+    data: ~/.local/share/hyperion
+tags: [ambient-lighting, ledstrip]

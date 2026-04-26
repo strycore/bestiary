@@ -1,0 +1,8 @@
+name: xdg-mime
+display_name: XDG MIME Database (user)
+category: system
+homepage: https://specifications.freedesktop.org/shared-mime-info-spec
+locations:
+  native:
+    data: ~/.local/share/mime
+tags: [xdg, mime, freedesktop]

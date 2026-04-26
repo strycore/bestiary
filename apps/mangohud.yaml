@@ -1,0 +1,8 @@
+name: mangohud
+display_name: MangoHud
+category: utility
+homepage: https://github.com/flightlessmango/MangoHud
+locations:
+  native:
+    config: ~/.config/MangoHud
+tags: [overlay, gaming, performance]

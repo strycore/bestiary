@@ -1,0 +1,8 @@
+name: grilo
+display_name: Grilo Plugins
+category: multimedia
+homepage: https://wiki.gnome.org/Projects/Grilo
+locations:
+  native:
+    data: ~/.local/share/grilo-plugins
+tags: [media, gnome, framework]

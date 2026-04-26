@@ -1,0 +1,8 @@
+name: dotnet
+display_name: .NET
+category: development
+homepage: https://dotnet.microsoft.com
+locations:
+  native:
+    data: ~/.local/share/dotnet
+tags: [dotnet, runtime, microsoft]

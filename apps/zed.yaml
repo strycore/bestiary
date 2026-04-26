@@ -1,0 +1,11 @@
+name: zed
+display_name: Zed
+category: development
+homepage: https://zed.dev
+locations:
+  native:
+    config: ~/.config/zed
+    data: ~/.local/share/zed
+backup_exclude:
+  - "logs/*"
+tags: [editor, ide]

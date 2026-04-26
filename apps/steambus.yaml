@@ -1,0 +1,8 @@
+name: steambus
+display_name: steambus
+category: gaming
+homepage: https://github.com/MathieuComandon/steambus
+locations:
+  native:
+    data: ~/.local/share/steambus
+tags: [steam, cli]

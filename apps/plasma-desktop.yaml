@@ -1,0 +1,10 @@
+name: plasma-desktop
+display_name: KDE Plasma Desktop
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/KDE
+    data: ~/.local/share/plasma
+    state: ~/.local/state/plasma
+tags: [desktop-environment, kde, plasma]

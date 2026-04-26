@@ -1,0 +1,9 @@
+name: cody-ai
+display_name: Cody (Sourcegraph)
+category: development
+homepage: https://sourcegraph.com/cody
+locations:
+  native:
+    config: ~/.config/cody-ai
+    data: ~/.config/Cody-nodejs
+tags: [ai, sourcegraph, code-assist]

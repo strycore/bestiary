@@ -1,0 +1,8 @@
+name: lutris-token
+display_name: Lutris (legacy token)
+category: gaming
+homepage: https://lutris.net
+locations:
+  native:
+    state: ~/.lutris_token
+tags: [lutris, game-launcher]

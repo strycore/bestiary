@@ -1,0 +1,8 @@
+name: sm64ex
+display_name: sm64ex (Super Mario 64 PC port)
+category: gaming
+homepage: https://github.com/sm64-port/sm64-port
+locations:
+  native:
+    data: ~/.local/share/sm64ex
+tags: [game, mario, port, n64]

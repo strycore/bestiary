@@ -1,0 +1,9 @@
+name: kactivitymanagerd
+display_name: KActivityManager
+category: system
+homepage: https://api.kde.org/frameworks/kactivities
+locations:
+  native:
+    config: ~/.config/kactivitymanagerdrc
+    data: ~/.local/share/kactivitymanagerd
+tags: [kde, plasma, activities]

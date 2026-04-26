@@ -1,0 +1,8 @@
+name: ruff-cache
+display_name: Ruff
+category: development
+homepage: https://docs.astral.sh/ruff
+locations:
+  native:
+    cache: ~/.ruff_cache
+tags: [python, linter, astral]

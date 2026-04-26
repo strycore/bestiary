@@ -1,0 +1,8 @@
+name: profile-shell
+display_name: User Login Profile
+category: system
+homepage: https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html
+locations:
+  native:
+    config: ~/.profile
+tags: [shell, posix, login]

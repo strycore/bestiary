@@ -1,0 +1,8 @@
+name: gstreamer
+display_name: GStreamer
+category: multimedia
+homepage: https://gstreamer.freedesktop.org
+locations:
+  native:
+    data: ~/.local/share/gstreamer-1.0
+tags: [multimedia, framework, freedesktop]

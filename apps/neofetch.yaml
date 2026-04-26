@@ -1,0 +1,8 @@
+name: neofetch
+display_name: Neofetch
+category: utility
+homepage: https://github.com/dylanaraps/neofetch
+locations:
+  native:
+    config: ~/.config/neofetch
+tags: [system-info, cli]

@@ -1,0 +1,8 @@
+name: jack
+display_name: JACK Audio Connection Kit
+category: multimedia
+homepage: https://jackaudio.org
+locations:
+  native:
+    config: ~/.config/jack
+tags: [audio, server, low-latency]

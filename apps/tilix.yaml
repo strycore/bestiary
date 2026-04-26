@@ -1,0 +1,11 @@
+name: tilix
+display_name: Tilix
+category: development
+homepage: https://gnunn1.github.io/tilix-web
+locations:
+  native:
+    config: ~/.config/tilix
+  flatpak:
+    flatpak_id: com.gexperts.Tilix
+    data: ~/.var/app/com.gexperts.Tilix
+tags: [terminal, gtk]

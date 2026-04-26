@@ -1,0 +1,8 @@
+name: supermodel
+display_name: Supermodel
+category: gaming
+homepage: https://www.supermodel3.com
+locations:
+  native:
+    config: ~/.config/supermodel
+tags: [emulator, sega, model3]

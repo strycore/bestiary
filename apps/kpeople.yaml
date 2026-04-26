@@ -1,0 +1,8 @@
+name: kpeople
+display_name: KPeople
+category: communication
+homepage: https://api.kde.org/frameworks/kpeople
+locations:
+  native:
+    data: ~/.local/share/kpeople
+tags: [kde, contacts]

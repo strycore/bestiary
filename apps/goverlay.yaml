@@ -1,0 +1,8 @@
+name: goverlay
+display_name: GOverlay
+category: utility
+homepage: https://github.com/benjamimgois/goverlay
+locations:
+  native:
+    config: ~/.config/goverlay
+tags: [mangohud, gaming, overlay]

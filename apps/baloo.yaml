@@ -1,0 +1,9 @@
+name: baloo
+display_name: Baloo (KDE file indexer)
+category: system
+homepage: https://community.kde.org/Baloo
+locations:
+  native:
+    config: ~/.config/baloofilerc
+    data: ~/.local/share/baloo
+tags: [kde, indexing, search]

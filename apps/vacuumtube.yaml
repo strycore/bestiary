@@ -1,0 +1,9 @@
+name: vacuumtube
+display_name: VacuumTube
+category: multimedia
+homepage: https://github.com/shyfork/VacuumTube
+locations:
+  flatpak:
+    flatpak_id: rocks.shy.VacuumTube
+    data: ~/.var/app/rocks.shy.VacuumTube
+tags: [youtube, tv, electron]

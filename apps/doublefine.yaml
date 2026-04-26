@@ -1,0 +1,8 @@
+name: doublefine
+display_name: Double Fine (game saves dir)
+category: gaming
+homepage: https://www.doublefine.com
+locations:
+  native:
+    data: ~/.local/share/doublefine
+tags: [game-publisher, saves]

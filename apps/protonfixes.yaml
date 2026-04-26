@@ -1,0 +1,8 @@
+name: protonfixes
+display_name: protonfixes
+category: gaming
+homepage: https://github.com/Open-Wine-Components/umu-protonfixes
+locations:
+  native:
+    config: ~/.config/protonfixes
+tags: [proton, wine, fixes]

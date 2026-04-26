@@ -1,0 +1,8 @@
+name: audacious
+display_name: Audacious
+category: multimedia
+homepage: https://audacious-media-player.org
+locations:
+  native:
+    config: ~/.config/audacious
+tags: [audio-player, music]

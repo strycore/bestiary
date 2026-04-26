@@ -1,0 +1,8 @@
+name: onlyoffice
+display_name: ONLYOFFICE Desktop Editors
+category: productivity
+homepage: https://www.onlyoffice.com
+locations:
+  native:
+    config: ~/.config/onlyoffice
+tags: [office, document]

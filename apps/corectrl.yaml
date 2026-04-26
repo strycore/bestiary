@@ -1,0 +1,8 @@
+name: corectrl
+display_name: CoreCtrl
+category: utility
+homepage: https://gitlab.com/corectrl/corectrl
+locations:
+  native:
+    config: ~/.config/corectrl
+tags: [gpu, performance, amd]

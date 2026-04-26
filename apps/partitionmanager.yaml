@@ -1,0 +1,9 @@
+name: partitionmanager
+display_name: KDE Partition Manager
+category: utility
+homepage: https://apps.kde.org/partitionmanager
+locations:
+  native:
+    config: ~/.config/partitionmanagerrc
+    data: ~/.local/share/partitionmanager
+tags: [kde, partitions, disk]

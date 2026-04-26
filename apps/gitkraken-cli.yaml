@@ -1,0 +1,8 @@
+name: gitkraken-cli
+display_name: GitKraken CLI
+category: development
+homepage: https://www.gitkraken.com/cli
+locations:
+  native:
+    data: ~/.local/share/GitKrakenCLI
+tags: [git, cli, gitkraken]

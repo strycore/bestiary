@@ -1,0 +1,8 @@
+name: totem
+display_name: Videos (Totem)
+category: multimedia
+homepage: https://apps.gnome.org/Totem
+locations:
+  native:
+    config: ~/.config/totem
+tags: [video-player, gnome]

@@ -1,0 +1,8 @@
+name: xenia
+display_name: Xenia
+category: gaming
+homepage: https://xenia.jp
+locations:
+  native:
+    data: ~/.local/share/Xenia
+tags: [emulator, xbox-360]

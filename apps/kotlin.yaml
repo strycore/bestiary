@@ -1,0 +1,8 @@
+name: kotlin
+display_name: Kotlin
+category: development
+homepage: https://kotlinlang.org
+locations:
+  native:
+    data: ~/.local/share/kotlin
+tags: [language, jvm, jetbrains]

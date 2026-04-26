@@ -1,0 +1,8 @@
+name: minecraft
+display_name: Minecraft
+category: gaming
+homepage: https://www.minecraft.net
+locations:
+  native:
+    data: ~/.minecraft
+tags: [game, sandbox, mojang]

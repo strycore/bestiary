@@ -1,0 +1,8 @@
+name: fonts
+display_name: User Fonts
+category: system
+homepage: https://www.freedesktop.org/wiki/Software/fontconfig
+locations:
+  native:
+    data: ~/.local/share/fonts
+tags: [fonts, freedesktop]

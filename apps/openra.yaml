@@ -1,0 +1,9 @@
+name: openra
+display_name: OpenRA
+category: gaming
+homepage: https://www.openra.net
+locations:
+  native:
+    config: ~/.config/openra
+    data: ~/.local/share/openra
+tags: [strategy, rts, command-conquer]

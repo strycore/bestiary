@@ -1,0 +1,8 @@
+name: serious-engine
+display_name: Serious Engine (Serious Sam)
+category: gaming
+homepage: https://github.com/Croteam-official/Serious-Engine
+locations:
+  native:
+    data: ~/.local/share/Serious-Engine
+tags: [game, fps, serious-sam]

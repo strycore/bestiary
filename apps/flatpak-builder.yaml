@@ -1,0 +1,9 @@
+name: flatpak-builder
+display_name: Flatpak Builder
+category: development
+homepage: https://docs.flatpak.org/en/latest/flatpak-builder.html
+locations:
+  flatpak:
+    flatpak_id: org.flatpak.Builder
+    data: ~/.var/app/org.flatpak.Builder
+tags: [flatpak, packaging, build-tool]

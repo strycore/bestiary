@@ -1,0 +1,8 @@
+name: am2r
+display_name: AM2R (Another Metroid 2 Remake)
+category: gaming
+homepage: https://www.metroid2remake.com
+locations:
+  native:
+    config: ~/.config/AM2R
+tags: [game, metroid, fan-game]

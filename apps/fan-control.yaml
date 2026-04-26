@@ -1,0 +1,9 @@
+name: fan-control
+display_name: Fan Control
+category: utility
+homepage: https://github.com/wiiznokes/fan-control
+locations:
+  flatpak:
+    flatpak_id: io.github.wiiznokes.fan-control
+    data: ~/.var/app/io.github.wiiznokes.fan-control
+tags: [hardware, fans, monitoring]

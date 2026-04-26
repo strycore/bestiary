@@ -1,0 +1,8 @@
+name: opentabletdriver
+display_name: OpenTabletDriver
+category: utility
+homepage: https://opentabletdriver.net
+locations:
+  native:
+    config: ~/.config/OpenTabletDriver
+tags: [tablet, drawing, hardware]

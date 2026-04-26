@@ -1,0 +1,8 @@
+name: xsession-errors
+display_name: X Session Errors (log)
+category: system
+homepage: https://www.x.org
+locations:
+  native:
+    state: ~/.xsession-errors
+tags: [x11, logs, session]

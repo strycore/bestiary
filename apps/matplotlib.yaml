@@ -1,0 +1,8 @@
+name: matplotlib
+display_name: Matplotlib
+category: development
+homepage: https://matplotlib.org
+locations:
+  native:
+    config: ~/.config/matplotlib
+tags: [python, plotting, visualization]

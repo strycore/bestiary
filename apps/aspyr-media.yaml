@@ -1,0 +1,8 @@
+name: aspyr-media
+display_name: Aspyr Media (game saves dir)
+category: gaming
+homepage: https://www.aspyr.com
+locations:
+  native:
+    data: ~/.local/share/aspyr-media
+tags: [game-publisher, saves]

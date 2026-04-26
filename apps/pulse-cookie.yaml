@@ -1,0 +1,8 @@
+name: pulse-cookie
+display_name: PulseAudio (auth cookie)
+category: system
+homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+locations:
+  native:
+    state: ~/.pulse-cookie
+tags: [audio, server, auth]

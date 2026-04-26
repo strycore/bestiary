@@ -1,0 +1,9 @@
+name: virtualbox
+display_name: VirtualBox
+category: utility
+homepage: https://www.virtualbox.org
+locations:
+  native:
+    config: ~/.config/VirtualBox
+    data: ~/VirtualBox VMs
+tags: [virtualization, vm]

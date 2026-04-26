@@ -1,0 +1,8 @@
+name: snk
+display_name: SNK (saves dir)
+category: gaming
+homepage: https://www.snk-corp.co.jp
+locations:
+  native:
+    data: ~/.local/share/SNK
+tags: [game-publisher, saves]

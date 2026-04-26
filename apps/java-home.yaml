@@ -1,0 +1,8 @@
+name: java-home
+display_name: Java (user dir)
+category: development
+homepage: https://www.java.com
+locations:
+  native:
+    data: ~/.java
+tags: [jvm, java]

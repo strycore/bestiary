@@ -1,0 +1,11 @@
+name: qmplay2
+display_name: QMPlay2
+category: multimedia
+homepage: https://github.com/zaps166/QMPlay2
+locations:
+  native:
+    config: ~/.config/QMPlay2
+  flatpak:
+    flatpak_id: io.github.zaps166.QMPlay2
+    data: ~/.var/app/io.github.zaps166.QMPlay2
+tags: [video-player, audio-player, qt]

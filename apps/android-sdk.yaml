@@ -1,0 +1,8 @@
+name: android-sdk
+display_name: Android SDK / Studio
+category: development
+homepage: https://developer.android.com
+locations:
+  native:
+    config: ~/.android
+tags: [android, mobile, sdk]

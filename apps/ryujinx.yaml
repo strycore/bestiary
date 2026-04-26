@@ -1,0 +1,8 @@
+name: ryujinx
+display_name: Ryujinx
+category: gaming
+homepage: https://ryujinx.org
+locations:
+  native:
+    config: ~/.config/Ryujinx
+tags: [emulator, switch, nintendo]

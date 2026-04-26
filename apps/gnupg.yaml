@@ -1,0 +1,8 @@
+name: gnupg
+display_name: GnuPG
+category: productivity
+homepage: https://gnupg.org
+locations:
+  native:
+    config: ~/.gnupg
+tags: [gpg, encryption, signing]

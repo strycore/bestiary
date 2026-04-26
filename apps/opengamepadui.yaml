@@ -1,0 +1,8 @@
+name: opengamepadui
+display_name: OpenGamepadUI
+category: gaming
+homepage: https://github.com/ShadowBlip/OpenGamepadUI
+locations:
+  native:
+    data: ~/.local/share/opengamepadui
+tags: [game-launcher, handheld]

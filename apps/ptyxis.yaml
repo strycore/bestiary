@@ -1,0 +1,11 @@
+name: ptyxis
+display_name: Ptyxis
+category: development
+homepage: https://devsuite.app/ptyxis
+locations:
+  native:
+    config: ~/.config/ptyxis
+  flatpak:
+    flatpak_id: org.gnome.Ptyxis
+    data: ~/.var/app/org.gnome.Ptyxis
+tags: [terminal, gnome]

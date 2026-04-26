@@ -1,0 +1,8 @@
+name: zdoom
+display_name: ZDoom
+category: gaming
+homepage: https://zdoom.org
+locations:
+  native:
+    config: ~/.config/zdoom
+tags: [doom, sourceport]

@@ -1,0 +1,9 @@
+name: kdeconnect
+display_name: KDE Connect
+category: communication
+homepage: https://kdeconnect.kde.org
+locations:
+  native:
+    config: ~/.config/kdeconnect
+    data: ~/.local/share/kdeconnect
+tags: [phone, sync, kde]

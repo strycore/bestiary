@@ -1,0 +1,8 @@
+name: kglobals
+display_name: KDE Global Settings
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    config: ~/.config/kdeglobals
+tags: [kde, plasma, settings]

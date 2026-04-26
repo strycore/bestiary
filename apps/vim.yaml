@@ -1,0 +1,9 @@
+name: vim
+display_name: Vim
+category: development
+homepage: https://www.vim.org
+locations:
+  native:
+    config: ~/.vimrc
+    data: ~/.vim
+tags: [editor, cli]

@@ -1,0 +1,8 @@
+name: skiko
+display_name: Skiko
+category: development
+homepage: https://github.com/JetBrains/skiko
+locations:
+  native:
+    cache: ~/.skiko
+tags: [kotlin, skia, graphics]

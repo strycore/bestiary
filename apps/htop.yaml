@@ -1,0 +1,8 @@
+name: htop
+display_name: htop
+category: utility
+homepage: https://htop.dev
+locations:
+  native:
+    config: ~/.config/htop
+tags: [system-monitor, cli, tui]

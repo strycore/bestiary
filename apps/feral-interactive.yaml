@@ -1,0 +1,8 @@
+name: feral-interactive
+display_name: Feral Interactive (game saves dir)
+category: gaming
+homepage: https://www.feralinteractive.com
+locations:
+  native:
+    data: ~/.local/share/feral-interactive
+tags: [game-publisher, saves]

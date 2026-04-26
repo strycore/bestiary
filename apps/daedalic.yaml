@@ -1,0 +1,8 @@
+name: daedalic
+display_name: Daedalic Entertainment (saves dir)
+category: gaming
+homepage: https://www.daedalic.com
+locations:
+  native:
+    data: ~/.local/share/Daedalic Entertainment GmbH
+tags: [game-publisher, saves]

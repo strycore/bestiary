@@ -1,0 +1,8 @@
+name: vcpkg
+display_name: vcpkg
+category: development
+homepage: https://vcpkg.io
+locations:
+  native:
+    data: ~/.vcpkg
+tags: [c, cpp, package-manager, microsoft]

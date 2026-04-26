@@ -1,0 +1,8 @@
+name: conda
+display_name: Conda
+category: development
+homepage: https://docs.conda.io
+locations:
+  native:
+    config: ~/.conda
+tags: [python, package-manager, anaconda]

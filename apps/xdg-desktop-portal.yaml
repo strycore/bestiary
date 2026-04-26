@@ -1,0 +1,8 @@
+name: xdg-desktop-portal
+display_name: XDG Desktop Portal
+category: system
+homepage: https://flatpak.github.io/xdg-desktop-portal
+locations:
+  native:
+    config: ~/.config/xdg-desktop-portal
+tags: [xdg, flatpak, freedesktop]

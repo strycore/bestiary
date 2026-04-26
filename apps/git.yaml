@@ -1,0 +1,8 @@
+name: git
+display_name: Git
+category: development
+homepage: https://git-scm.com
+locations:
+  native:
+    config: ~/.config/git
+tags: [vcs, version-control, cli]

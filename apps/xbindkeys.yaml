@@ -1,0 +1,8 @@
+name: xbindkeys
+display_name: xbindkeys
+category: utility
+homepage: https://www.nongnu.org/xbindkeys
+locations:
+  native:
+    config: ~/.xbindkeysrc
+tags: [keybindings, x11]

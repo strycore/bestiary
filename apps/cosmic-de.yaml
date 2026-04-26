@@ -1,0 +1,10 @@
+name: cosmic-de
+display_name: COSMIC Desktop
+category: system
+homepage: https://system76.com/cosmic
+locations:
+  native:
+    config: ~/.config/cosmic
+    data: ~/.local/share/cosmic
+    state: ~/.local/state/cosmic
+tags: [desktop-environment, cosmic, system76]

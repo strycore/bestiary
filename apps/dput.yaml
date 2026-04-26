@@ -1,0 +1,8 @@
+name: dput
+display_name: dput
+category: development
+homepage: https://salsa.debian.org/debian/dput-ng
+locations:
+  native:
+    config: ~/.dput.cf
+tags: [debian, packaging]

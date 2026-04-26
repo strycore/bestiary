@@ -1,0 +1,8 @@
+name: amulet-map-editor
+display_name: Amulet Map Editor
+category: development
+homepage: https://www.amuletmc.com
+locations:
+  native:
+    config: ~/.config/AmuletMapEditor
+tags: [minecraft, editor]

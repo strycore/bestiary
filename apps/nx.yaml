@@ -1,0 +1,8 @@
+name: nx
+display_name: Nx
+category: development
+homepage: https://nx.dev
+locations:
+  native:
+    cache: ~/.nx
+tags: [javascript, monorepo, build]

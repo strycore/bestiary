@@ -1,0 +1,8 @@
+name: refract
+display_name: Refract
+category: multimedia
+homepage: https://github.com/Blobfolio/refract
+locations:
+  native:
+    config: ~/.config/refract
+tags: [image, encoder, webp, avif]

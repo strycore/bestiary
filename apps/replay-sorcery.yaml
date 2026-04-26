@@ -1,0 +1,8 @@
+name: replay-sorcery
+display_name: ReplaySorcery
+category: utility
+homepage: https://github.com/matanui159/ReplaySorcery
+locations:
+  native:
+    config: ~/.config/replay-sorcery.conf
+tags: [screen-recorder, replay, gaming]

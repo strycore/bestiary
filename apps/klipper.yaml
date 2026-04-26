@@ -1,0 +1,8 @@
+name: klipper
+display_name: Klipper
+category: utility
+homepage: https://userbase.kde.org/Klipper
+locations:
+  native:
+    data: ~/.local/share/klipper
+tags: [kde, clipboard]

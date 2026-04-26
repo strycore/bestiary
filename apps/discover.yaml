@@ -1,0 +1,8 @@
+name: discover
+display_name: Discover
+category: utility
+homepage: https://apps.kde.org/discover
+locations:
+  native:
+    config: ~/.config/discoverrc
+tags: [package-manager, kde, software-center]

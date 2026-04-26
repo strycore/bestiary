@@ -1,0 +1,8 @@
+name: rocket-league
+display_name: Rocket League
+category: gaming
+homepage: https://www.rocketleague.com
+locations:
+  native:
+    data: ~/.local/share/Rocket League
+tags: [game, sports, multiplayer]

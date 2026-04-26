@@ -1,0 +1,9 @@
+name: snapshot
+display_name: Snapshot
+category: multimedia
+homepage: https://apps.gnome.org/Snapshot
+locations:
+  flatpak:
+    flatpak_id: org.gnome.Snapshot
+    data: ~/.var/app/org.gnome.Snapshot
+tags: [webcam, gnome, camera]

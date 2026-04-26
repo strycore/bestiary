@@ -1,0 +1,8 @@
+name: gimagereader
+display_name: gImageReader
+category: productivity
+homepage: https://github.com/manisandro/gImageReader
+locations:
+  native:
+    config: ~/.config/gImageReader
+tags: [ocr, tesseract]

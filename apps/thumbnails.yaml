@@ -1,0 +1,8 @@
+name: thumbnails
+display_name: Thumbnails (legacy)
+category: system
+homepage: https://specifications.freedesktop.org/thumbnail-spec/thumbnail-spec-latest.html
+locations:
+  native:
+    cache: ~/.thumbnails
+tags: [xdg, thumbnails]

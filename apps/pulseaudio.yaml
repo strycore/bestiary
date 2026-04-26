@@ -1,0 +1,8 @@
+name: pulseaudio
+display_name: PulseAudio
+category: system
+homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+locations:
+  native:
+    config: ~/.config/pulse
+tags: [audio, server]

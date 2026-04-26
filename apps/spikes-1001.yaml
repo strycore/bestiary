@@ -1,0 +1,8 @@
+name: spikes-1001
+display_name: 1001 Spikes
+category: gaming
+homepage: https://nicalis.com
+locations:
+  native:
+    data: ~/.local/share/1001 spikes
+tags: [game, platformer, nicalis]

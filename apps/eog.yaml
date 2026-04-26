@@ -1,0 +1,8 @@
+name: eog
+display_name: Image Viewer (Eye of GNOME)
+category: multimedia
+homepage: https://wiki.gnome.org/Apps/EyeOfGnome
+locations:
+  native:
+    config: ~/.config/eog
+tags: [image-viewer, gnome]

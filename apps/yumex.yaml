@@ -1,0 +1,8 @@
+name: yumex
+display_name: Yum Extender
+category: utility
+homepage: https://www.yumex.dk
+locations:
+  native:
+    data: ~/.local/share/yumex
+tags: [package-manager, dnf, fedora]

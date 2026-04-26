@@ -1,0 +1,8 @@
+name: mesen2
+display_name: Mesen 2
+category: gaming
+homepage: https://www.mesen.ca
+locations:
+  native:
+    config: ~/.config/Mesen2
+tags: [emulator, nintendo, multi-system]

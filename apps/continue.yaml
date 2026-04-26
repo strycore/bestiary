@@ -1,0 +1,8 @@
+name: continue
+display_name: Continue.dev
+category: development
+homepage: https://www.continue.dev
+locations:
+  native:
+    config: ~/.continue
+tags: [ai, ide-plugin, code-assist]

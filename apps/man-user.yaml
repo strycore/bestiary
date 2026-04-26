@@ -1,0 +1,8 @@
+name: man-user
+display_name: Man Pages (user)
+category: system
+homepage: https://man7.org
+locations:
+  native:
+    data: ~/.local/share/man
+tags: [docs, manpages]

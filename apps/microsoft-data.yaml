@@ -1,0 +1,8 @@
+name: microsoft-data
+display_name: Microsoft (data dir)
+category: development
+homepage: https://www.microsoft.com
+locations:
+  native:
+    data: ~/.local/share/Microsoft
+tags: [microsoft, dotnet]

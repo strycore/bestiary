@@ -1,0 +1,9 @@
+name: gwenview
+display_name: Gwenview
+category: multimedia
+homepage: https://apps.kde.org/gwenview
+locations:
+  native:
+    config: ~/.config/gwenviewrc
+    data: ~/.local/share/gwenview
+tags: [image-viewer, kde]

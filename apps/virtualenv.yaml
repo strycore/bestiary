@@ -1,0 +1,8 @@
+name: virtualenv
+display_name: virtualenv
+category: development
+homepage: https://virtualenv.pypa.io
+locations:
+  native:
+    data: ~/.local/share/virtualenv
+tags: [python, environments]

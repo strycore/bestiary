@@ -1,0 +1,8 @@
+name: loki
+display_name: Loki (Grafana logs)
+category: development
+homepage: https://grafana.com/oss/loki
+locations:
+  native:
+    data: ~/.local/share/loki
+tags: [logging, grafana, observability]

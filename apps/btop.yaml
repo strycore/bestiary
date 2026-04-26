@@ -1,0 +1,8 @@
+name: btop
+display_name: btop
+category: utility
+homepage: https://github.com/aristocratos/btop
+locations:
+  native:
+    config: ~/.config/btop
+tags: [system-monitor, cli, tui]

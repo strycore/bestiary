@@ -1,0 +1,8 @@
+name: blender-benchmark
+display_name: Blender Benchmark Launcher
+category: development
+homepage: https://opendata.blender.org
+locations:
+  native:
+    config: ~/.config/blender-benchmark-launcher
+tags: [blender, benchmark]

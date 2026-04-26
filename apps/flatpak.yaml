@@ -1,0 +1,8 @@
+name: flatpak
+display_name: Flatpak (user installation)
+category: system
+homepage: https://flatpak.org
+locations:
+  native:
+    data: ~/.local/share/flatpak
+tags: [flatpak, package-manager]

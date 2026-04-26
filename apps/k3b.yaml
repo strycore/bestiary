@@ -1,0 +1,8 @@
+name: k3b
+display_name: K3b
+category: utility
+homepage: https://apps.kde.org/k3b
+locations:
+  native:
+    data: ~/.local/share/k3b
+tags: [kde, cd, dvd, burning]

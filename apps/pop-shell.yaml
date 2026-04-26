@@ -1,0 +1,8 @@
+name: pop-shell
+display_name: Pop Shell
+category: system
+homepage: https://github.com/pop-os/shell
+locations:
+  native:
+    config: ~/.config/pop-shell
+tags: [gnome-extension, pop-os, tiling]

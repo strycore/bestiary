@@ -1,0 +1,8 @@
+name: pyre
+display_name: Pyre
+category: gaming
+homepage: https://www.supergiantgames.com/games/pyre
+locations:
+  native:
+    data: ~/.local/share/Pyre
+tags: [game, rpg, supergiant]

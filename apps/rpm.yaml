@@ -1,0 +1,8 @@
+name: rpm
+display_name: RPM (user macros)
+category: development
+homepage: https://rpm.org
+locations:
+  native:
+    config: ~/.rpmmacros
+tags: [rpm, packaging, fedora]

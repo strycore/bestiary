@@ -1,0 +1,8 @@
+name: dunelegacy
+display_name: Dune Legacy
+category: gaming
+homepage: https://dunelegacy.sourceforge.net
+locations:
+  native:
+    config: ~/.config/dunelegacy
+tags: [game, rts, dune]

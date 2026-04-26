@@ -1,0 +1,8 @@
+name: playdead
+display_name: Playdead (saves dir)
+category: gaming
+homepage: https://playdead.com
+locations:
+  native:
+    data: ~/.local/share/PlayDead
+tags: [game-publisher, limbo, inside]

@@ -1,0 +1,8 @@
+name: ark
+display_name: Ark
+category: utility
+homepage: https://apps.kde.org/ark
+locations:
+  native:
+    config: ~/.config/arkrc
+tags: [archive, kde]

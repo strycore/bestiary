@@ -1,0 +1,8 @@
+name: spectacle
+display_name: Spectacle
+category: utility
+homepage: https://apps.kde.org/spectacle
+locations:
+  native:
+    config: ~/.config/spectaclerc
+tags: [screenshot, kde]

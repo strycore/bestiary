@@ -1,0 +1,8 @@
+name: playtron-gamelab
+display_name: Playtron GameLab
+category: gaming
+homepage: https://playtron.one
+locations:
+  native:
+    data: ~/.local/share/one.playtron.gamelab
+tags: [playtron, game-launcher]

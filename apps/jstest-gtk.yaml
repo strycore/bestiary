@@ -1,0 +1,9 @@
+name: jstest-gtk
+display_name: jstest-gtk
+category: utility
+homepage: https://gitlab.com/jstest-gtk/jstest-gtk
+locations:
+  flatpak:
+    flatpak_id: io.gitlab.jstest_gtk.jstest_gtk
+    data: ~/.var/app/io.gitlab.jstest_gtk.jstest_gtk
+tags: [joystick, gamepad, testing]

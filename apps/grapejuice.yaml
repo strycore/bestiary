@@ -1,0 +1,8 @@
+name: grapejuice
+display_name: Grapejuice
+category: gaming
+homepage: https://gitlab.com/brinkervii/grapejuice
+locations:
+  native:
+    data: ~/.local/share/grapejuice
+tags: [roblox, wine, launcher]

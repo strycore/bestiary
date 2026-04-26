@@ -1,0 +1,9 @@
+name: nicotine
+display_name: Nicotine+
+category: communication
+homepage: https://nicotine-plus.org
+locations:
+  native:
+    config: ~/.config/nicotine
+    data: ~/.local/share/nicotine
+tags: [soulseek, p2p]

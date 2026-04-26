@@ -1,0 +1,8 @@
+name: castlevania-revamped
+display_name: Castlevania ReVamped
+category: gaming
+homepage: https://gamejolt.com/games/castlevania-revamped
+locations:
+  native:
+    config: ~/.config/Castlevania_ReVamped
+tags: [game, castlevania, fan-game]

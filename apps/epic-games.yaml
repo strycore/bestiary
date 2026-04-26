@@ -1,0 +1,8 @@
+name: epic-games
+display_name: Epic Games (config dir)
+category: gaming
+homepage: https://www.epicgames.com
+locations:
+  native:
+    config: ~/.config/Epic
+tags: [game-launcher, epic]

@@ -1,0 +1,8 @@
+name: openrgb
+display_name: OpenRGB
+category: utility
+homepage: https://openrgb.org
+locations:
+  native:
+    config: ~/.config/OpenRGB
+tags: [rgb, hardware, peripheral]

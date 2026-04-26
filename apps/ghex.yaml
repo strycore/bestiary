@@ -1,0 +1,9 @@
+name: ghex
+display_name: GHex
+category: development
+homepage: https://wiki.gnome.org/Apps/Ghex
+locations:
+  flatpak:
+    flatpak_id: org.gnome.GHex
+    data: ~/.var/app/org.gnome.GHex
+tags: [hex-editor, gnome]

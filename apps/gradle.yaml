@@ -1,0 +1,8 @@
+name: gradle
+display_name: Gradle
+category: development
+homepage: https://gradle.org
+locations:
+  native:
+    data: ~/.gradle
+tags: [build-tool, jvm, java]

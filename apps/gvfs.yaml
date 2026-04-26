@@ -1,0 +1,8 @@
+name: gvfs
+display_name: GVfs
+category: system
+homepage: https://wiki.gnome.org/Projects/gvfs
+locations:
+  native:
+    data: ~/.local/share/gvfs-metadata
+tags: [filesystem, gnome, vfs]

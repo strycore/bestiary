@@ -1,0 +1,8 @@
+name: kitty
+display_name: Kitty
+category: development
+homepage: https://sw.kovidgoyal.net/kitty
+locations:
+  native:
+    config: ~/.config/kitty
+tags: [terminal, gpu]

@@ -1,0 +1,9 @@
+name: gedit
+display_name: gedit
+category: development
+homepage: https://wiki.gnome.org/Apps/Gedit
+locations:
+  native:
+    config: ~/.config/gedit
+    data: ~/.local/share/gedit
+tags: [editor, gnome]

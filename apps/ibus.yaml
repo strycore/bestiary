@@ -1,0 +1,8 @@
+name: ibus
+display_name: IBus
+category: system
+homepage: https://github.com/ibus/ibus
+locations:
+  native:
+    config: ~/.config/ibus
+tags: [input-method, freedesktop]

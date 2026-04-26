@@ -1,0 +1,8 @@
+name: pgadmin4
+display_name: pgAdmin 4
+category: development
+homepage: https://www.pgadmin.org
+locations:
+  native:
+    config: ~/.config/pgadmin4
+tags: [database, postgresql]

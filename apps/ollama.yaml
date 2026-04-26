@@ -1,0 +1,8 @@
+name: ollama
+display_name: Ollama
+category: development
+homepage: https://ollama.com
+locations:
+  native:
+    data: ~/.ollama
+tags: [ai, llm, local]

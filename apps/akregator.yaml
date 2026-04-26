@@ -1,0 +1,9 @@
+name: akregator
+display_name: Akregator
+category: communication
+homepage: https://apps.kde.org/akregator
+locations:
+  native:
+    config: ~/.config/akregatorrc
+    data: ~/.local/share/akregator
+tags: [rss, kde, feed-reader]

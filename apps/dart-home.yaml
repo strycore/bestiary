@@ -1,0 +1,9 @@
+name: dart-home
+display_name: Dart (user dir)
+category: development
+homepage: https://dart.dev
+locations:
+  native:
+    config: ~/.dart
+    data: ~/.dart-tool
+tags: [dart, flutter, language]

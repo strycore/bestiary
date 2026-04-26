@@ -1,0 +1,8 @@
+name: frictionalgames
+display_name: Frictional Games (saves dir)
+category: gaming
+homepage: https://frictionalgames.com
+locations:
+  native:
+    data: ~/.local/share/frictionalgames
+tags: [game-publisher, horror, amnesia, soma]

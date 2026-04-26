@@ -1,0 +1,8 @@
+name: lipsofsuna
+display_name: Lips of Suna
+category: gaming
+homepage: https://lipsofsuna.org
+locations:
+  native:
+    config: ~/.config/lipsofsuna
+tags: [game, rpg, online]

@@ -1,0 +1,8 @@
+name: vdhcoapp
+display_name: VdhCoApp (Video DownloadHelper Companion)
+category: utility
+homepage: https://github.com/mi-g/vdhcoapp
+locations:
+  native:
+    data: ~/.local/share/vdhcoapp
+tags: [browser-extension, video, downloader]

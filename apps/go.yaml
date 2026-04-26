@@ -1,0 +1,10 @@
+name: go
+display_name: Go
+category: development
+homepage: https://go.dev
+locations:
+  native:
+    config: ~/.config/go
+    data: ~/go
+    cache: ~/.cache/go-build
+tags: [language, golang, toolchain]

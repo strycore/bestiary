@@ -1,0 +1,12 @@
+name: wine
+display_name: Wine
+category: utility
+homepage: https://www.winehq.org
+locations:
+  native:
+    config: ~/.wine
+    data: ~/.local/share/wineprefixes
+  flatpak:
+    flatpak_id: org.winehq.Wine
+    data: ~/.var/app/org.winehq.Wine
+tags: [windows, compatibility, wineprefix]

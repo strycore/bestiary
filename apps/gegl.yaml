@@ -1,0 +1,8 @@
+name: gegl
+display_name: GEGL (Generic Graphics Library)
+category: development
+homepage: https://gegl.org
+locations:
+  native:
+    data: ~/.local/share/gegl-0.4
+tags: [graphics, library, gimp]

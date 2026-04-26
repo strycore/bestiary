@@ -1,0 +1,8 @@
+name: cmake-tools
+display_name: CMake Tools (VS Code extension)
+category: development
+homepage: https://github.com/microsoft/vscode-cmake-tools
+locations:
+  native:
+    data: ~/.local/share/CMakeTools
+tags: [vscode, cmake, build]

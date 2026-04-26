@@ -1,0 +1,8 @@
+name: yelp
+display_name: Yelp (GNOME Help)
+category: utility
+homepage: https://wiki.gnome.org/Apps/Yelp
+locations:
+  native:
+    config: ~/.config/yelp
+tags: [help, documentation, gnome]

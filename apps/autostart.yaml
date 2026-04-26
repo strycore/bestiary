@@ -1,0 +1,8 @@
+name: autostart
+display_name: XDG Autostart
+category: system
+homepage: https://specifications.freedesktop.org/autostart-spec/autostart-spec-latest.html
+locations:
+  native:
+    config: ~/.config/autostart
+tags: [xdg, freedesktop, startup]

@@ -1,0 +1,8 @@
+name: celeste64
+display_name: Celeste 64
+category: gaming
+homepage: https://maddymakesgamesinc.itch.io/celeste64
+locations:
+  native:
+    data: ~/.local/share/Celeste64
+tags: [game, platformer, indie]

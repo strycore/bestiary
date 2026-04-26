@@ -1,0 +1,8 @@
+name: tmux
+display_name: tmux
+category: development
+homepage: https://github.com/tmux/tmux
+locations:
+  native:
+    config: ~/.tmux.conf
+tags: [terminal, multiplexer]

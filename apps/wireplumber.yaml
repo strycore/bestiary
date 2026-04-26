@@ -1,0 +1,8 @@
+name: wireplumber
+display_name: WirePlumber
+category: system
+homepage: https://pipewire.pages.freedesktop.org/wireplumber
+locations:
+  native:
+    state: ~/.local/state/wireplumber
+tags: [pipewire, audio, session-manager]

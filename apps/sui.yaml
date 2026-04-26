@@ -1,0 +1,8 @@
+name: sui
+display_name: Sui
+category: development
+homepage: https://sui.io
+locations:
+  native:
+    config: ~/.config/sui
+tags: [blockchain, cli]

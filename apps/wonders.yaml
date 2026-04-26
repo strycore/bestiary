@@ -1,0 +1,8 @@
+name: wonders
+display_name: Wonders of the World (Flutter sample)
+category: development
+homepage: https://github.com/gskinnerTeam/flutter-wonderous-app
+locations:
+  native:
+    data: ~/.local/share/com.gskinner.flutter.wonders
+tags: [flutter, demo]

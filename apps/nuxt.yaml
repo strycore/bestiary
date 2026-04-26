@@ -1,0 +1,9 @@
+name: nuxt
+display_name: Nuxt
+category: development
+homepage: https://nuxt.com
+locations:
+  native:
+    config: ~/.nuxtrc
+    cache: ~/.nuxt
+tags: [vue, javascript, framework]

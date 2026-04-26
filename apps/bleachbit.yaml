@@ -1,0 +1,8 @@
+name: bleachbit
+display_name: BleachBit
+category: utility
+homepage: https://www.bleachbit.org
+locations:
+  native:
+    config: ~/.config/bleachbit
+tags: [cleanup, privacy]

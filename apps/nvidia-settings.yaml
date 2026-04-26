@@ -1,0 +1,8 @@
+name: nvidia-settings
+display_name: NVIDIA Settings
+category: utility
+homepage: https://www.nvidia.com
+locations:
+  native:
+    config: ~/.nvidia-settings-rc
+tags: [nvidia, gpu, driver]

@@ -1,0 +1,8 @@
+name: gh
+display_name: GitHub CLI
+category: development
+homepage: https://cli.github.com
+locations:
+  native:
+    config: ~/.config/gh
+tags: [github, cli, vcs]

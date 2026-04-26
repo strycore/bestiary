@@ -1,0 +1,8 @@
+name: fyne
+display_name: Fyne
+category: development
+homepage: https://fyne.io
+locations:
+  native:
+    config: ~/.config/fyne
+tags: [framework, go, ui]

@@ -1,0 +1,9 @@
+name: tokodon
+display_name: Tokodon
+category: communication
+homepage: https://apps.kde.org/tokodon
+locations:
+  native:
+    config: ~/.config/tokodonrc
+    data: ~/.local/share/tokodon
+tags: [mastodon, fediverse, kde]

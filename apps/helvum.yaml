@@ -1,0 +1,9 @@
+name: helvum
+display_name: Helvum
+category: multimedia
+homepage: https://gitlab.freedesktop.org/pipewire/helvum
+locations:
+  flatpak:
+    flatpak_id: org.pipewire.Helvum
+    data: ~/.var/app/org.pipewire.Helvum
+tags: [pipewire, audio, patchbay]

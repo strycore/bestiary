@@ -1,0 +1,8 @@
+name: melonprimeds
+display_name: melonPrimeDS
+category: gaming
+homepage: https://github.com/StrikerX3/melonPrimeDS
+locations:
+  native:
+    config: ~/.config/melonPrimeDS
+tags: [emulator, ds, metroid-prime]

@@ -1,0 +1,9 @@
+name: telegram-desktop
+display_name: Telegram Desktop
+category: communication
+homepage: https://desktop.telegram.org
+locations:
+  native:
+    config: ~/.config/TelegramDesktoprc
+    data: ~/.local/share/TelegramDesktop
+tags: [chat, messaging]

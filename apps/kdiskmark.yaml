@@ -1,0 +1,9 @@
+name: kdiskmark
+display_name: KDiskMark
+category: utility
+homepage: https://github.com/JonMagon/KDiskMark
+locations:
+  flatpak:
+    flatpak_id: io.github.jonmagon.kdiskmark
+    data: ~/.var/app/io.github.jonmagon.kdiskmark
+tags: [benchmark, disk, storage]

@@ -1,0 +1,11 @@
+name: airshipper
+display_name: Airshipper (Veloren launcher)
+category: gaming
+homepage: https://veloren.net
+locations:
+  native:
+    data: ~/.local/share/airshipper
+  flatpak:
+    flatpak_id: net.veloren.airshipper
+    data: ~/.var/app/net.veloren.airshipper
+tags: [game-launcher, veloren, voxel]

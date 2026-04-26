@@ -1,0 +1,8 @@
+name: openxr
+display_name: OpenXR (runtime config)
+category: utility
+homepage: https://www.khronos.org/openxr
+locations:
+  native:
+    config: ~/.config/openxr
+tags: [vr, ar, khronos]

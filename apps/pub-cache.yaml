@@ -1,0 +1,8 @@
+name: pub-cache
+display_name: Pub (Dart packages)
+category: development
+homepage: https://pub.dev
+locations:
+  native:
+    cache: ~/.pub-cache
+tags: [dart, flutter, package-manager]

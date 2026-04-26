@@ -1,0 +1,12 @@
+name: mozilla-firefox
+display_name: Firefox (legacy ~/.mozilla)
+category: web
+homepage: https://www.mozilla.org/firefox
+locations:
+  native:
+    data: ~/.mozilla
+backup_exclude:
+  - "*/Cache/*"
+  - "*/cache2/*"
+  - "*/startupCache/*"
+tags: [browser, firefox, mozilla]

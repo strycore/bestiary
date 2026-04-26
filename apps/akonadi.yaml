@@ -1,0 +1,9 @@
+name: akonadi
+display_name: Akonadi (KDE PIM storage)
+category: communication
+homepage: https://userbase.kde.org/Akonadi
+locations:
+  native:
+    config: ~/.config/akonadi
+    data: ~/.local/share/akonadi
+tags: [pim, kde, kmail, calendar]

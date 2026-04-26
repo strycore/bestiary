@@ -1,0 +1,8 @@
+name: codex
+display_name: Codex
+category: development
+homepage: https://github.com/openai/codex
+locations:
+  native:
+    data: ~/.codex
+tags: [ai, openai, agent]

@@ -1,0 +1,8 @@
+name: yaak
+display_name: Yaak
+category: development
+homepage: https://yaak.app
+locations:
+  native:
+    config: ~/.config/app.yaak.desktop
+tags: [api, http, testing]

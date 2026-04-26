@@ -1,0 +1,8 @@
+name: cadence
+display_name: Cadence
+category: multimedia
+homepage: https://kx.studio/Applications:Cadence
+locations:
+  native:
+    config: ~/.config/falkTX
+tags: [audio, jack, music-production]

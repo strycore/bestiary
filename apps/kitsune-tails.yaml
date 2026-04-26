@@ -1,0 +1,8 @@
+name: kitsune-tails
+display_name: Kitsune Tails
+category: gaming
+homepage: https://kitsunegames.com/kitsune-tails
+locations:
+  native:
+    data: ~/.local/share/KitsuneTails
+tags: [game, platformer, indie]

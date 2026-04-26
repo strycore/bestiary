@@ -1,0 +1,9 @@
+name: unity-hub
+display_name: Unity Hub
+category: development
+homepage: https://unity.com
+locations:
+  native:
+    config: ~/.config/unityhub
+    data: ~/.config/unity3d
+tags: [unity, game-engine, ide]

@@ -1,0 +1,8 @@
+name: nuget
+display_name: NuGet
+category: development
+homepage: https://www.nuget.org
+locations:
+  native:
+    config: ~/.config/NuGet
+tags: [dotnet, package-manager]

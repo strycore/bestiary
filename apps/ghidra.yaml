@@ -1,0 +1,8 @@
+name: ghidra
+display_name: Ghidra
+category: development
+homepage: https://ghidra-sre.org
+locations:
+  native:
+    data: ~/.ghidra
+tags: [reverse-engineering, nsa, security]

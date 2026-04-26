@@ -1,0 +1,9 @@
+name: claude-code
+display_name: Claude Code
+category: development
+homepage: https://claude.com/claude-code
+locations:
+  native:
+    config: ~/.config/claude-code
+    state: ~/.claude
+tags: [ai, cli, anthropic, agent]

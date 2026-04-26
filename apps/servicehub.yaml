@@ -1,0 +1,8 @@
+name: servicehub
+display_name: ServiceHub
+category: development
+homepage: https://www.microsoft.com
+locations:
+  native:
+    data: ~/.ServiceHub
+tags: [microsoft, visual-studio]

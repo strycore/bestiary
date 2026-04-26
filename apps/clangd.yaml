@@ -1,0 +1,9 @@
+name: clangd
+display_name: clangd
+category: development
+homepage: https://clangd.llvm.org
+locations:
+  native:
+    config: ~/.config/clangd
+    cache: ~/.cache/clangd
+tags: [c, cpp, lsp, llvm]

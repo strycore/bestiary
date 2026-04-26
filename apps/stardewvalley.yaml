@@ -1,0 +1,8 @@
+name: stardewvalley
+display_name: Stardew Valley
+category: gaming
+homepage: https://www.stardewvalley.net
+locations:
+  native:
+    config: ~/.config/StardewValley
+tags: [game, rpg, farming]

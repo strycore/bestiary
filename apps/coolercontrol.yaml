@@ -1,0 +1,8 @@
+name: coolercontrol
+display_name: CoolerControl
+category: utility
+homepage: https://gitlab.com/coolercontrol/coolercontrol
+locations:
+  native:
+    data: ~/.local/share/org.coolercontrol.CoolerControl
+tags: [hardware, cooling, fans]

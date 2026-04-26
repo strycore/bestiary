@@ -1,0 +1,12 @@
+name: cef-user-data
+display_name: Chromium Embedded Framework (user data)
+category: development
+homepage: https://bitbucket.org/chromiumembedded/cef
+locations:
+  native:
+    config: ~/.config/cef_user_data
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+tags: [chromium, cef, embedding]

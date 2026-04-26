@@ -1,0 +1,8 @@
+name: recently-used
+display_name: Recently Used Files (XDG)
+category: system
+homepage: https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec
+locations:
+  native:
+    data: ~/.local/share/recently-used.xbel
+tags: [xdg, recents, freedesktop]

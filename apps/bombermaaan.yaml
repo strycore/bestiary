@@ -1,0 +1,9 @@
+name: bombermaaan
+display_name: Bombermaaan
+category: gaming
+homepage: https://github.com/bjaraujo/Bombermaaan
+locations:
+  flatpak:
+    flatpak_id: com.github.bjaraujo.Bombermaaan
+    data: ~/.var/app/com.github.bjaraujo.Bombermaaan
+tags: [game, arcade, classic]

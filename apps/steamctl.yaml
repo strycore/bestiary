@@ -1,0 +1,8 @@
+name: steamctl
+display_name: steamctl
+category: gaming
+homepage: https://github.com/ValvePython/steamctl
+locations:
+  native:
+    data: ~/.local/share/steamctl
+tags: [steam, cli, valve]

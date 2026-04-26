@@ -1,0 +1,8 @@
+name: gsconnect
+display_name: GSConnect
+category: communication
+homepage: https://github.com/GSConnect/gnome-shell-extension-gsconnect
+locations:
+  native:
+    config: ~/.config/gsconnect
+tags: [phone, sync, gnome]

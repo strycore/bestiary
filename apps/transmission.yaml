@@ -1,0 +1,8 @@
+name: transmission
+display_name: Transmission
+category: utility
+homepage: https://transmissionbt.com
+locations:
+  native:
+    config: ~/.config/transmission
+tags: [bittorrent, downloader]

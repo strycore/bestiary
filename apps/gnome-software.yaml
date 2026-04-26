@@ -1,0 +1,8 @@
+name: gnome-software
+display_name: GNOME Software
+category: utility
+homepage: https://wiki.gnome.org/Apps/Software
+locations:
+  native:
+    data: ~/.local/share/gnome-software
+tags: [gnome, package-manager, software-center]

@@ -1,0 +1,8 @@
+name: cni
+display_name: CNI (Container Network Interface)
+category: system
+homepage: https://www.cni.dev
+locations:
+  native:
+    config: ~/.config/cni
+tags: [containers, networking]

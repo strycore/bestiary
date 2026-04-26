@@ -1,0 +1,8 @@
+name: git-home
+display_name: Git (legacy dotfiles)
+category: development
+homepage: https://git-scm.com
+locations:
+  native:
+    config: ~/.gitconfig
+tags: [vcs, version-control, cli]

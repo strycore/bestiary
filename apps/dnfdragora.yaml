@@ -1,0 +1,8 @@
+name: dnfdragora
+display_name: dnfdragora
+category: utility
+homepage: https://github.com/manatools/dnfdragora
+locations:
+  native:
+    config: ~/.config/dnfdragora.yaml
+tags: [package-manager, dnf, fedora]

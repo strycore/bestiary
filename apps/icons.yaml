@@ -1,0 +1,8 @@
+name: icons
+display_name: User Icon Themes
+category: system
+homepage: https://specifications.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html
+locations:
+  native:
+    data: ~/.local/share/icons
+tags: [xdg, icons, theming]

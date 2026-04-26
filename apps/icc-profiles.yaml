@@ -1,0 +1,8 @@
+name: icc-profiles
+display_name: User ICC Profiles
+category: system
+homepage: https://www.color.org
+locations:
+  native:
+    data: ~/.local/share/icc
+tags: [color, profile, display]

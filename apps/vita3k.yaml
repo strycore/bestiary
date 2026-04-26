@@ -1,0 +1,8 @@
+name: vita3k
+display_name: Vita3K
+category: gaming
+homepage: https://vita3k.org
+locations:
+  native:
+    config: ~/.config/Vita3K
+tags: [emulator, ps-vita, sony]

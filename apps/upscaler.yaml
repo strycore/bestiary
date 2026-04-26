@@ -1,0 +1,9 @@
+name: upscaler
+display_name: Upscaler
+category: multimedia
+homepage: https://gitlab.com/TheEvilSkeleton/Upscaler
+locations:
+  flatpak:
+    flatpak_id: io.gitlab.theevilskeleton.Upscaler
+    data: ~/.var/app/io.gitlab.theevilskeleton.Upscaler
+tags: [image, ai, super-resolution]

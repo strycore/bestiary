@@ -1,0 +1,8 @@
+name: openvr
+display_name: OpenVR (SteamVR runtime config)
+category: utility
+homepage: https://github.com/ValveSoftware/openvr
+locations:
+  native:
+    config: ~/.config/openvr
+tags: [vr, valve, steamvr]

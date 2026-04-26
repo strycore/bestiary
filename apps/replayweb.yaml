@@ -1,0 +1,9 @@
+name: replayweb
+display_name: ReplayWeb.page
+category: utility
+homepage: https://replayweb.page
+locations:
+  native:
+    config: ~/.config/ReplayWeb.page
+    data: ~/.config/replaywebpage
+tags: [web-archive, wacz, browser]

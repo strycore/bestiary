@@ -1,0 +1,8 @@
+name: vampire-survivors
+display_name: Vampire Survivors
+category: gaming
+homepage: https://poncle.itch.io/vampire-survivors
+locations:
+  native:
+    config: ~/.config/Vampire_Survivors
+tags: [game, roguelike, action]

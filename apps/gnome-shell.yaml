@@ -1,0 +1,8 @@
+name: gnome-shell
+display_name: GNOME Shell
+category: system
+homepage: https://gitlab.gnome.org/GNOME/gnome-shell
+locations:
+  native:
+    data: ~/.local/share/gnome-shell
+tags: [gnome, shell, extensions]

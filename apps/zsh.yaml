@@ -1,0 +1,8 @@
+name: zsh
+display_name: Zsh
+category: development
+homepage: https://www.zsh.org
+locations:
+  native:
+    config: ~/.zshrc
+tags: [shell, cli]

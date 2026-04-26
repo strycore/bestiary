@@ -1,0 +1,8 @@
+name: flutter
+display_name: Flutter
+category: development
+homepage: https://flutter.dev
+locations:
+  native:
+    config: ~/.config/flutter
+tags: [framework, dart, mobile]

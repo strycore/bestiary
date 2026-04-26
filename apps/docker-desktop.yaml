@@ -1,0 +1,9 @@
+name: docker-desktop
+display_name: Docker Desktop
+category: development
+homepage: https://www.docker.com/products/docker-desktop
+locations:
+  native:
+    config: ~/.config/Docker Desktop
+    data: ~/.docker
+tags: [docker, containers]

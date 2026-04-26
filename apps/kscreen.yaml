@@ -1,0 +1,8 @@
+name: kscreen
+display_name: KScreen
+category: system
+homepage: https://kde.org
+locations:
+  native:
+    data: ~/.local/share/kscreen
+tags: [kde, display, monitor]

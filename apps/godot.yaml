@@ -1,0 +1,9 @@
+name: godot
+display_name: Godot Engine
+category: development
+homepage: https://godotengine.org
+locations:
+  native:
+    config: ~/.config/godot
+    data: ~/.local/share/godot
+tags: [game-engine, ide]

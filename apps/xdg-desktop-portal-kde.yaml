@@ -1,0 +1,8 @@
+name: xdg-desktop-portal-kde
+display_name: XDG Desktop Portal (KDE backend)
+category: system
+homepage: https://invent.kde.org/plasma/xdg-desktop-portal-kde
+locations:
+  native:
+    data: ~/.local/share/xdg-desktop-portal-kde
+tags: [kde, xdg, flatpak]

@@ -1,0 +1,9 @@
+name: shotwell
+display_name: Shotwell
+category: multimedia
+homepage: https://wiki.gnome.org/Apps/Shotwell
+locations:
+  native:
+    config: ~/.config/shotwell
+    data: ~/.local/share/shotwell
+tags: [photo-manager, gnome]

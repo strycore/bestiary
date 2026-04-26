@@ -1,0 +1,8 @@
+name: cargo
+display_name: Cargo (Rust)
+category: development
+homepage: https://doc.rust-lang.org/cargo
+locations:
+  native:
+    data: ~/.cargo
+tags: [rust, package-manager]

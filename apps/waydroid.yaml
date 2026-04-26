@@ -1,0 +1,8 @@
+name: waydroid
+display_name: Waydroid
+category: utility
+homepage: https://waydro.id
+locations:
+  native:
+    data: ~/.local/share/waydroid
+tags: [android, container, mobile]

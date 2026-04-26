@@ -1,0 +1,8 @@
+name: valve-corporation
+display_name: Valve Corporation (saves dir)
+category: gaming
+homepage: https://www.valvesoftware.com
+locations:
+  native:
+    data: ~/.local/share/Valve Corporation
+tags: [game-publisher, valve]

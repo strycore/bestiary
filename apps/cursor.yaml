@@ -1,0 +1,14 @@
+name: cursor
+display_name: Cursor
+category: development
+homepage: https://cursor.sh
+locations:
+  native:
+    config: ~/.config/Cursor
+    data: ~/.local/share/Cursor
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+  - "logs/*"
+tags: [editor, ai, vscode-fork]

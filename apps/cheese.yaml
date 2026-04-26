@@ -1,0 +1,12 @@
+name: cheese
+display_name: Cheese
+category: multimedia
+homepage: https://wiki.gnome.org/Apps/Cheese
+locations:
+  native:
+    config: ~/.config/cheese
+    data: ~/.local/share/cheese
+  flatpak:
+    flatpak_id: org.gnome.Cheese
+    data: ~/.var/app/org.gnome.Cheese
+tags: [webcam, gnome, photos]

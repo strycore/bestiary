@@ -1,0 +1,8 @@
+name: losslesscut
+display_name: LosslessCut
+category: multimedia
+homepage: https://mifi.no/losslesscut
+locations:
+  native:
+    config: ~/.config/LosslessCut
+tags: [video-editor, ffmpeg]

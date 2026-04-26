@@ -1,0 +1,8 @@
+name: dconf
+display_name: dconf
+category: system
+homepage: https://wiki.gnome.org/Projects/dconf
+locations:
+  native:
+    config: ~/.config/dconf
+tags: [settings, gnome, gsettings]

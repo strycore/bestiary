@@ -1,0 +1,8 @@
+name: fish
+display_name: fish shell
+category: development
+homepage: https://fishshell.com
+locations:
+  native:
+    config: ~/.config/fish
+tags: [shell, cli]

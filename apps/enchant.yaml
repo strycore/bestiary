@@ -1,0 +1,8 @@
+name: enchant
+display_name: Enchant
+category: system
+homepage: https://abiword.github.io/enchant
+locations:
+  native:
+    config: ~/.config/enchant
+tags: [spell-check, library]

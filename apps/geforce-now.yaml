@@ -1,0 +1,9 @@
+name: geforce-now
+display_name: GeForce Now
+category: gaming
+homepage: https://www.nvidia.com/geforce-now
+locations:
+  flatpak:
+    flatpak_id: com.nvidia.geforcenow
+    data: ~/.var/app/com.nvidia.geforcenow
+tags: [streaming, cloud-gaming, nvidia]

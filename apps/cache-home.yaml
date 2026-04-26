@@ -1,0 +1,8 @@
+name: cache-home
+display_name: XDG Cache (user)
+category: system
+homepage: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+locations:
+  native:
+    cache: ~/.cache
+tags: [xdg, cache]

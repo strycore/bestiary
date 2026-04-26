@@ -1,0 +1,8 @@
+name: quake4
+display_name: Quake 4
+category: gaming
+homepage: https://store.steampowered.com/app/2210/Quake_4
+locations:
+  native:
+    data: ~/.local/share/quake4
+tags: [game, fps, quake]

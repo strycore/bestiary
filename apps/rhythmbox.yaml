@@ -1,0 +1,8 @@
+name: rhythmbox
+display_name: Rhythmbox
+category: multimedia
+homepage: https://wiki.gnome.org/Apps/Rhythmbox
+locations:
+  native:
+    data: ~/.local/share/rhythmbox
+tags: [music-player, gnome]

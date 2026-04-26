@@ -1,0 +1,8 @@
+name: stacer
+display_name: Stacer
+category: utility
+homepage: https://github.com/oguzhaninan/Stacer
+locations:
+  native:
+    config: ~/.config/stacer
+tags: [system-monitor, optimizer]

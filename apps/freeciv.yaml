@@ -1,0 +1,12 @@
+name: freeciv
+display_name: Freeciv
+category: gaming
+homepage: https://www.freeciv.org
+locations:
+  native:
+    config: ~/.freeciv
+    data: ~/.local/share/freeciv
+  flatpak:
+    flatpak_id: org.freeciv.gtk4
+    data: ~/.var/app/org.freeciv.gtk4
+tags: [strategy, civilization, turn-based]

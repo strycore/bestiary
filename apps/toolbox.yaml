@@ -1,0 +1,8 @@
+name: toolbox
+display_name: Toolbox (Fedora)
+category: development
+homepage: https://containertoolbx.org
+locations:
+  native:
+    config: ~/.config/toolbox
+tags: [containers, fedora, podman]

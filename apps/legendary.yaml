@@ -1,0 +1,8 @@
+name: legendary
+display_name: Legendary
+category: gaming
+homepage: https://github.com/derrod/legendary
+locations:
+  native:
+    config: ~/.config/legendary
+tags: [game-launcher, epic-games, cli]

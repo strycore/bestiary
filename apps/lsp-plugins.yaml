@@ -1,0 +1,8 @@
+name: lsp-plugins
+display_name: LSP Plugins
+category: multimedia
+homepage: https://lsp-plug.in
+locations:
+  native:
+    config: ~/.config/lsp-plugins
+tags: [audio, plugin, lv2]

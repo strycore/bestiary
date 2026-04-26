@@ -1,0 +1,8 @@
+name: node-steamuser
+display_name: node-steam-user
+category: development
+homepage: https://github.com/DoctorMcKay/node-steam-user
+locations:
+  native:
+    data: ~/.local/share/node-steamuser
+tags: [steam, nodejs, library]

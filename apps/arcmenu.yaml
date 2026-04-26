@@ -1,0 +1,8 @@
+name: arcmenu
+display_name: ArcMenu
+category: utility
+homepage: https://gitlab.com/arcmenu/ArcMenu
+locations:
+  native:
+    data: ~/.local/share/arcmenu
+tags: [gnome-extension, menu]
