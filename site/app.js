@@ -97,6 +97,8 @@ function render() {
   // active state honest.
   renderCategories();
   if (view.route === 'detail') {
+    // Hide the count on detail pages; it only describes the list.
+    $('#count').textContent = '';
     renderDetail();
   } else {
     renderList();
@@ -106,7 +108,10 @@ function render() {
 function renderList() {
   const filtered = filterAll();
   const total = ALL.length;
-  $('#count').textContent = total
+  // Only show the count when something is filtering — otherwise "659 of
+  // 659" is just noise.
+  const filtering = view.q || view.category;
+  $('#count').textContent = filtering && total
     ? `${filtered.length} of ${total}`
     : '';
   const slice = view.q
