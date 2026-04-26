@@ -1,0 +1,16 @@
+name: rpcs3
+display_name: RPCS3
+category: gaming
+homepage: https://rpcs3.net
+locations:
+  native:
+    config: ~/.config/rpcs3
+    cache: ~/.cache/rpcs3
+  flatpak:
+    flatpak_id: net.rpcs3.RPCS3
+    config: ~/.var/app/net.rpcs3.RPCS3/config/rpcs3
+    cache: ~/.var/app/net.rpcs3.RPCS3/cache/rpcs3
+backup_exclude:
+  - "cache/*"
+  - "shaderlog/*"
+tags: [emulator, ps3, console]

@@ -1,0 +1,16 @@
+name: librewolf
+display_name: LibreWolf
+category: browser
+homepage: https://librewolf.net
+locations:
+  native:
+    config: ~/.librewolf
+    cache: ~/.cache/librewolf
+  flatpak:
+    flatpak_id: io.gitlab.librewolf-community
+    config: ~/.var/app/io.gitlab.librewolf-community/.librewolf
+    cache: ~/.var/app/io.gitlab.librewolf-community/cache/librewolf
+backup_exclude:
+  - "*/cache2/*"
+  - "*/startupCache/*"
+tags: [browser, web, privacy]

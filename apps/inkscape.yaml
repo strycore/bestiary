@@ -1,0 +1,13 @@
+name: inkscape
+display_name: Inkscape
+category: media
+homepage: https://inkscape.org
+locations:
+  native:
+    config: ~/.config/inkscape
+    data: ~/.local/share/inkscape
+  flatpak:
+    flatpak_id: org.inkscape.Inkscape
+    config: ~/.var/app/org.inkscape.Inkscape/config/inkscape
+    data: ~/.var/app/org.inkscape.Inkscape/data/inkscape
+tags: [image, editor, vector, svg]

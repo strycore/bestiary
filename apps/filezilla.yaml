@@ -1,0 +1,11 @@
+name: filezilla
+display_name: FileZilla
+category: networking
+homepage: https://filezilla-project.org
+locations:
+  native:
+    config: ~/.config/filezilla
+  flatpak:
+    flatpak_id: org.filezillaproject.Filezilla
+    config: ~/.var/app/org.filezillaproject.Filezilla/config/filezilla
+tags: [ftp, sftp, networking]

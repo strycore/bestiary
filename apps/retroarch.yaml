@@ -1,0 +1,18 @@
+name: retroarch
+display_name: RetroArch
+category: gaming
+homepage: https://www.retroarch.com
+locations:
+  native:
+    config: ~/.config/retroarch
+    data: ~/.local/share/RetroArch
+    cache: ~/.cache/retroarch
+  flatpak:
+    flatpak_id: org.libretro.RetroArch
+    config: ~/.var/app/org.libretro.RetroArch/config/retroarch
+    data: ~/.var/app/org.libretro.RetroArch/data
+    cache: ~/.var/app/org.libretro.RetroArch/cache/retroarch
+backup_exclude:
+  - "thumbnails/*"
+  - "shaders/*"
+tags: [emulator, frontend, libretro]

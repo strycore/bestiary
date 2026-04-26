@@ -1,0 +1,11 @@
+name: handbrake
+display_name: HandBrake
+category: media
+homepage: https://handbrake.fr
+locations:
+  native:
+    config: ~/.config/ghb
+  flatpak:
+    flatpak_id: fr.handbrake.ghb
+    config: ~/.var/app/fr.handbrake.ghb/config/ghb
+tags: [video, transcoder]

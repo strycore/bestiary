@@ -1,0 +1,13 @@
+name: audacity
+display_name: Audacity
+category: media
+homepage: https://www.audacityteam.org
+locations:
+  native:
+    config: ~/.config/audacity
+    data: ~/.local/share/audacity
+  flatpak:
+    flatpak_id: org.audacityteam.Audacity
+    config: ~/.var/app/org.audacityteam.Audacity/config/audacity
+    data: ~/.var/app/org.audacityteam.Audacity/data/audacity
+tags: [audio, editor]

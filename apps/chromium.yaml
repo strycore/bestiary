@@ -1,0 +1,19 @@
+name: chromium
+display_name: Chromium
+category: browser
+homepage: https://www.chromium.org
+locations:
+  native:
+    config: ~/.config/chromium
+    cache: ~/.cache/chromium
+  flatpak:
+    flatpak_id: org.chromium.Chromium
+    config: ~/.var/app/org.chromium.Chromium/config/chromium
+    cache: ~/.var/app/org.chromium.Chromium/cache/chromium
+backup_exclude:
+  - "*/Cache/*"
+  - "*/Code Cache/*"
+  - "*/GPUCache/*"
+  - "*/Service Worker/*"
+  - "*/ShaderCache/*"
+tags: [browser, web]

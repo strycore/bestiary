@@ -1,0 +1,14 @@
+name: prism-launcher
+display_name: Prism Launcher
+category: gaming
+homepage: https://prismlauncher.org
+locations:
+  native:
+    data: ~/.local/share/PrismLauncher
+  flatpak:
+    flatpak_id: org.prismlauncher.PrismLauncher
+    data: ~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher
+backup_exclude:
+  - "instances/*/.minecraft/saves/*/sessionLock"
+  - "logs/*"
+tags: [games, launcher, minecraft]

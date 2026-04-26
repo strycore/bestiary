@@ -1,0 +1,16 @@
+name: pcsx2
+display_name: PCSX2
+category: gaming
+homepage: https://pcsx2.net
+locations:
+  native:
+    config: ~/.config/PCSX2
+    data: ~/.local/share/PCSX2
+  flatpak:
+    flatpak_id: net.pcsx2.PCSX2
+    config: ~/.var/app/net.pcsx2.PCSX2/config/PCSX2
+    data: ~/.var/app/net.pcsx2.PCSX2/data/PCSX2
+backup_exclude:
+  - "cache/*"
+  - "covers/*"
+tags: [emulator, ps2, console]

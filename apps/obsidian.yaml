@@ -1,0 +1,18 @@
+name: obsidian
+display_name: Obsidian
+category: productivity
+homepage: https://obsidian.md
+locations:
+  native:
+    config: ~/.config/obsidian
+    cache: ~/.config/obsidian/Cache
+  flatpak:
+    flatpak_id: md.obsidian.Obsidian
+    config: ~/.var/app/md.obsidian.Obsidian/config/obsidian
+    cache: ~/.var/app/md.obsidian.Obsidian/cache/obsidian
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+  - "Service Worker/*"
+tags: [notes, markdown, knowledge-base]

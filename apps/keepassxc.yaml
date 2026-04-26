@@ -1,0 +1,11 @@
+name: keepassxc
+display_name: KeePassXC
+category: productivity
+homepage: https://keepassxc.org
+locations:
+  native:
+    config: ~/.config/keepassxc
+  flatpak:
+    flatpak_id: org.keepassxc.KeePassXC
+    config: ~/.var/app/org.keepassxc.KeePassXC/config/keepassxc
+tags: [security, password-manager]

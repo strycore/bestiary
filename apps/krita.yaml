@@ -1,0 +1,13 @@
+name: krita
+display_name: Krita
+category: media
+homepage: https://krita.org
+locations:
+  native:
+    config: ~/.config/kritarc
+    data: ~/.local/share/krita
+  flatpak:
+    flatpak_id: org.kde.krita
+    config: ~/.var/app/org.kde.krita/config
+    data: ~/.var/app/org.kde.krita/data/krita
+tags: [image, editor, paint, digital-art]

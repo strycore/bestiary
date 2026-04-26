@@ -1,0 +1,13 @@
+name: mixxx
+display_name: Mixxx
+category: media
+homepage: https://mixxx.org
+locations:
+  native:
+    config: ~/.mixxx
+    data: ~/.local/share/mixxx
+  flatpak:
+    flatpak_id: org.mixxx.Mixxx
+    config: ~/.var/app/org.mixxx.Mixxx/config/mixxx
+    data: ~/.var/app/org.mixxx.Mixxx/data/mixxx
+tags: [audio, dj]

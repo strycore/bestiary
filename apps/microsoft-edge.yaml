@@ -1,0 +1,18 @@
+name: microsoft-edge
+display_name: Microsoft Edge
+category: browser
+homepage: https://www.microsoft.com/edge
+locations:
+  native:
+    config: ~/.config/microsoft-edge
+    cache: ~/.cache/microsoft-edge
+  flatpak:
+    flatpak_id: com.microsoft.Edge
+    config: ~/.var/app/com.microsoft.Edge/config/microsoft-edge
+    cache: ~/.var/app/com.microsoft.Edge/cache/microsoft-edge
+backup_exclude:
+  - "*/Cache/*"
+  - "*/Code Cache/*"
+  - "*/GPUCache/*"
+  - "*/Service Worker/*"
+tags: [browser, web]

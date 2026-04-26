@@ -1,0 +1,15 @@
+name: dolphin-emu
+display_name: Dolphin Emulator
+category: gaming
+homepage: https://dolphin-emu.org
+locations:
+  native:
+    config: ~/.config/dolphin-emu
+    data: ~/.local/share/dolphin-emu
+    cache: ~/.cache/dolphin-emu
+  flatpak:
+    flatpak_id: org.DolphinEmu.dolphin-emu
+    config: ~/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu
+    data: ~/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu
+    cache: ~/.var/app/org.DolphinEmu.dolphin-emu/cache/dolphin-emu
+tags: [emulator, gamecube, wii, console]

@@ -1,0 +1,14 @@
+name: gimp
+display_name: GIMP
+category: media
+homepage: https://www.gimp.org
+locations:
+  native:
+    config: ~/.config/GIMP
+    data: ~/.local/share/gimp
+  flatpak:
+    flatpak_id: org.gimp.GIMP
+    config: ~/.var/app/org.gimp.GIMP/config/GIMP
+    data: ~/.var/app/org.gimp.GIMP/data/gimp
+    cache: ~/.var/app/org.gimp.GIMP/cache/gimp
+tags: [image, editor, raster]

@@ -1,0 +1,17 @@
+name: kdenlive
+display_name: Kdenlive
+category: media
+homepage: https://kdenlive.org
+locations:
+  native:
+    config: ~/.config/kdenliverc
+    data: ~/.local/share/kdenlive
+    cache: ~/.cache/kdenlive
+  flatpak:
+    flatpak_id: org.kde.kdenlive
+    config: ~/.var/app/org.kde.kdenlive/config
+    data: ~/.var/app/org.kde.kdenlive/data/kdenlive
+    cache: ~/.var/app/org.kde.kdenlive/cache/kdenlive
+backup_exclude:
+  - "proxy/*"
+tags: [video, editor]

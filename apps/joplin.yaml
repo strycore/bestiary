@@ -1,0 +1,15 @@
+name: joplin
+display_name: Joplin
+category: productivity
+homepage: https://joplinapp.org
+locations:
+  native:
+    config: ~/.config/joplin-desktop
+  flatpak:
+    flatpak_id: net.cozic.joplin_desktop
+    config: ~/.var/app/net.cozic.joplin_desktop/config/joplin-desktop
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+tags: [notes, markdown]

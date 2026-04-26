@@ -1,0 +1,13 @@
+name: nextcloud-client
+display_name: Nextcloud Desktop Client
+category: productivity
+homepage: https://nextcloud.com/install/#install-clients
+locations:
+  native:
+    config: ~/.config/Nextcloud
+    data: ~/.local/share/Nextcloud
+  flatpak:
+    flatpak_id: com.nextcloud.desktopclient.nextcloud
+    config: ~/.var/app/com.nextcloud.desktopclient.nextcloud/config/Nextcloud
+    data: ~/.var/app/com.nextcloud.desktopclient.nextcloud/data/Nextcloud
+tags: [sync, cloud]

@@ -1,0 +1,15 @@
+name: cemu
+display_name: Cemu
+category: gaming
+homepage: https://cemu.info
+locations:
+  native:
+    config: ~/.config/Cemu
+    data: ~/.local/share/Cemu
+  flatpak:
+    flatpak_id: info.cemu.Cemu
+    config: ~/.var/app/info.cemu.Cemu/config/Cemu
+    data: ~/.var/app/info.cemu.Cemu/data/Cemu
+backup_exclude:
+  - "shaderCache/*"
+tags: [emulator, wii-u, console]

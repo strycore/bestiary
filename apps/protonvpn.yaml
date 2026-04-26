@@ -1,0 +1,11 @@
+name: protonvpn
+display_name: Proton VPN
+category: networking
+homepage: https://protonvpn.com
+locations:
+  native:
+    config: ~/.config/Proton/VPN
+  flatpak:
+    flatpak_id: com.protonvpn.www
+    config: ~/.var/app/com.protonvpn.www/config/Proton/VPN
+tags: [vpn, privacy]

@@ -1,0 +1,15 @@
+name: darktable
+display_name: darktable
+category: media
+homepage: https://www.darktable.org
+locations:
+  native:
+    config: ~/.config/darktable
+    cache: ~/.cache/darktable
+  flatpak:
+    flatpak_id: org.darktable.Darktable
+    config: ~/.var/app/org.darktable.Darktable/config/darktable
+    cache: ~/.var/app/org.darktable.Darktable/cache/darktable
+backup_exclude:
+  - "mipmaps*"
+tags: [photo, raw, workflow]

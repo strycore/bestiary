@@ -1,0 +1,13 @@
+name: ardour
+display_name: Ardour
+category: media
+homepage: https://ardour.org
+locations:
+  native:
+    config: ~/.config/ardour8
+    data: ~/.local/share/ardour8
+  flatpak:
+    flatpak_id: org.ardour.Ardour
+    config: ~/.var/app/org.ardour.Ardour/config/ardour8
+    data: ~/.var/app/org.ardour.Ardour/data/ardour8
+tags: [audio, daw, music-production]

@@ -1,0 +1,11 @@
+name: bottles
+display_name: Bottles
+category: gaming
+homepage: https://usebottles.com
+locations:
+  native:
+    data: ~/.local/share/bottles
+  flatpak:
+    flatpak_id: com.usebottles.bottles
+    data: ~/.var/app/com.usebottles.bottles/data/bottles
+tags: [wine, prefix-manager]
