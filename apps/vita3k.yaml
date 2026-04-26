@@ -5,4 +5,5 @@ homepage: https://vita3k.org
 locations:
   native:
     config: ~/.config/Vita3K
+    data: ~/.local/share/Vita3K
 tags: [emulator, ps-vita, sony]

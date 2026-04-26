@@ -1,0 +1,8 @@
+name: freesynd
+display_name: FreeSynd
+category: gaming
+homepage: https://freesynd.sourceforge.net
+locations:
+  native:
+    data: ~/.freesynd
+tags: [game, syndicate, remake]

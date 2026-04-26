@@ -1,0 +1,8 @@
+name: openclaw
+display_name: OpenClaw
+category: gaming
+homepage: https://github.com/pjasicek/OpenClaw
+locations:
+  native:
+    data: ~/.openclaw
+tags: [game, captain-claw, remake]

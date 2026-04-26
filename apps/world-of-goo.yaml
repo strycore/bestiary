@@ -1,0 +1,8 @@
+name: world-of-goo
+display_name: World of Goo
+category: gaming
+homepage: https://2dboy.com
+locations:
+  native:
+    data: ~/.WorldOfGoo
+tags: [game, puzzle, indie]

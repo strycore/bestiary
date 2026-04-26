@@ -1,0 +1,8 @@
+name: gravatar
+display_name: Gravatar (KDE cache)
+category: system
+homepage: https://en.gravatar.com
+locations:
+  native:
+    data: ~/.local/share/gravatar
+tags: [kde, avatars]

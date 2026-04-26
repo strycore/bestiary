@@ -5,4 +5,5 @@ homepage: https://www.onlyoffice.com
 locations:
   native:
     config: ~/.config/onlyoffice
+    data: ~/.local/share/onlyoffice
 tags: [office, document]

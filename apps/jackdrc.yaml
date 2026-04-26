@@ -1,0 +1,8 @@
+name: jackdrc
+display_name: JACK (legacy ~/.jackdrc)
+category: multimedia
+homepage: https://jackaudio.org
+locations:
+  native:
+    config: ~/.jackdrc
+tags: [audio, jack, legacy]

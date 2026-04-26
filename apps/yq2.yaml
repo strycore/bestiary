@@ -1,0 +1,8 @@
+name: yq2
+display_name: Yamagi Quake II
+category: gaming
+homepage: https://www.yamagi.org/quake2
+locations:
+  native:
+    data: ~/.yq2
+tags: [game, fps, quake, sourceport]

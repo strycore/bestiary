@@ -1,0 +1,8 @@
+name: remoteview
+display_name: KDE Remote View (kio)
+category: utility
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    data: ~/.local/share/remoteview
+tags: [kde, kio, remote]

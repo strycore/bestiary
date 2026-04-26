@@ -1,0 +1,8 @@
+name: ksysguard
+display_name: KSysGuard
+category: utility
+homepage: https://userbase.kde.org/KSysGuard
+locations:
+  native:
+    data: ~/.local/share/ksysguard
+tags: [kde, system-monitor]

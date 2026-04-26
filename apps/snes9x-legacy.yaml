@@ -1,0 +1,8 @@
+name: snes9x-legacy
+display_name: Snes9x (legacy home dir)
+category: gaming
+homepage: https://www.snes9x.com
+locations:
+  native:
+    data: ~/.snes9x
+tags: [emulator, snes, legacy]

@@ -1,0 +1,8 @@
+name: plasma-icons
+display_name: Plasma Icons
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasma_icons
+tags: [kde, plasma, theming]

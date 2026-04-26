@@ -1,0 +1,8 @@
+name: etqw
+display_name: Enemy Territory Quake Wars
+category: gaming
+homepage: https://www.idsoftware.com
+locations:
+  native:
+    data: ~/.etqwcl
+tags: [game, fps, quake, idsoftware]

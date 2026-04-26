@@ -5,4 +5,5 @@ homepage: https://github.com/EKA2L1/EKA2L1
 locations:
   native:
     config: ~/.config/EKA2L1
+    data: ~/.local/share/EKA2L1
 tags: [emulator, symbian, n-gage]

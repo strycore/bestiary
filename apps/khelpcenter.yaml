@@ -1,0 +1,9 @@
+name: khelpcenter
+display_name: KHelpCenter
+category: utility
+homepage: https://apps.kde.org/khelpcenter
+locations:
+  native:
+    config: ~/.config/khelpcenterrc
+    data: ~/.local/share/khelpcenter
+tags: [kde, help, documentation]

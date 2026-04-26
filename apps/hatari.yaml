@@ -1,0 +1,8 @@
+name: hatari
+display_name: Hatari
+category: gaming
+homepage: https://hatari.tuxfamily.org
+locations:
+  native:
+    data: ~/.hatari
+tags: [emulator, atari-st]

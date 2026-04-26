@@ -1,0 +1,8 @@
+name: plasmashell-data
+display_name: Plasma Shell (data dir)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasmashell
+tags: [kde, plasma, shell]

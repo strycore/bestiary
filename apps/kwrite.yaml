@@ -1,0 +1,9 @@
+name: kwrite
+display_name: KWrite
+category: development
+homepage: https://apps.kde.org/kwrite
+locations:
+  native:
+    config: ~/.config/kwriterc
+    data: ~/.local/share/kwrite
+tags: [editor, kde]

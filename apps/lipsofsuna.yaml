@@ -5,4 +5,5 @@ homepage: https://lipsofsuna.org
 locations:
   native:
     config: ~/.config/lipsofsuna
+    data: ~/.local/share/lipsofsuna
 tags: [game, rpg, online]

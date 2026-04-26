@@ -1,0 +1,8 @@
+name: doom3
+display_name: Doom 3
+category: gaming
+homepage: https://store.steampowered.com/app/9050
+locations:
+  native:
+    data: ~/.doom3
+tags: [game, fps, doom, idsoftware]

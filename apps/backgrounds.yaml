@@ -1,0 +1,8 @@
+name: backgrounds
+display_name: User Wallpapers
+category: system
+homepage: https://specifications.freedesktop.org
+locations:
+  native:
+    data: ~/.local/share/backgrounds
+tags: [wallpaper, theming]

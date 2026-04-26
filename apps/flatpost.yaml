@@ -1,0 +1,8 @@
+name: flatpost
+display_name: Flatpost
+category: utility
+homepage: https://github.com/sneexy-zsh/flatpost
+locations:
+  native:
+    data: ~/.local/share/flatpost
+tags: [flatpak, frontend]

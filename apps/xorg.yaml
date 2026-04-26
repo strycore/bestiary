@@ -1,0 +1,8 @@
+name: xorg
+display_name: Xorg (user dir)
+category: system
+homepage: https://www.x.org
+locations:
+  native:
+    data: ~/.local/share/xorg
+tags: [x11, display, server]

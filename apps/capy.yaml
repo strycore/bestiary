@@ -1,0 +1,8 @@
+name: capy
+display_name: Capy Games (saves dir)
+category: gaming
+homepage: https://capybaragames.com
+locations:
+  native:
+    data: ~/.capy
+tags: [game-publisher, capybara]

@@ -1,0 +1,8 @@
+name: quake4-legacy
+display_name: Quake 4 (legacy home dir)
+category: gaming
+homepage: https://store.steampowered.com/app/2210
+locations:
+  native:
+    data: ~/.quake4
+tags: [game, fps, quake]

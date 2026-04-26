@@ -1,0 +1,8 @@
+name: pgadmin-home
+display_name: pgAdmin (legacy home dir)
+category: development
+homepage: https://www.pgadmin.org
+locations:
+  native:
+    data: ~/.pgadmin
+tags: [database, postgresql]

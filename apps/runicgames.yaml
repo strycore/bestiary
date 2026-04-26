@@ -1,0 +1,8 @@
+name: runicgames
+display_name: Runic Games (saves dir)
+category: gaming
+homepage: https://www.runicgames.com
+locations:
+  native:
+    data: ~/.runicgames
+tags: [game-publisher, torchlight]

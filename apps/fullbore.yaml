@@ -1,0 +1,8 @@
+name: fullbore
+display_name: Full Bore
+category: gaming
+homepage: https://store.steampowered.com/app/229560
+locations:
+  native:
+    data: ~/.fullbore
+tags: [game, puzzle, indie]

@@ -5,4 +5,5 @@ homepage: https://www.supermodel3.com
 locations:
   native:
     config: ~/.config/supermodel
+    data: ~/.local/share/supermodel
 tags: [emulator, sega, model3]

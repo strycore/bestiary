@@ -5,4 +5,5 @@ homepage: https://www.amuletmc.com
 locations:
   native:
     config: ~/.config/AmuletMapEditor
+    data: ~/.local/share/AmuletMapEditor
 tags: [minecraft, editor]

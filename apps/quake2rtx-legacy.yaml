@@ -1,0 +1,8 @@
+name: quake2rtx-legacy
+display_name: Quake II RTX (legacy home dir)
+category: gaming
+homepage: https://www.nvidia.com
+locations:
+  native:
+    data: ~/.quake2rtx
+tags: [game, fps, quake, rtx]

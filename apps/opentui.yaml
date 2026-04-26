@@ -1,0 +1,8 @@
+name: opentui
+display_name: OpenTUI
+category: development
+homepage: https://github.com/sst/opentui
+locations:
+  native:
+    data: ~/.local/share/opentui
+tags: [tui, framework]

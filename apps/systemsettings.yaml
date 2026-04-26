@@ -1,0 +1,9 @@
+name: systemsettings
+display_name: KDE System Settings
+category: system
+homepage: https://userbase.kde.org/System_Settings
+locations:
+  native:
+    config: ~/.config/systemsettingsrc
+    data: ~/.local/share/systemsettings
+tags: [kde, settings]

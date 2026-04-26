@@ -1,0 +1,8 @@
+name: openrgb-app-old
+display_name: OpenRGB (legacy ~/.openrgb)
+category: utility
+homepage: https://openrgb.org
+locations:
+  native:
+    data: ~/.openrgb
+tags: [rgb, hardware]

@@ -5,4 +5,5 @@ homepage: https://shadps4.net
 locations:
   native:
     config: ~/.config/shadps4rc
+    data: ~/.local/share/shadPS4
 tags: [emulator, ps4, sony]

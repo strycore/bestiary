@@ -1,0 +1,9 @@
+name: barrier
+display_name: Barrier
+category: utility
+homepage: https://github.com/debauchee/barrier
+locations:
+  native:
+    config: ~/.config/Debauchee
+    data: ~/.local/share/barrier
+tags: [kvm, multi-machine]

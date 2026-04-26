@@ -1,0 +1,8 @@
+name: iris-installer
+display_name: Iris (Mesa shader cache installer)
+category: gaming
+homepage: https://gitlab.freedesktop.org/mesa/mesa
+locations:
+  native:
+    data: ~/.iris-installer
+tags: [mesa, shaders, gpu]

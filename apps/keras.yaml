@@ -1,0 +1,8 @@
+name: keras
+display_name: Keras
+category: development
+homepage: https://keras.io
+locations:
+  native:
+    data: ~/.keras
+tags: [python, machine-learning, ai]

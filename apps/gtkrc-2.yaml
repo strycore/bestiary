@@ -1,0 +1,10 @@
+name: gtkrc-2
+display_name: GTK 2 (legacy theme rc)
+category: system
+homepage: https://gtk.org
+locations:
+  native:
+    config: ~/.gtkrc-2.0
+  legacy:
+    config: ~/.gtkrc-2.0-kde4
+tags: [gtk, theming, legacy]

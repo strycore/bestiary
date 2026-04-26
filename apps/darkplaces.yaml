@@ -1,0 +1,8 @@
+name: darkplaces
+display_name: DarkPlaces
+category: gaming
+homepage: https://icculus.org/twilight/darkplaces
+locations:
+  native:
+    data: ~/.darkplaces
+tags: [game, fps, quake, sourceport]

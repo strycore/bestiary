@@ -1,0 +1,8 @@
+name: local-share-apps
+display_name: Application Data (legacy ~/.local/share/apps)
+category: system
+homepage: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+locations:
+  native:
+    data: ~/.local/share/apps
+tags: [xdg, kde, legacy]

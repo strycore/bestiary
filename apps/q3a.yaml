@@ -1,0 +1,8 @@
+name: q3a
+display_name: Quake III Arena
+category: gaming
+homepage: https://store.steampowered.com/app/2200
+locations:
+  native:
+    data: ~/.q3a
+tags: [game, fps, quake]

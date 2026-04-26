@@ -1,0 +1,8 @@
+name: nfs2se
+display_name: Need For Speed II SE
+category: gaming
+homepage: https://www.ea.com
+locations:
+  native:
+    data: ~/.nfs2se
+tags: [game, racing, ea]

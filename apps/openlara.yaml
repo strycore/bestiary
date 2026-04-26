@@ -1,0 +1,8 @@
+name: openlara
+display_name: OpenLara
+category: gaming
+homepage: https://github.com/XProger/OpenLara
+locations:
+  native:
+    data: ~/.openlara
+tags: [game, tomb-raider, remake]

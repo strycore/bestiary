@@ -1,0 +1,8 @@
+name: loki-grafana
+display_name: Loki (legacy home dir)
+category: development
+homepage: https://grafana.com/oss/loki
+locations:
+  native:
+    data: ~/.loki
+tags: [logging, grafana, observability]

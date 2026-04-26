@@ -1,0 +1,8 @@
+name: onlyoffice-data
+display_name: ONLYOFFICE (data dir)
+category: productivity
+homepage: https://www.onlyoffice.com
+locations:
+  native:
+    data: ~/.local/share/onlyoffice
+tags: [office, document]

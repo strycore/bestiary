@@ -1,0 +1,8 @@
+name: nv-cache
+display_name: NVIDIA Compute Cache
+category: system
+homepage: https://www.nvidia.com
+locations:
+  native:
+    cache: ~/.nv
+tags: [nvidia, gpu, cuda, cache]

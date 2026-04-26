@@ -1,0 +1,8 @@
+name: dartserver
+display_name: Dart Analysis Server
+category: development
+homepage: https://dart.dev/tools/dart-analyze
+locations:
+  native:
+    cache: ~/.dartServer
+tags: [dart, analysis, lsp]

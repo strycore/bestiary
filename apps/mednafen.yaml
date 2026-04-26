@@ -1,0 +1,8 @@
+name: mednafen
+display_name: Mednafen
+category: gaming
+homepage: https://mednafen.github.io
+locations:
+  native:
+    data: ~/.mednafen
+tags: [emulator, multi-system]

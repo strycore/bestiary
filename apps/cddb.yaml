@@ -1,0 +1,8 @@
+name: cddb
+display_name: CDDB (cache)
+category: multimedia
+homepage: https://en.wikipedia.org/wiki/CDDB
+locations:
+  native:
+    cache: ~/.cddb
+tags: [audio, cd, metadata]

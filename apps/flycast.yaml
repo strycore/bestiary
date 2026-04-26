@@ -5,4 +5,5 @@ homepage: https://github.com/flyinghead/flycast
 locations:
   native:
     config: ~/.config/flycast
+    data: ~/.local/share/flycast
 tags: [emulator, dreamcast, sega]

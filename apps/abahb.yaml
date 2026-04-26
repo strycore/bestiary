@@ -1,0 +1,8 @@
+name: abahb
+display_name: A Boy and His Blob
+category: gaming
+homepage: https://store.steampowered.com/app/281200/A_Boy_and_His_Blob
+locations:
+  native:
+    data: ~/.local/share/ABAHB
+tags: [game, platformer, indie]

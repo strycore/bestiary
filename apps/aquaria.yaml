@@ -1,0 +1,10 @@
+name: aquaria
+display_name: Aquaria
+category: gaming
+homepage: http://aquaria-game.com
+locations:
+  native:
+    data: ~/.aquaria
+  legacy:
+    data: ~/.Aquaria
+tags: [game, indie, bit-blot]

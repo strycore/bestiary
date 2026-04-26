@@ -1,0 +1,9 @@
+name: aosp
+display_name: Android Open Source Project (build env)
+category: development
+homepage: https://source.android.com
+locations:
+  native:
+    config: ~/.config/Android Open Source Project
+    data: ~/.local/share/Android Open Source Project
+tags: [android, aosp, mobile]

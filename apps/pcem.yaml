@@ -1,0 +1,8 @@
+name: pcem
+display_name: PCem
+category: gaming
+homepage: https://pcem-emulator.co.uk
+locations:
+  native:
+    data: ~/.pcem
+tags: [emulator, pc, x86]

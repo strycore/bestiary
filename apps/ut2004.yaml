@@ -1,0 +1,8 @@
+name: ut2004
+display_name: Unreal Tournament 2004
+category: gaming
+homepage: https://www.epicgames.com
+locations:
+  native:
+    data: ~/.ut2004
+tags: [game, fps, unreal-tournament]

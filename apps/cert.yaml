@@ -1,0 +1,8 @@
+name: cert
+display_name: User Certificates (legacy ~/.cert)
+category: system
+homepage: https://en.wikipedia.org/wiki/X.509
+locations:
+  native:
+    data: ~/.cert
+tags: [security, certificates, legacy]

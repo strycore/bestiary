@@ -1,0 +1,8 @@
+name: renpy
+display_name: Ren'Py
+category: gaming
+homepage: https://www.renpy.org
+locations:
+  native:
+    data: ~/.renpy
+tags: [game-engine, visual-novel]

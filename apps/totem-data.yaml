@@ -1,0 +1,8 @@
+name: totem-data
+display_name: Totem (data dir)
+category: multimedia
+homepage: https://apps.gnome.org/Totem
+locations:
+  native:
+    data: ~/.local/share/totem
+tags: [video-player, gnome]

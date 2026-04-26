@@ -4,5 +4,7 @@ category: system
 homepage: https://wiki.gnome.org
 locations:
   native:
+    data: ~/.local/share/themes
+  legacy:
     data: ~/.themes
 tags: [gtk, theming]

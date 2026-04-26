@@ -1,0 +1,8 @@
+name: warsow
+display_name: Warsow
+category: gaming
+homepage: https://www.warsow.net
+locations:
+  native:
+    data: ~/.warsow-1.5
+tags: [game, fps]

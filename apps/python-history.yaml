@@ -1,0 +1,8 @@
+name: python-history
+display_name: Python REPL history
+category: development
+homepage: https://www.python.org
+locations:
+  native:
+    state: ~/.python_history
+tags: [python, repl, history]

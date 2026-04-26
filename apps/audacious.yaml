@@ -5,4 +5,5 @@ homepage: https://audacious-media-player.org
 locations:
   native:
     config: ~/.config/audacious
+    data: ~/.local/share/audacious
 tags: [audio-player, music]

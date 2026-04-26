@@ -1,0 +1,8 @@
+name: stella
+display_name: Stella
+category: gaming
+homepage: https://stella-emu.github.io
+locations:
+  native:
+    data: ~/.stella
+tags: [emulator, atari-2600]

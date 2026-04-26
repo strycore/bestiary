@@ -5,4 +5,5 @@ homepage: https://wiki.gnome.org/Apps/Yelp
 locations:
   native:
     config: ~/.config/yelp
+    data: ~/.local/share/yelp
 tags: [help, documentation, gnome]

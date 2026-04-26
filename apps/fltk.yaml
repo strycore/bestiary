@@ -1,0 +1,8 @@
+name: fltk
+display_name: FLTK
+category: development
+homepage: https://www.fltk.org
+locations:
+  native:
+    config: ~/.fltk
+tags: [toolkit, c, gui]

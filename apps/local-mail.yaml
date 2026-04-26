@@ -1,0 +1,8 @@
+name: local-mail
+display_name: Local Mail (KDE PIM)
+category: communication
+homepage: https://userbase.kde.org/Akonadi
+locations:
+  native:
+    data: ~/.local/share/local-mail
+tags: [kde, pim, email]

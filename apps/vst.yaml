@@ -1,0 +1,8 @@
+name: vst
+display_name: VST Plugins (user dir)
+category: multimedia
+homepage: https://www.steinberg.net/technology/vst
+locations:
+  native:
+    data: ~/.vst
+tags: [audio, plugin, vst]

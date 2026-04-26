@@ -1,0 +1,8 @@
+name: wolf
+display_name: Return to Castle Wolfenstein
+category: gaming
+homepage: https://www.idsoftware.com
+locations:
+  native:
+    data: ~/.wolf
+tags: [game, fps, idsoftware]

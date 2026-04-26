@@ -1,0 +1,9 @@
+name: kcharselect
+display_name: KCharSelect
+category: utility
+homepage: https://apps.kde.org/kcharselect
+locations:
+  native:
+    config: ~/.config/kcharselectrc
+    data: ~/.local/share/kcharselect
+tags: [kde, character-picker]

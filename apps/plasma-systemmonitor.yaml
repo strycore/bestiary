@@ -1,0 +1,8 @@
+name: plasma-systemmonitor
+display_name: Plasma System Monitor
+category: utility
+homepage: https://invent.kde.org/plasma/plasma-systemmonitor
+locations:
+  native:
+    data: ~/.local/share/plasma-systemmonitor
+tags: [kde, plasma, system-monitor]

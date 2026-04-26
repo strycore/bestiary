@@ -1,0 +1,8 @@
+name: phishingurl
+display_name: KDE PhishingUrl
+category: web
+homepage: https://api.kde.org
+locations:
+  native:
+    data: ~/.local/share/phishingurl
+tags: [kde, security]

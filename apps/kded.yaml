@@ -1,0 +1,10 @@
+name: kded
+display_name: KDE Daemon (kded)
+category: system
+homepage: https://api.kde.org/frameworks/kded
+locations:
+  native:
+    data: ~/.local/share/kded6
+  legacy:
+    data: ~/.local/share/kded5
+tags: [kde, daemon]

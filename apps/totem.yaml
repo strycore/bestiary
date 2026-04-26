@@ -5,4 +5,5 @@ homepage: https://apps.gnome.org/Totem
 locations:
   native:
     config: ~/.config/totem
+    data: ~/.local/share/totem
 tags: [video-player, gnome]

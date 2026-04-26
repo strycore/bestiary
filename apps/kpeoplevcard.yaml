@@ -1,0 +1,8 @@
+name: kpeoplevcard
+display_name: KPeopleVcard
+category: communication
+homepage: https://api.kde.org/frameworks/kpeople
+locations:
+  native:
+    data: ~/.local/share/kpeoplevcard
+tags: [kde, contacts, vcard]

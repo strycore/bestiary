@@ -1,0 +1,8 @@
+name: ory-cloud
+display_name: Ory Cloud
+category: development
+homepage: https://www.ory.sh
+locations:
+  native:
+    config: ~/.ory-cloud.json
+tags: [auth, identity, cloud]

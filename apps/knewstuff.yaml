@@ -1,0 +1,8 @@
+name: knewstuff
+display_name: KNewStuff
+category: system
+homepage: https://api.kde.org/frameworks/knewstuff
+locations:
+  native:
+    data: ~/.local/share/knewstuff3
+tags: [kde, framework, content-fetcher]

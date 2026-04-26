@@ -1,0 +1,8 @@
+name: d2x-rebirth
+display_name: D2X-Rebirth (Descent 2)
+category: gaming
+homepage: https://www.dxx-rebirth.com
+locations:
+  native:
+    data: ~/.d2x-rebirth
+tags: [game, fps, descent, sourceport]

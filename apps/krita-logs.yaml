@@ -1,0 +1,8 @@
+name: krita-logs
+display_name: Krita (logs)
+category: multimedia
+homepage: https://krita.org
+locations:
+  native:
+    state: ~/.local/share/krita.log
+tags: [krita, logs]

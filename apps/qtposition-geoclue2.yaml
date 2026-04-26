@@ -1,0 +1,8 @@
+name: qtposition-geoclue2
+display_name: Qt Positioning (Geoclue2)
+category: system
+homepage: https://doc.qt.io/qt-6/qtpositioning-index.html
+locations:
+  native:
+    data: ~/.local/share/qtposition-geoclue2
+tags: [qt, geolocation]

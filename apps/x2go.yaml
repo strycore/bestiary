@@ -1,0 +1,9 @@
+name: x2go
+display_name: X2Go
+category: communication
+homepage: https://wiki.x2go.org
+locations:
+  native:
+    config: ~/.x2goclient
+    data: ~/.x2go
+tags: [remote-desktop, ssh]

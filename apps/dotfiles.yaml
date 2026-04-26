@@ -1,0 +1,8 @@
+name: dotfiles
+display_name: User Dotfiles Repo
+category: development
+homepage: https://dotfiles.github.io
+locations:
+  native:
+    data: ~/.dotfiles
+tags: [dotfiles, vcs]

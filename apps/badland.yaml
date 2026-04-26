@@ -1,0 +1,8 @@
+name: badland
+display_name: BADLAND
+category: gaming
+homepage: https://store.steampowered.com/app/261030
+locations:
+  native:
+    data: ~/.BADLAND
+tags: [game, action, frogmind]

@@ -1,0 +1,8 @@
+name: jk2
+display_name: Jedi Knight II (Jedi Outcast)
+category: gaming
+homepage: https://store.steampowered.com/app/6030
+locations:
+  native:
+    data: ~/.jk2
+tags: [game, fps, star-wars]

@@ -5,4 +5,5 @@ homepage: https://openrazer.github.io
 locations:
   native:
     config: ~/.config/openrazer
+    data: ~/.local/share/openrazer
 tags: [razer, hardware, peripheral]

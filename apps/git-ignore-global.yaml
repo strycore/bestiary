@@ -1,0 +1,8 @@
+name: git-ignore-global
+display_name: Git (global gitignore)
+category: development
+homepage: https://git-scm.com
+locations:
+  native:
+    config: ~/.gitignore_global
+tags: [git, gitignore]

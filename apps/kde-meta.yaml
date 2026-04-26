@@ -1,0 +1,8 @@
+name: kde-meta
+display_name: KDE (data dir)
+category: system
+homepage: https://kde.org
+locations:
+  native:
+    data: ~/.local/share/KDE
+tags: [kde, plasma, framework]

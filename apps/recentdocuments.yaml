@@ -1,0 +1,8 @@
+name: recentdocuments
+display_name: KDE Recent Documents
+category: system
+homepage: https://api.kde.org/frameworks/krecentdocuments
+locations:
+  native:
+    data: ~/.local/share/RecentDocuments
+tags: [kde, recents]

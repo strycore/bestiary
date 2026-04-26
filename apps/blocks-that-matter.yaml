@@ -1,0 +1,8 @@
+name: blocks-that-matter
+display_name: Blocks That Matter
+category: gaming
+homepage: https://store.steampowered.com/app/111800
+locations:
+  native:
+    data: ~/.BlocksThatMatterUserDatas
+tags: [game, puzzle, indie]

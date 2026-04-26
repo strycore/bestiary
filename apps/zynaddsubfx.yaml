@@ -1,0 +1,9 @@
+name: zynaddsubfx
+display_name: ZynAddSubFX
+category: multimedia
+homepage: https://zynaddsubfx.sourceforge.io
+locations:
+  native:
+    config: ~/.zynaddsubfxXML.cfg
+    cache: ~/.zynaddsubfx-bank-cache.xml
+tags: [synth, audio, music-production]

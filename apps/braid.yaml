@@ -1,0 +1,8 @@
+name: braid
+display_name: Braid
+category: gaming
+homepage: https://store.steampowered.com/app/26800
+locations:
+  native:
+    data: ~/.braid
+tags: [game, puzzle, platformer]

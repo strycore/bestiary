@@ -1,0 +1,9 @@
+name: kmenuedit
+display_name: KMenuEdit
+category: utility
+homepage: https://userbase.kde.org/KMenuEdit
+locations:
+  native:
+    config: ~/.config/kmenueditrc
+    data: ~/.local/share/kmenuedit
+tags: [kde, menu-editor]

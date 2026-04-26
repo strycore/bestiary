@@ -1,0 +1,8 @@
+name: dgen
+display_name: DGen
+category: gaming
+homepage: https://github.com/dgen/dgen
+locations:
+  native:
+    data: ~/.dgen
+tags: [emulator, sega, genesis]

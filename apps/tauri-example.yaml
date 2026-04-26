@@ -1,0 +1,9 @@
+name: tauri-example
+display_name: Tauri (example app data)
+category: development
+homepage: https://tauri.app
+locations:
+  native:
+    data: ~/.local/share/example-tauri
+    config: ~/.local/share/com.tauri-app.app
+tags: [tauri, framework]

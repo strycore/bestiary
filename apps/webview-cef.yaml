@@ -1,0 +1,8 @@
+name: webview-cef
+display_name: WebView CEF (Flutter plugin)
+category: development
+homepage: https://github.com/HackerHappyStone/flutter_webview_cef
+locations:
+  native:
+    data: ~/.local/share/webview_cef
+tags: [flutter, webview, cef]

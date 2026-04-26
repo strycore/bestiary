@@ -1,0 +1,9 @@
+name: kcalc
+display_name: KCalc
+category: utility
+homepage: https://apps.kde.org/kcalc
+locations:
+  native:
+    config: ~/.config/kcalcrc
+    data: ~/.local/share/kcalc
+tags: [kde, calculator]

@@ -1,0 +1,8 @@
+name: plasma-sessionrestore
+display_name: Plasma Session Restore
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasmasessionrestore
+tags: [kde, plasma, session]

@@ -1,0 +1,8 @@
+name: prey
+display_name: Prey
+category: gaming
+homepage: https://store.steampowered.com/app/3970
+locations:
+  native:
+    data: ~/.prey
+tags: [game, fps]

@@ -1,0 +1,9 @@
+name: vscode-sqltools
+display_name: SQLTools (VS Code extension)
+category: development
+homepage: https://vscode-sqltools.mteixeira.dev
+locations:
+  native:
+    config: ~/.config/vscode-sqltools
+    data: ~/.local/share/vscode-sqltools
+tags: [vscode, sql, database]

@@ -1,0 +1,8 @@
+name: kinfocenter
+display_name: KInfoCenter
+category: utility
+homepage: https://apps.kde.org/kinfocenter
+locations:
+  native:
+    data: ~/.local/share/kinfocenter
+tags: [kde, system-info]

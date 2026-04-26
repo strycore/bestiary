@@ -1,0 +1,8 @@
+name: mercurial
+display_name: Mercurial
+category: development
+homepage: https://www.mercurial-scm.org
+locations:
+  native:
+    config: ~/.hgrc
+tags: [vcs, version-control, hg]

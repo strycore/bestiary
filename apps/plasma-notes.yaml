@@ -1,0 +1,8 @@
+name: plasma-notes
+display_name: Plasma Notes
+category: productivity
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasma_notes
+tags: [kde, plasma, widget, notes]

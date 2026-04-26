@@ -1,0 +1,8 @@
+name: xonotic
+display_name: Xonotic
+category: gaming
+homepage: https://www.xonotic.org
+locations:
+  native:
+    data: ~/.xonotic
+tags: [game, fps, opensource]

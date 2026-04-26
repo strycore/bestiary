@@ -5,4 +5,5 @@ homepage: https://apps.kde.org/ark
 locations:
   native:
     config: ~/.config/arkrc
+    data: ~/.local/share/ark
 tags: [archive, kde]

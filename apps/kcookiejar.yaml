@@ -1,0 +1,8 @@
+name: kcookiejar
+display_name: KCookieJar
+category: web
+homepage: https://api.kde.org/frameworks/kio
+locations:
+  native:
+    data: ~/.local/share/kcookiejar
+tags: [kde, cookies, kio]

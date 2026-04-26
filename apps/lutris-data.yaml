@@ -1,0 +1,8 @@
+name: lutris-data
+display_name: Lutris (XDG data dir)
+category: gaming
+homepage: https://lutris.net
+locations:
+  native:
+    data: ~/.local/share/net.lutris.Lutris
+tags: [lutris, game-launcher]

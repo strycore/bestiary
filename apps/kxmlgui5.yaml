@@ -1,0 +1,8 @@
+name: kxmlgui5
+display_name: KXmlGui (per-app shortcuts)
+category: system
+homepage: https://api.kde.org/frameworks/kxmlgui
+locations:
+  native:
+    data: ~/.local/share/kxmlgui5
+tags: [kde, framework, shortcuts]

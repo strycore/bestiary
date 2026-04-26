@@ -1,0 +1,8 @@
+name: utpg
+display_name: Unreal Tournament (UTPG)
+category: gaming
+homepage: https://www.utpg.org
+locations:
+  native:
+    data: ~/.utpg
+tags: [game, fps, unreal-tournament]

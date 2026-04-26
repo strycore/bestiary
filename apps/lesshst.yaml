@@ -1,0 +1,8 @@
+name: lesshst
+display_name: less (history)
+category: utility
+homepage: https://www.greenwoodsoftware.com/less
+locations:
+  native:
+    state: ~/.lesshst
+tags: [pager, cli, history]

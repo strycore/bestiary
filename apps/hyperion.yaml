@@ -1,8 +1,10 @@
 name: hyperion
-display_name: Hyperion (ambient lighting)
-category: utility
-homepage: https://www.hyperion-project.org
+display_name: Hyperion Entertainment (saves dir)
+category: gaming
+homepage: https://www.hyperion-entertainment.com
 locations:
   native:
     data: ~/.local/share/hyperion
-tags: [ambient-lighting, ledstrip]
+  legacy:
+    data: ~/.hyperion
+tags: [game-publisher, linux-games]

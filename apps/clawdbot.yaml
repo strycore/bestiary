@@ -1,0 +1,8 @@
+name: clawdbot
+display_name: ClawdBot
+category: utility
+homepage: https://github.com
+locations:
+  native:
+    data: ~/.clawdbot
+tags: [bot]

@@ -1,0 +1,8 @@
+name: d1x-rebirth
+display_name: D1X-Rebirth (Descent 1)
+category: gaming
+homepage: https://www.dxx-rebirth.com
+locations:
+  native:
+    data: ~/.d1x-rebirth
+tags: [game, fps, descent, sourceport]

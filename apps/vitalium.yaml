@@ -1,0 +1,8 @@
+name: vitalium
+display_name: Vitalium
+category: multimedia
+homepage: https://github.com/DISTRHO/DISTRHO-Ports
+locations:
+  native:
+    data: ~/.vitalium
+tags: [synth, audio, vst]

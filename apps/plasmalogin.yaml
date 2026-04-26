@@ -1,0 +1,8 @@
+name: plasmalogin
+display_name: Plasma Login
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasmalogin
+tags: [kde, plasma, sddm]

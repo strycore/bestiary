@@ -1,0 +1,8 @@
+name: lmms-home
+display_name: LMMS (legacy home config)
+category: multimedia
+homepage: https://lmms.io
+locations:
+  native:
+    config: ~/.lmmsrc.xml
+tags: [lmms, music-production]

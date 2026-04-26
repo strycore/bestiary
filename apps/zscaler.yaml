@@ -1,0 +1,8 @@
+name: zscaler
+display_name: Zscaler
+category: communication
+homepage: https://www.zscaler.com
+locations:
+  native:
+    data: ~/.Zscaler
+tags: [vpn, security, enterprise]

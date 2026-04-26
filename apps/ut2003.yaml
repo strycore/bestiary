@@ -1,0 +1,8 @@
+name: ut2003
+display_name: Unreal Tournament 2003
+category: gaming
+homepage: https://www.epicgames.com
+locations:
+  native:
+    data: ~/.ut2003
+tags: [game, fps, unreal-tournament]

@@ -1,0 +1,8 @@
+name: plastic-scm
+display_name: Plastic SCM
+category: development
+homepage: https://www.plasticscm.com
+locations:
+  native:
+    data: ~/.plastic4
+tags: [vcs, version-control]

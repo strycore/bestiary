@@ -1,0 +1,9 @@
+name: kopete
+display_name: Kopete
+category: communication
+homepage: https://userbase.kde.org/Kopete
+locations:
+  native:
+    config: ~/.config/kopeterc
+    data: ~/.local/share/kopete
+tags: [kde, chat, messenger]

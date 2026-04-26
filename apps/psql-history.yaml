@@ -1,0 +1,8 @@
+name: psql-history
+display_name: psql (history)
+category: development
+homepage: https://www.postgresql.org/docs/current/app-psql.html
+locations:
+  native:
+    state: ~/.psql_history
+tags: [postgresql, cli, history]

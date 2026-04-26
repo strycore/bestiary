@@ -1,0 +1,8 @@
+name: rbdoom3bfg
+display_name: RBDOOM-3-BFG
+category: gaming
+homepage: https://github.com/RobertBeckebans/RBDOOM-3-BFG
+locations:
+  native:
+    data: ~/.rbdoom3bfg
+tags: [game, fps, doom, sourceport]

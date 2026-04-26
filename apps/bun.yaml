@@ -1,0 +1,8 @@
+name: bun
+display_name: Bun
+category: development
+homepage: https://bun.sh
+locations:
+  native:
+    data: ~/.bun
+tags: [javascript, runtime, package-manager]

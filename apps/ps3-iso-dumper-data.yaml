@@ -1,0 +1,8 @@
+name: ps3-iso-dumper-data
+display_name: PS3 ISO Dumper (data dir)
+category: gaming
+homepage: https://github.com/13xforever/ps3-disc-dumper
+locations:
+  native:
+    data: ~/.local/share/ps3-iso-dumper
+tags: [ps3, iso, dumping]

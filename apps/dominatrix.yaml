@@ -1,0 +1,8 @@
+name: dominatrix
+display_name: Dominatrix (SiN reimplementation)
+category: gaming
+homepage: https://github.com/rohit-n/dominatrix
+locations:
+  native:
+    data: ~/.local/share/dominatrix
+tags: [game, fps, sin, reimplementation]

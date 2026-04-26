@@ -1,0 +1,8 @@
+name: kde-legacy
+display_name: KDE (legacy ~/.kde dir)
+category: system
+homepage: https://kde.org
+locations:
+  native:
+    data: ~/.kde
+tags: [kde, plasma, legacy]

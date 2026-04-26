@@ -1,0 +1,8 @@
+name: nobara-sync
+display_name: Nobara Sync (log)
+category: system
+homepage: https://nobaraproject.org
+locations:
+  native:
+    state: ~/.nobara-sync.log
+tags: [nobara, fedora, updater, logs]

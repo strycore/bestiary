@@ -1,0 +1,8 @@
+name: libkunitconversion
+display_name: KUnitConversion
+category: system
+homepage: https://api.kde.org/frameworks/kunitconversion
+locations:
+  native:
+    data: ~/.local/share/libkunitconversion
+tags: [kde, framework]

@@ -1,0 +1,8 @@
+name: gphoto
+display_name: gPhoto2
+category: multimedia
+homepage: http://www.gphoto.org
+locations:
+  native:
+    config: ~/.gphoto
+tags: [camera, photos]

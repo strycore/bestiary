@@ -1,0 +1,8 @@
+name: citra-legacy
+display_name: Citra (legacy home dir)
+category: gaming
+homepage: https://citra-emu.org
+locations:
+  native:
+    data: ~/.citra
+tags: [emulator, 3ds, nintendo, legacy]

@@ -1,0 +1,8 @@
+name: plasma-engine-comic
+display_name: Plasma Comic Engine
+category: utility
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasma_engine_comic
+tags: [kde, plasma, widget]

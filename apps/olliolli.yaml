@@ -1,0 +1,8 @@
+name: olliolli
+display_name: OlliOlli
+category: gaming
+homepage: https://store.steampowered.com/app/272250
+locations:
+  native:
+    data: ~/.olliolli
+tags: [game, skateboarding, indie]

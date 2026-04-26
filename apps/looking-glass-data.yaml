@@ -1,0 +1,8 @@
+name: looking-glass-data
+display_name: Looking Glass (data dir)
+category: utility
+homepage: https://looking-glass.io
+locations:
+  native:
+    data: ~/.local/share/looking-glass
+tags: [vfio, vm, gpu-passthrough]

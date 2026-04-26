@@ -1,0 +1,8 @@
+name: node-history
+display_name: Node.js REPL history
+category: development
+homepage: https://nodejs.org
+locations:
+  native:
+    state: ~/.node_repl_history
+tags: [nodejs, repl, history]

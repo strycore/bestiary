@@ -1,0 +1,8 @@
+name: keras-ocr
+display_name: keras-ocr
+category: development
+homepage: https://github.com/faustomorales/keras-ocr
+locations:
+  native:
+    data: ~/.keras-ocr
+tags: [python, ocr, ai]

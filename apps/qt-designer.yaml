@@ -1,0 +1,8 @@
+name: qt-designer
+display_name: Qt Designer (legacy)
+category: development
+homepage: https://doc.qt.io/qt-6/qtdesigner-manual.html
+locations:
+  native:
+    config: ~/.designer
+tags: [qt, ui-designer]
