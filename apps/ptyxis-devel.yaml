@@ -1,8 +1,0 @@
-name: ptyxis-devel
-display_name: Ptyxis (Devel build)
-category: development
-homepage: https://devsuite.app/ptyxis
-locations:
-  native:
-    data: ~/.var/app/org.gnome.Ptyxis.Devel
-tags: [terminal, gnome]

@@ -4,6 +4,17 @@ category: communication
 homepage: https://apps.kde.org/kmail2
 locations:
   native:
-    config: ~/.config/kmail2rc
+    config:
+    - ~/.config/kmail2rc
+    - ~/.config/kmail.antispamrc
+    - ~/.config/kmail.antivirusrc
+    - ~/.config/kmailsearchindexingrc
+    - ~/.config/emaildefaults
+    - ~/.config/emailidentities
+    - ~/.config/specialmailcollectionsrc
+    - ~/.config/eventviewsrc
     data: ~/.local/share/kmail2
-tags: [email, kde, pim]
+tags:
+- email
+- kde
+- pim

@@ -4,5 +4,9 @@ category: gaming
 homepage: https://fs-uae.net
 locations:
   native:
-    config: ~/.config/fs-uae-launcher
-tags: [emulator, amiga]
+    config:
+    - ~/.config/fs-uae-launcher
+    - ~/.config/fs-uae-launcherrc
+tags:
+- emulator
+- amiga

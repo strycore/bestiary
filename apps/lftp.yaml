@@ -5,4 +5,8 @@ homepage: https://lftp.yar.ru
 locations:
   native:
     config: ~/.config/lftp
-tags: [ftp, cli, file-transfer]
+    data: ~/.local/share/lftp
+tags:
+- ftp
+- cli
+- file-transfer

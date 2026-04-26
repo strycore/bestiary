@@ -5,4 +5,9 @@ homepage: https://store.steampowered.com/app/2210/Quake_4
 locations:
   native:
     data: ~/.local/share/quake4
-tags: [game, fps, quake]
+  legacy:
+    data: ~/.quake4
+tags:
+- game
+- fps
+- quake

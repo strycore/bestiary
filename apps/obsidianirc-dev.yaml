@@ -1,8 +1,0 @@
-name: obsidianirc-dev
-display_name: ObsidianIRC (dev build)
-category: communication
-homepage: https://github.com/ObsidianIRC/ObsidianIRC
-locations:
-  native:
-    data: ~/.local/share/com.obsidianirc.dev
-tags: [irc, chat, dev]

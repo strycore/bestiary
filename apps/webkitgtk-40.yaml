@@ -1,8 +1,0 @@
-name: webkitgtk-40
-display_name: WebKitGTK 4.0 (data)
-category: system
-homepage: https://webkitgtk.org
-locations:
-  native:
-    data: ~/.local/share/webkitgtk-4.0
-tags: [webkitgtk]

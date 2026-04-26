@@ -4,7 +4,12 @@ category: system
 homepage: https://kde.org/plasma-desktop
 locations:
   native:
-    config: ~/.config/KDE
+    config:
+    - ~/.config/KDE
+    - ~/.config/plasmarc
     data: ~/.local/share/plasma
     state: ~/.local/state/plasma
-tags: [desktop-environment, kde, plasma]
+tags:
+- desktop-environment
+- kde
+- plasma

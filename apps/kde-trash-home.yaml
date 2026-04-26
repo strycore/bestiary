@@ -1,8 +1,0 @@
-name: kde-trash-home
-display_name: KDE Trash (legacy ~/.Trash)
-category: system
-homepage: https://api.kde.org/frameworks/kio
-locations:
-  native:
-    data: ~/.Trash
-tags: [kde, trash]

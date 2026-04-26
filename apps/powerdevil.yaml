@@ -4,5 +4,10 @@ category: system
 homepage: https://kde.org/plasma-desktop
 locations:
   native:
-    config: ~/.config/powerdevilrc
-tags: [kde, plasma, power]
+    config:
+    - ~/.config/powerdevilrc
+    - ~/.config/powerdevil.notifyrc
+tags:
+- kde
+- plasma
+- power

@@ -1,8 +1,0 @@
-name: shadps4-qtlauncher
-display_name: shadPS4 Qt Launcher
-category: gaming
-homepage: https://shadps4.net
-locations:
-  native:
-    data: ~/.local/share/shadPS4QtLauncher
-tags: [emulator, ps4]

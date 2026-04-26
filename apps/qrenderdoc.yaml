@@ -1,8 +1,0 @@
-name: qrenderdoc
-display_name: RenderDoc
-category: development
-homepage: https://renderdoc.org
-locations:
-  native:
-    data: ~/.local/share/qrenderdoc
-tags: [graphics, debugging, vulkan]

@@ -1,8 +1,0 @@
-name: soffice
-display_name: LibreOffice (rc)
-category: productivity
-homepage: https://www.libreoffice.org
-locations:
-  native:
-    config: ~/.config/soffice.binrc
-tags: [libreoffice, office]

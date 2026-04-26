@@ -4,10 +4,19 @@ category: media
 homepage: https://krita.org
 locations:
   native:
-    config: ~/.config/kritarc
+    config:
+    - ~/.config/kritarc
+    - ~/.config/kritadisplayrc
     data: ~/.local/share/krita
+    state:
+    - ~/.local/share/krita.log
+    - ~/.local/share/krita-sysinfo.log
   flatpak:
     flatpak_id: org.kde.krita
     config: ~/.var/app/org.kde.krita/config
     data: ~/.var/app/org.kde.krita/data/krita
-tags: [image, editor, paint, digital-art]
+tags:
+- image
+- editor
+- paint
+- digital-art

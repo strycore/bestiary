@@ -5,4 +5,9 @@ homepage: https://grafana.com/oss/loki
 locations:
   native:
     data: ~/.local/share/loki
-tags: [logging, grafana, observability]
+  legacy:
+    data: ~/.loki
+tags:
+- logging
+- grafana
+- observability

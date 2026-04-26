@@ -5,4 +5,10 @@ homepage: https://yaak.app
 locations:
   native:
     config: ~/.config/app.yaak.desktop
-tags: [api, http, testing]
+    data:
+    - ~/.local/share/yaak-app
+    - ~/.local/share/app.yaak.desktop
+tags:
+- api
+- http
+- testing

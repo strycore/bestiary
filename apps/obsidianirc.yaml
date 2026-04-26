@@ -4,5 +4,9 @@ category: communication
 homepage: https://github.com/ObsidianIRC/ObsidianIRC
 locations:
   native:
-    data: ~/.local/share/ObsidianIRC
-tags: [irc, chat]
+    data:
+    - ~/.local/share/ObsidianIRC
+    - ~/.local/share/com.obsidianirc.dev
+tags:
+- irc
+- chat

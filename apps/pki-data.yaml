@@ -1,8 +1,0 @@
-name: pki-data
-display_name: PKI (XDG data dir)
-category: system
-homepage: https://en.wikipedia.org/wiki/Public_key_infrastructure
-locations:
-  native:
-    data: ~/.local/share/pki
-tags: [security, certificates]

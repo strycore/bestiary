@@ -5,4 +5,8 @@ homepage: https://github.com/13xforever/ps3-disc-dumper
 locations:
   native:
     config: ~/.config/ps3-iso-dumper
-tags: [ps3, iso, dumping]
+    data: ~/.local/share/ps3-iso-dumper
+tags:
+- ps3
+- iso
+- dumping

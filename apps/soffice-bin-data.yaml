@@ -1,8 +1,0 @@
-name: soffice-bin-data
-display_name: LibreOffice (data dir)
-category: productivity
-homepage: https://www.libreoffice.org
-locations:
-  native:
-    data: ~/.local/share/soffice.bin
-tags: [libreoffice, office]

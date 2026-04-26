@@ -12,7 +12,9 @@ locations:
     - ~/.config/katevirc
     - ~/.config/kate
     data: ~/.local/share/kate
-    state: ~/.local/state/katestaterc
+    state:
+    - ~/.local/state/katestaterc
+    - ~/.local/state/UserFeedback.org.kde.kate
 tags:
 - editor
 - kde

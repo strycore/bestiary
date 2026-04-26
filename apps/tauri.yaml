@@ -1,0 +1,10 @@
+name: tauri
+display_name: Tauri (home dir)
+category: development
+homepage: https://tauri.app
+locations:
+  native:
+    data: ~/.tauri
+tags:
+- tauri
+- framework

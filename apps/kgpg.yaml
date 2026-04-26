@@ -1,0 +1,10 @@
+name: kgpg
+display_name: KGpg (state)
+category: productivity
+homepage: https://apps.kde.org/kgpg
+locations:
+  native:
+    state: ~/.local/state/kgpgstaterc
+tags:
+- kde
+- gpg

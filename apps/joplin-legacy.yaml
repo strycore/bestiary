@@ -1,8 +1,0 @@
-name: joplin-legacy
-display_name: Joplin (legacy home dir)
-category: productivity
-homepage: https://joplinapp.org
-locations:
-  native:
-    data: ~/.joplin
-tags: [notes, markdown]

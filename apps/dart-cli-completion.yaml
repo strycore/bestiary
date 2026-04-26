@@ -1,8 +1,0 @@
-name: dart-cli-completion
-display_name: Dart CLI completion
-category: development
-homepage: https://dart.dev
-locations:
-  native:
-    config: ~/.dart-cli-completion
-tags: [dart, completion]

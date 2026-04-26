@@ -5,4 +5,8 @@ homepage: https://www.gnu.org/software/wget
 locations:
   native:
     data: ~/.local/share/wget
-tags: [downloader, cli, http]
+    state: ~/.wget-hsts
+tags:
+- downloader
+- cli
+- http

@@ -4,5 +4,10 @@ category: development
 homepage: https://dotnet.microsoft.com
 locations:
   native:
-    data: ~/.local/share/dotnet
-tags: [dotnet, runtime, microsoft]
+    data:
+    - ~/.local/share/dotnet
+    - ~/.dotnet
+tags:
+- dotnet
+- runtime
+- microsoft

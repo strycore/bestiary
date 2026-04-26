@@ -5,4 +5,8 @@ homepage: https://github.com/flightlessmango/MangoHud
 locations:
   native:
     config: ~/.config/MangoHud
-tags: [overlay, gaming, performance]
+    state: ~/.mangoapp-stdout.log
+tags:
+- overlay
+- gaming
+- performance

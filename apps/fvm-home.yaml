@@ -1,8 +1,0 @@
-name: fvm-home
-display_name: FVM (Flutter Version Management home)
-category: development
-homepage: https://fvm.app
-locations:
-  native:
-    data: ~/.fvm_flutter
-tags: [flutter, dart, version-manager]

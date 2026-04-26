@@ -7,11 +7,14 @@ locations:
     config: ~/.steam
     data: ~/.local/share/Steam
     state:
-      - ~/.steampid
-      - ~/.steampath
+    - ~/.steampid
+    - ~/.steampath
+    - ~/.steam-stdout.log
 backup_exclude:
-  - "appcache/*"
-  - "steamapps/downloading/*"
-  - "logs/*"
-  - "package/*"
-tags: [valve, game-launcher]
+- appcache/*
+- steamapps/downloading/*
+- logs/*
+- package/*
+tags:
+- valve
+- game-launcher

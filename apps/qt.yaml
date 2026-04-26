@@ -4,5 +4,13 @@ category: system
 homepage: https://www.qt.io
 locations:
   native:
-    config: ~/.config/QtProject
-tags: [toolkit, qt]
+    config:
+    - ~/.config/QtProject
+    - ~/.config/QtProject.conf
+    - ~/.config/Trolltech.conf
+    - ~/.config/Unknown Organization
+  legacy:
+    config: ~/.qt
+tags:
+- toolkit
+- qt

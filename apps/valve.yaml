@@ -5,4 +5,8 @@ homepage: https://www.valvesoftware.com
 locations:
   native:
     config: ~/.config/Valve
-tags: [valve, steam, source]
+    data: ~/.local/share/Valve Corporation
+tags:
+- valve
+- steam
+- source

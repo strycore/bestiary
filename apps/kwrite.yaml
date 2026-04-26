@@ -8,7 +8,9 @@ locations:
     - ~/.config/kwriterc
     - ~/.config/kwritemetainfos
     data: ~/.local/share/kwrite
-    state: ~/.local/state/kwritestaterc
+    state:
+    - ~/.local/state/kwritestaterc
+    - ~/.local/state/UserFeedback.org.kde.kwrite
 tags:
 - editor
 - kde

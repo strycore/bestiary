@@ -5,4 +5,8 @@ homepage: https://virtualenv.pypa.io
 locations:
   native:
     data: ~/.local/share/virtualenv
-tags: [python, environments]
+  legacy:
+    data: ~/.virtualenvs
+tags:
+- python
+- environments

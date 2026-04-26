@@ -1,8 +1,0 @@
-name: dotnet-home
-display_name: .NET (user dir)
-category: development
-homepage: https://dotnet.microsoft.com
-locations:
-  native:
-    data: ~/.dotnet
-tags: [dotnet, runtime, microsoft]

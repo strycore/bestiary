@@ -4,6 +4,12 @@ category: development
 homepage: https://yarnpkg.com
 locations:
   native:
-    config: ~/.config/yarn
+    config:
+    - ~/.config/yarn
+    - ~/.yarnrc
     cache: ~/.cache/yarn
-tags: [javascript, package-manager, npm]
+    data: ~/.yarn
+tags:
+- javascript
+- package-manager
+- npm

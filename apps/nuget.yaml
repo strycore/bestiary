@@ -5,4 +5,9 @@ homepage: https://www.nuget.org
 locations:
   native:
     config: ~/.config/NuGet
-tags: [dotnet, package-manager]
+    data:
+    - ~/.nuget
+    - ~/.local/share/NuGet
+tags:
+- dotnet
+- package-manager

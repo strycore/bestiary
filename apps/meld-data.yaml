@@ -1,8 +1,0 @@
-name: meld-data
-display_name: Meld (data dir)
-category: development
-homepage: https://meldmerge.org
-locations:
-  native:
-    data: ~/.local/share/meld
-tags: [diff, merge, gnome]

@@ -6,4 +6,8 @@ locations:
   native:
     config: ~/.config/korganizerrc
     data: ~/.local/share/korganizer
-tags: [calendar, kde, pim]
+    state: ~/.local/state/UserFeedback.org.kde.korganizer
+tags:
+- calendar
+- kde
+- pim

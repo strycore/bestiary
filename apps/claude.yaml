@@ -5,6 +5,11 @@ homepage: https://claude.ai
 locations:
   native:
     config: ~/.claude.json
-    state: ~/.claude
+    state:
+    - ~/.claude
+    - ~/.local/state/claude
     data: ~/.local/share/claude
-tags: [ai, anthropic, agent]
+tags:
+- ai
+- anthropic
+- agent

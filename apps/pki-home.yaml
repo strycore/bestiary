@@ -1,8 +1,0 @@
-name: pki-home
-display_name: PKI (user)
-category: system
-homepage: https://en.wikipedia.org/wiki/Public_key_infrastructure
-locations:
-  native:
-    data: ~/.pki
-tags: [security, certificates, nss]

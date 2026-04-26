@@ -1,8 +1,0 @@
-name: userfeedback-kate
-display_name: KDE UserFeedback (Kate)
-category: development
-homepage: https://kate-editor.org
-locations:
-  native:
-    state: ~/.local/state/UserFeedback.org.kde.kate
-tags: [kde, telemetry]

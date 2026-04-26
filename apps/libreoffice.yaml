@@ -4,8 +4,14 @@ category: productivity
 homepage: https://www.libreoffice.org
 locations:
   native:
-    config: ~/.config/libreoffice
+    config:
+    - ~/.config/libreoffice
+    - ~/.config/soffice.binrc
+    data: ~/.local/share/soffice.bin
+    state: ~/.local/state/soffice.binstaterc
 backup_exclude:
-  - "*/user/backup/*"
-  - "*/user/extensions/bundled/*"
-tags: [office, document]
+- '*/user/backup/*'
+- '*/user/extensions/bundled/*'
+tags:
+- office
+- document

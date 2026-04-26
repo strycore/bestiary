@@ -9,4 +9,9 @@ locations:
   flatpak:
     flatpak_id: org.hydrogenmusic.Hydrogen
     data: ~/.var/app/org.hydrogenmusic.Hydrogen
-tags: [drum-machine, audio, music-production]
+  legacy:
+    data: ~/.hydrogen
+tags:
+- drum-machine
+- audio
+- music-production

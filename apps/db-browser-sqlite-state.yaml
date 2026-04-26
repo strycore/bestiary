@@ -1,8 +1,0 @@
-name: db-browser-sqlite-state
-display_name: DB Browser for SQLite (state)
-category: development
-homepage: https://sqlitebrowser.org
-locations:
-  native:
-    state: ~/.local/state/DB Browser for SQLitestaterc
-tags: [sqlite, database]

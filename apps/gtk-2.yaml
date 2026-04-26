@@ -1,8 +1,0 @@
-name: gtk-2
-display_name: GTK 2
-category: system
-homepage: https://gtk.org
-locations:
-  native:
-    config: ~/.config/gtk-2.0
-tags: [gtk, theming]

@@ -5,5 +5,11 @@ homepage: https://lmstudio.ai
 locations:
   native:
     config: ~/.config/LM Studio
-    data: ~/.cache/lm-studio
-tags: [ai, llm, local]
+    data:
+    - ~/.cache/lm-studio
+    - ~/.lmstudio
+    state: ~/.lmstudio-home-pointer
+tags:
+- ai
+- llm
+- local

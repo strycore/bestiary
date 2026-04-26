@@ -8,8 +8,12 @@ locations:
   flatpak:
     flatpak_id: net.cozic.joplin_desktop
     config: ~/.var/app/net.cozic.joplin_desktop/config/joplin-desktop
+  legacy:
+    data: ~/.joplin
 backup_exclude:
-  - "Cache/*"
-  - "GPUCache/*"
-  - "Code Cache/*"
-tags: [notes, markdown]
+- Cache/*
+- GPUCache/*
+- Code Cache/*
+tags:
+- notes
+- markdown

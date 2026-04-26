@@ -1,8 +1,0 @@
-name: lftp-home
-display_name: lftp (user data dir)
-category: utility
-homepage: https://lftp.yar.ru
-locations:
-  native:
-    data: ~/.local/share/lftp
-tags: [ftp, cli, file-transfer]

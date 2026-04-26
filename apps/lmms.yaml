@@ -10,4 +10,9 @@ locations:
     flatpak_id: io.lmms.LMMS
     config: ~/.var/app/io.lmms.LMMS/config/lmms
     data: ~/.var/app/io.lmms.LMMS/data/lmms
-tags: [audio, daw, music-production]
+  legacy:
+    config: ~/.lmmsrc.xml
+tags:
+- audio
+- daw
+- music-production

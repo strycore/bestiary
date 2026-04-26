@@ -1,8 +1,0 @@
-name: openrazer-data
-display_name: OpenRazer (data dir)
-category: utility
-homepage: https://openrazer.github.io
-locations:
-  native:
-    data: ~/.local/share/openrazer
-tags: [razer, hardware, peripheral]

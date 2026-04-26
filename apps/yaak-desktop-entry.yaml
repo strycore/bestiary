@@ -1,8 +1,0 @@
-name: yaak-desktop-entry
-display_name: Yaak (.desktop entry)
-category: development
-homepage: https://yaak.app
-locations:
-  native:
-    data: ~/.local/share/app.yaak.desktop
-tags: [yaak, desktop-entry]

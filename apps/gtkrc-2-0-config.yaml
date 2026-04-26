@@ -1,8 +1,0 @@
-name: gtkrc-2-0-config
-display_name: GTK 2 (legacy ~/.config/gtkrc-2.0)
-category: system
-homepage: https://gtk.org
-locations:
-  native:
-    config: ~/.config/gtkrc-2.0
-tags: [gtk, theming, legacy]

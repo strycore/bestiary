@@ -1,8 +1,0 @@
-name: yaak-app
-display_name: Yaak (data dir)
-category: development
-homepage: https://yaak.app
-locations:
-  native:
-    data: ~/.local/share/yaak-app
-tags: [api, http, testing]

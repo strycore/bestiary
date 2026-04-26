@@ -1,8 +1,0 @@
-name: prompt-devel
-display_name: Prompt (Devel build)
-category: development
-homepage: https://gitlab.gnome.org/chergert/prompt
-locations:
-  native:
-    data: ~/.var/app/org.gnome.Prompt.Devel
-tags: [terminal, gnome]

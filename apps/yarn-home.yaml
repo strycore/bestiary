@@ -1,9 +1,0 @@
-name: yarn-home
-display_name: Yarn (home dotfiles)
-category: development
-homepage: https://yarnpkg.com
-locations:
-  native:
-    config: ~/.yarnrc
-    data: ~/.yarn
-tags: [javascript, package-manager, yarn]

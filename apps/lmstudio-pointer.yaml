@@ -1,8 +1,0 @@
-name: lmstudio-pointer
-display_name: LM Studio (home pointer)
-category: development
-homepage: https://lmstudio.ai
-locations:
-  native:
-    state: ~/.lmstudio-home-pointer
-tags: [ai, llm, local]

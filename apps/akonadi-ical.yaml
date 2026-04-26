@@ -1,8 +1,0 @@
-name: akonadi-ical
-display_name: Akonadi (iCal resource)
-category: communication
-homepage: https://userbase.kde.org/Akonadi
-locations:
-  native:
-    config: ~/.config/akonadi_ical_resource_0rc
-tags: [kde, akonadi, calendar]

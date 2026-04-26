@@ -1,0 +1,15 @@
+name: plasmashell
+display_name: Plasma Shell (data dir)
+category: system
+homepage: https://kde.org/plasma-desktop
+locations:
+  native:
+    data: ~/.local/share/plasmashell
+    state:
+    - ~/.local/state/plasmashellstaterc
+    - ~/.local/state/UserFeedback.org.kde.plasmashell
+    config: ~/.config/plasmashellrc
+tags:
+- kde
+- plasma
+- shell

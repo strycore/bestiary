@@ -1,8 +1,0 @@
-name: cursor-home
-display_name: Cursor (user dir)
-category: development
-homepage: https://cursor.sh
-locations:
-  native:
-    data: ~/.cursor
-tags: [editor, ai, vscode-fork]

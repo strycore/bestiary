@@ -5,4 +5,8 @@ homepage: https://kx.studio/Applications:Cadence
 locations:
   native:
     config: ~/.config/falkTX
-tags: [audio, jack, music-production]
+    data: ~/.config/Cadence
+tags:
+- audio
+- jack
+- music-production

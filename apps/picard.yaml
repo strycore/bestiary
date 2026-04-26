@@ -4,5 +4,10 @@ category: multimedia
 homepage: https://picard.musicbrainz.org
 locations:
   native:
-    config: ~/.config/MusicBrainz
-tags: [music, tagging, metadata]
+    config:
+    - ~/.config/MusicBrainz
+    - ~/.config/Picardrc
+tags:
+- music
+- tagging
+- metadata

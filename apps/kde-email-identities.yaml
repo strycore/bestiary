@@ -1,8 +1,0 @@
-name: kde-email-identities
-display_name: KDE Email Identities
-category: communication
-homepage: https://api.kde.org
-locations:
-  native:
-    config: ~/.config/emailidentities
-tags: [kde, pim, email]

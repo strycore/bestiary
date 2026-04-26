@@ -1,0 +1,11 @@
+name: renderdoc
+display_name: RenderDoc (home dir)
+category: development
+homepage: https://renderdoc.org
+locations:
+  native:
+    config: ~/.renderdoc
+    data: ~/.local/share/qrenderdoc
+tags:
+- graphics
+- debugging

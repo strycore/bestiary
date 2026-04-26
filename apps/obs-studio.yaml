@@ -4,10 +4,14 @@ category: media
 homepage: https://obsproject.com
 locations:
   native:
-    config: ~/.config/obs-studio
+    config:
+    - ~/.config/obs-studio
+    - ~/.config/obsrc
     cache: ~/.cache/obs-studio
   flatpak:
     flatpak_id: com.obsproject.Studio
     config: ~/.var/app/com.obsproject.Studio/config/obs-studio
     cache: ~/.var/app/com.obsproject.Studio/cache/obs-studio
-tags: [streaming, recording]
+tags:
+- streaming
+- recording

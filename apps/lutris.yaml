@@ -5,14 +5,19 @@ homepage: https://lutris.net
 locations:
   native:
     config: ~/.config/lutris
-    data: ~/.local/share/lutris
+    data:
+    - ~/.local/share/lutris
+    - ~/.local/share/net.lutris.Lutris
     cache: ~/.cache/lutris
+    state: ~/.lutris_token
   flatpak:
     flatpak_id: net.lutris.Lutris
     config: ~/.var/app/net.lutris.Lutris/config/lutris
     data: ~/.var/app/net.lutris.Lutris/data/lutris
     cache: ~/.var/app/net.lutris.Lutris/cache/lutris
 backup_exclude:
-  - "banners/*"
-  - "coverart/*"
-tags: [games, launcher]
+- banners/*
+- coverart/*
+tags:
+- games
+- launcher

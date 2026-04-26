@@ -1,8 +1,0 @@
-name: kicker-state
-display_name: Kicker (state)
-category: system
-homepage: https://kde.org/plasma-desktop
-locations:
-  native:
-    state: ~/.local/state/kickerstaterc
-tags: [kde, plasma, menu]

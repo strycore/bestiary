@@ -5,4 +5,7 @@ homepage: https://playtron.one
 locations:
   native:
     config: ~/.config/playtron-gog
-tags: [game-launcher, gog]
+    data: ~/.local/share/playtron-gog
+tags:
+- game-launcher
+- gog

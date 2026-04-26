@@ -6,5 +6,11 @@ locations:
   native:
     config: ~/.config/cosmic
     data: ~/.local/share/cosmic
-    state: ~/.local/state/cosmic
-tags: [desktop-environment, cosmic, system76]
+    state:
+    - ~/.local/state/cosmic
+    - ~/.local/state/cosmic-comp
+    - ~/.config/cosmic-initial-setup-done
+tags:
+- desktop-environment
+- cosmic
+- system76

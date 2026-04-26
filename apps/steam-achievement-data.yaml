@@ -1,8 +1,0 @@
-name: steam-achievement-data
-display_name: Steam Achievement Notifier (data)
-category: gaming
-homepage: https://github.com/SNESpro64/steamachievementnotifier
-locations:
-  native:
-    data: ~/.local/share/Steam Achievement Notifier (V1.9)
-tags: [steam, achievements]

@@ -1,0 +1,15 @@
+name: dart
+display_name: Dart (user dir)
+category: development
+homepage: https://dart.dev
+locations:
+  native:
+    config:
+    - ~/.dart
+    - ~/.dart-cli-completion
+    data: ~/.dart-tool
+    cache: ~/.dartServer
+tags:
+- dart
+- flutter
+- language

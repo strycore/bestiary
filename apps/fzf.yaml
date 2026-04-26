@@ -5,4 +5,9 @@ homepage: https://github.com/junegunn/fzf
 locations:
   native:
     data: ~/.fzf
-tags: [fuzzy-finder, cli]
+    config:
+    - ~/.fzf.bash
+    - ~/.fzf.zsh
+tags:
+- fuzzy-finder
+- cli

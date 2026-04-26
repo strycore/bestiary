@@ -5,4 +5,8 @@ homepage: https://fvm.app
 locations:
   native:
     config: ~/.config/fvm
-tags: [flutter, dart, version-manager]
+    data: ~/.fvm_flutter
+tags:
+- flutter
+- dart
+- version-manager

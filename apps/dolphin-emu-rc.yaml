@@ -1,8 +1,0 @@
-name: dolphin-emu-rc
-display_name: Dolphin Emulator (KDE-style rc)
-category: gaming
-homepage: https://dolphin-emu.org
-locations:
-  native:
-    config: ~/.config/dolphin-emurc
-tags: [emulator, gamecube, wii]

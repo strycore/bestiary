@@ -1,8 +1,0 @@
-name: qtproject-conf
-display_name: Qt (QtProject.conf)
-category: system
-homepage: https://www.qt.io
-locations:
-  native:
-    config: ~/.config/QtProject.conf
-tags: [qt, framework]

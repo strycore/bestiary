@@ -1,8 +1,0 @@
-name: nuget-share
-display_name: NuGet (XDG data)
-category: development
-homepage: https://www.nuget.org
-locations:
-  native:
-    data: ~/.local/share/NuGet
-tags: [dotnet, package-manager]

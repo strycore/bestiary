@@ -1,8 +1,0 @@
-name: akonadi-migration
-display_name: Akonadi Migration Agent
-category: communication
-homepage: https://userbase.kde.org/Akonadi
-locations:
-  native:
-    data: ~/.local/share/akonadi_migration_agent
-tags: [kde, akonadi, migration]

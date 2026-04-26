@@ -9,4 +9,9 @@ locations:
   flatpak:
     flatpak_id: org.winehq.Wine
     data: ~/.var/app/org.winehq.Wine
-tags: [windows, compatibility, wineprefix]
+  legacy:
+    data: ~/.wine
+tags:
+- windows
+- compatibility
+- wineprefix

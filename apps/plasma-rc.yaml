@@ -1,8 +1,0 @@
-name: plasma-rc
-display_name: Plasma (plasmarc)
-category: system
-homepage: https://kde.org/plasma-desktop
-locations:
-  native:
-    config: ~/.config/plasmarc
-tags: [kde, plasma]

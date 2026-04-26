@@ -5,4 +5,8 @@ homepage: https://pnpm.io
 locations:
   native:
     data: ~/.local/share/pnpm
-tags: [javascript, package-manager, npm]
+    state: ~/.local/state/pnpm
+tags:
+- javascript
+- package-manager
+- npm

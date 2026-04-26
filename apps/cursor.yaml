@@ -5,10 +5,15 @@ homepage: https://cursor.sh
 locations:
   native:
     config: ~/.config/Cursor
-    data: ~/.local/share/Cursor
+    data:
+    - ~/.local/share/Cursor
+    - ~/.cursor
 backup_exclude:
-  - "Cache/*"
-  - "GPUCache/*"
-  - "Code Cache/*"
-  - "logs/*"
-tags: [editor, ai, vscode-fork]
+- Cache/*
+- GPUCache/*
+- Code Cache/*
+- logs/*
+tags:
+- editor
+- ai
+- vscode-fork

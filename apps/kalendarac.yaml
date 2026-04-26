@@ -1,0 +1,10 @@
+name: kalendarac
+display_name: Kalendarac (state)
+category: productivity
+homepage: https://apps.kde.org
+locations:
+  native:
+    state: ~/.local/state/kalendaracstaterc
+tags:
+- kde
+- calendar

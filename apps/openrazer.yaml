@@ -6,4 +6,7 @@ locations:
   native:
     config: ~/.config/openrazer
     data: ~/.local/share/openrazer
-tags: [razer, hardware, peripheral]
+tags:
+- razer
+- hardware
+- peripheral

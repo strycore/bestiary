@@ -6,4 +6,8 @@ locations:
   flatpak:
     flatpak_id: org.gnome.Prompt
     data: ~/.var/app/org.gnome.Prompt
-tags: [terminal, gnome]
+  native:
+    data: ~/.var/app/org.gnome.Prompt.Devel
+tags:
+- terminal
+- gnome

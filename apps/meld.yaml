@@ -5,7 +5,10 @@ homepage: https://meldmerge.org
 locations:
   native:
     config: ~/.config/meld
+    data: ~/.local/share/meld
   flatpak:
     flatpak_id: org.gnome.meld
     config: ~/.var/app/org.gnome.meld/config/meld
-tags: [diff, merge]
+tags:
+- diff
+- merge

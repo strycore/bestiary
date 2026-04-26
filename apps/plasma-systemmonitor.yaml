@@ -6,6 +6,7 @@ locations:
   native:
     data: ~/.local/share/plasma-systemmonitor
     state: ~/.local/state/plasma-systemmonitorstaterc
+    config: ~/.config/systemmonitorrc
 tags:
 - kde
 - plasma

@@ -1,8 +1,0 @@
-name: vlc-data
-display_name: VLC (data dir)
-category: multimedia
-homepage: https://www.videolan.org/vlc
-locations:
-  native:
-    data: ~/.local/share/vlc
-tags: [vlc, video-player]

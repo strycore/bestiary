@@ -5,4 +5,7 @@ homepage: https://sqlitebrowser.org
 locations:
   native:
     config: ~/.config/DB Browser for SQLiterc
-tags: [sqlite, database]
+    state: ~/.local/state/DB Browser for SQLitestaterc
+tags:
+- sqlite
+- database

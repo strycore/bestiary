@@ -6,4 +6,6 @@ locations:
   native:
     config: ~/.config/onlyoffice
     data: ~/.local/share/onlyoffice
-tags: [office, document]
+tags:
+- office
+- document

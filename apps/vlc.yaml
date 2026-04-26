@@ -6,8 +6,11 @@ locations:
   native:
     config: ~/.config/vlc
     cache: ~/.cache/vlc
+    data: ~/.local/share/vlc
   flatpak:
     flatpak_id: org.videolan.VLC
     config: ~/.var/app/org.videolan.VLC/config/vlc
     cache: ~/.var/app/org.videolan.VLC/cache/vlc
-tags: [media-player, video]
+tags:
+- media-player
+- video

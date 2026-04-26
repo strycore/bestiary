@@ -5,4 +5,10 @@ homepage: https://flutter.dev
 locations:
   native:
     config: ~/.config/flutter
-tags: [framework, dart, mobile]
+    data:
+    - ~/.flutter
+    - ~/.flutter-devtools
+tags:
+- framework
+- dart
+- mobile

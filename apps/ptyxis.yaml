@@ -5,7 +5,10 @@ homepage: https://devsuite.app/ptyxis
 locations:
   native:
     config: ~/.config/ptyxis
+    data: ~/.var/app/org.gnome.Ptyxis.Devel
   flatpak:
     flatpak_id: org.gnome.Ptyxis
     data: ~/.var/app/org.gnome.Ptyxis
-tags: [terminal, gnome]
+tags:
+- terminal
+- gnome

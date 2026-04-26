@@ -1,8 +1,0 @@
-name: unity3d-data
-display_name: Unity (legacy ~/.local/share/unity3d)
-category: development
-homepage: https://unity.com
-locations:
-  native:
-    data: ~/.local/share/unity3d
-tags: [unity, game-engine]

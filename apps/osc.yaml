@@ -5,4 +5,7 @@ homepage: https://github.com/openSUSE/osc
 locations:
   native:
     config: ~/.config/osc
-tags: [build, opensuse]
+    state: ~/.local/state/osc
+tags:
+- build
+- opensuse

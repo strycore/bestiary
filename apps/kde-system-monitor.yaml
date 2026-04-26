@@ -1,8 +1,0 @@
-name: kde-system-monitor
-display_name: KDE System Monitor
-category: utility
-homepage: https://kde.org/plasma-desktop
-locations:
-  native:
-    config: ~/.config/systemmonitorrc
-tags: [kde, plasma, monitor]

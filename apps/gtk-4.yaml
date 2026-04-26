@@ -1,8 +1,0 @@
-name: gtk-4
-display_name: GTK 4
-category: system
-homepage: https://gtk.org
-locations:
-  native:
-    config: ~/.config/gtk-4.0
-tags: [gtk, theming]

@@ -1,8 +1,0 @@
-name: vampire-survivors-1004
-display_name: Vampire Survivors (DLC 1)
-category: gaming
-homepage: https://poncle.itch.io/vampire-survivors
-locations:
-  native:
-    data: ~/.config/Vampire_Survivors_10042493
-tags: [game, roguelike]

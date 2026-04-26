@@ -8,4 +8,11 @@ locations:
   flatpak:
     flatpak_id: net.mancubus.SLADE
     data: ~/.var/app/net.mancubus.SLADE
-tags: [doom, level-editor, modding]
+  legacy:
+    data:
+    - ~/.slade
+    - ~/.slade3
+tags:
+- doom
+- level-editor
+- modding

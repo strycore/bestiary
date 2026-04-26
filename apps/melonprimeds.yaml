@@ -4,5 +4,10 @@ category: gaming
 homepage: https://github.com/StrikerX3/melonPrimeDS
 locations:
   native:
-    config: ~/.config/melonPrimeDS
-tags: [emulator, ds, metroid-prime]
+    config:
+    - ~/.config/melonPrimeDS
+    - ~/.config/melonPrimeDSrc
+tags:
+- emulator
+- ds
+- metroid-prime

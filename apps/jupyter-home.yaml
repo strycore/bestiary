@@ -1,8 +1,0 @@
-name: jupyter-home
-display_name: Jupyter (user dir)
-category: development
-homepage: https://jupyter.org
-locations:
-  native:
-    data: ~/.jupyter
-tags: [python, notebook]

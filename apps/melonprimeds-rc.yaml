@@ -1,8 +1,0 @@
-name: melonprimeds-rc
-display_name: melonPrimeDS (rc)
-category: gaming
-homepage: https://github.com/StrikerX3/melonPrimeDS
-locations:
-  native:
-    config: ~/.config/melonPrimeDSrc
-tags: [emulator, ds]

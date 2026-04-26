@@ -1,8 +1,0 @@
-name: powerdevil-notify
-display_name: PowerDevil Notify
-category: system
-homepage: https://kde.org/plasma-desktop
-locations:
-  native:
-    config: ~/.config/powerdevil.notifyrc
-tags: [kde, plasma, power]

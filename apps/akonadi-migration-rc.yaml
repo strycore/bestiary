@@ -1,8 +1,0 @@
-name: akonadi-migration-rc
-display_name: Akonadi (migration rc)
-category: communication
-homepage: https://userbase.kde.org/Akonadi
-locations:
-  native:
-    config: ~/.config/akonadi-migrationrc
-tags: [kde, akonadi]

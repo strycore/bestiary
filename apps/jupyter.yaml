@@ -4,5 +4,10 @@ category: development
 homepage: https://jupyter.org
 locations:
   native:
-    data: ~/.local/share/jupyter
-tags: [python, notebook, datascience]
+    data:
+    - ~/.local/share/jupyter
+    - ~/.jupyter
+tags:
+- python
+- notebook
+- datascience

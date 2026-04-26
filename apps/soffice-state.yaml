@@ -1,8 +1,0 @@
-name: soffice-state
-display_name: LibreOffice (state)
-category: productivity
-homepage: https://www.libreoffice.org
-locations:
-  native:
-    state: ~/.local/state/soffice.binstaterc
-tags: [libreoffice, office]

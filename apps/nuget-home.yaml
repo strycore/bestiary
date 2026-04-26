@@ -1,8 +1,0 @@
-name: nuget-home
-display_name: NuGet (user dir)
-category: development
-homepage: https://www.nuget.org
-locations:
-  native:
-    data: ~/.nuget
-tags: [dotnet, package-manager]

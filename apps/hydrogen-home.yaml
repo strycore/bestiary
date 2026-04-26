@@ -1,8 +1,0 @@
-name: hydrogen-home
-display_name: Hydrogen (legacy home dir)
-category: multimedia
-homepage: http://www.hydrogen-music.org
-locations:
-  native:
-    data: ~/.hydrogen
-tags: [drum-machine, audio]

@@ -5,5 +5,10 @@ homepage: https://unity.com
 locations:
   native:
     config: ~/.config/unityhub
-    data: ~/.config/unity3d
-tags: [unity, game-engine, ide]
+    data:
+    - ~/.config/unity3d
+    - ~/.local/share/unity3d
+tags:
+- unity
+- game-engine
+- ide

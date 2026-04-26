@@ -1,8 +1,0 @@
-name: akonadi-akonotes
-display_name: Akonadi (Akonotes resource)
-category: communication
-homepage: https://userbase.kde.org/Akonadi
-locations:
-  native:
-    config: ~/.config/akonadi_akonotes_resource_0rc
-tags: [kde, akonadi, notes]

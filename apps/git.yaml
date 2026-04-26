@@ -4,5 +4,11 @@ category: development
 homepage: https://git-scm.com
 locations:
   native:
-    config: ~/.config/git
-tags: [vcs, version-control, cli]
+    config:
+    - ~/.config/git
+    - ~/.gitconfig
+    - ~/.gitignore_global
+tags:
+- vcs
+- version-control
+- cli

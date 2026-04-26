@@ -6,8 +6,11 @@ locations:
   native:
     config: ~/.config/audacity
     data: ~/.local/share/audacity
+    state: ~/.local/state/audacity
   flatpak:
     flatpak_id: org.audacityteam.Audacity
     config: ~/.var/app/org.audacityteam.Audacity/config/audacity
     data: ~/.var/app/org.audacityteam.Audacity/data/audacity
-tags: [audio, editor]
+tags:
+- audio
+- editor

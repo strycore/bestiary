@@ -1,0 +1,10 @@
+name: putty
+display_name: PuTTY
+category: communication
+homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty
+locations:
+  native:
+    config: ~/.putty
+tags:
+- ssh
+- telnet

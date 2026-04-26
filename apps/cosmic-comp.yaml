@@ -1,8 +1,0 @@
-name: cosmic-comp
-display_name: COSMIC Compositor
-category: system
-homepage: https://github.com/pop-os/cosmic-comp
-locations:
-  native:
-    state: ~/.local/state/cosmic-comp
-tags: [cosmic, compositor, wayland]

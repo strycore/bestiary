@@ -1,8 +1,0 @@
-name: akonadi-indexing
-display_name: Akonadi (Indexing agent)
-category: communication
-homepage: https://userbase.kde.org/Akonadi
-locations:
-  native:
-    config: ~/.config/akonadi_indexing_agentrc
-tags: [kde, akonadi, search]

@@ -1,8 +1,0 @@
-name: userfeedback-kwrite
-display_name: KDE UserFeedback (KWrite)
-category: development
-homepage: https://apps.kde.org/kwrite
-locations:
-  native:
-    state: ~/.local/state/UserFeedback.org.kde.kwrite
-tags: [kde, telemetry]

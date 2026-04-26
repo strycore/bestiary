@@ -1,8 +1,0 @@
-name: pnpm-state
-display_name: pnpm (state dir)
-category: development
-homepage: https://pnpm.io
-locations:
-  native:
-    state: ~/.local/state/pnpm
-tags: [javascript, package-manager]
