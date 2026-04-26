@@ -2,7 +2,7 @@
 
 A catalog of Linux applications and the places on disk where they keep their config, data, cache, and state — across native, flatpak, snap, and legacy install flavors.
 
-> Status: alpha. Catalog schema, ten reference apps, library API, and `ls` / `show` / `lookup` / `dump` CLI all work.
+> Status: alpha. ~650 catalog entries, library API, and `ls` / `show` / `lookup` / `dump` / `scan` CLI all work.
 
 ## Why
 
@@ -44,6 +44,8 @@ bestiary ls                                    # all apps in the catalog
 bestiary ls --category development             # filter by category
 bestiary show discord                          # render an entry
 bestiary lookup ~/.config/heroic               # which app owns this path?
+bestiary scan                                  # walk XDG dirs + dotfiles, list unmatched
+bestiary scan -k                               # list matched paths with their owning app
 bestiary dump > catalog.json                   # full catalog as JSON (for offline / API use)
 ```
 
@@ -85,27 +87,39 @@ backup_exclude:
 tags: [chat, voip]
 ```
 
-Required: `name`, at least one flavor under `locations`. Each location needs at least one of `config` / `data` / `cache` / `state`. Flatpak locations must declare `flatpak_id`; snap locations must declare `snap_name`. The full schema lives in [`schema/app.schema.json`](./schema/app.schema.json).
+Required: `name`, at least one flavor under `locations`. Each location needs at least one of `config` / `data` / `cache` / `state`. Flatpak locations must declare `flatpak_id`; snap locations must declare `snap_name`. Each path field accepts either a string or a list of strings. A single `*` in a path matches any run of non-`/` characters (useful for rotated logs and host-suffixed state files). The full schema lives in [`schema/app.schema.json`](./schema/app.schema.json).
 
 Personal additions go in `~/.config/bestiary/apps/*.yaml` and override embedded entries by `name` match.
 
 ## Contributing
 
-After cloning, point git at the in-repo hook once:
+The repo's primary content is data: YAML entries under [`apps/`](./apps). Adding or improving an entry is the main contribution path — you don't need a Rust toolchain to do it.
 
-```sh
-git config core.hooksPath .githooks
-```
+**Adding an app:**
 
-`pre-commit` runs `cargo fmt --all --check`, `cargo clippy --all-targets -- -D warnings`, and the schema validation tests.
+1. Find a path your machine has that nothing in the catalog claims. Easiest way is to grab the binary from a release, then run `bestiary scan` — anything in the unknown list is fair game.
+2. Create `apps/<name>.yaml`. The filename stem must match the `name:` field (lowercase letters, digits, dashes — `[a-z][a-z0-9-]*`).
+3. Use the schema above. One entry per app: fold sibling files (e.g. `~/.config/foorc` + `~/.local/share/foo` + `~/.cache/foo`) into a single entry with `config:` / `data:` / `cache:` / `state:`. If a path field needs multiple values, use a YAML list. For pre-XDG conventions (`~/.foo`), use the `legacy:` flavor.
+4. Open a PR. CI runs the JSON-schema validation, name-pattern check, and "every embedded yaml parses" test. If it goes green and the entry is honest about where the app actually stores its data, that's all that's needed.
 
-The bar for a new entry: **don't ship one you can't validate works**. Test on at least one machine — verify the paths actually exist for that flavor of the app on a current distro. Drop test commands and screenshots into the PR description.
+**Editing an existing entry:** same flow — change the file, push the PR. If an app moved (XDG migration, flatpak ID change), update both flavors rather than adding a parallel entry.
+
+**What not to add:**
+
+- Backup or rotation artifacts (`*.bak`, `*.backup*`, `*.old`, `*.prev`, editor swap files). Those belong to a cleanup tool, not a catalog of apps.
+- Auto-generated state with random suffixes (e.g. `recently-used.xbel.A1B2C3`). Cover the canonical name; let the random one fall through.
+- Per-machine variants. If a path embeds a hostname or version, use a `*` wildcard so the entry is portable.
 
 ## Goals out of scope (intentional)
 
-- **Versioning** of app config (chezmoi / yadm territory; lean on git for that)
-- **Live sync between machines** (rclone, syncthing, Nextcloud)
-- **Backup logic itself** — bestiary catalogs *where* the data is. *What to do with it* (archive, restore, migrate flavors) belongs to whatever tool consumes the catalog.
+These shape what bestiary will and won't grow into. They're decisions, not pending features.
+
+- **Curated, not auto-discovered.** The catalog is hand-written. We don't infer entries by scanning binaries or watching syscalls — too many false positives, and the value is in human-vetted facts.
+- **Apps only, not the OS.** Kernel state, systemd services, distro package metadata, and driver configs aren't in scope. If a user can't reasonably uninstall it, it's not an app.
+- **Current state only.** No version history per app — if `~/.foo/v2/config` replaces `~/.foo/config`, we update the entry in place. Anyone needing point-in-time data can pin a git rev.
+- **Transient artifacts are out.** Logs rotate, swaps churn, backups accumulate. The catalog records *where the app keeps its things*, not every file the app has ever generated. (A separate tool, [fili](https://github.com/strycore/fili), classifies and cleans those.)
+- **No behavior, just locations.** bestiary doesn't back up, restore, sync, migrate flavors, or version-control configs. Tools like grimoire/chezmoi/rclone consume the catalog and do those things.
+- **One entry per app.** When a single application leaves files in five different places, those are five paths in one entry — not five entries that share a tag.
 
 ## License
 
