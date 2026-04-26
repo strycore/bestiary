@@ -1,6 +1,6 @@
 name: legendary
 display_name: Legendary
-category: gaming
+category: game-launcher
 homepage: https://github.com/derrod/legendary
 locations:
   native:

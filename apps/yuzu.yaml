@@ -1,6 +1,6 @@
 name: yuzu
 display_name: yuzu
-category: gaming
+category: emulator
 homepage: https://yuzu-emu.org
 locations:
   native:

@@ -1,6 +1,6 @@
 name: xemu
 display_name: xemu
-category: gaming
+category: emulator
 homepage: https://xemu.app
 locations:
   native:

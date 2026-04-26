@@ -1,6 +1,6 @@
 name: jellyfin-media-player
 display_name: Jellyfin Media Player
-category: media
+category: multimedia
 homepage: https://jellyfin.org
 locations:
   flatpak:

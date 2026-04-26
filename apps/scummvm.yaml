@@ -1,6 +1,6 @@
 name: scummvm
 display_name: ScummVM
-category: gaming
+category: emulator
 homepage: https://www.scummvm.org
 locations:
   native:

@@ -1,6 +1,6 @@
 name: steamtinkerlaunch
 display_name: SteamTinkerLaunch
-category: gaming
+category: game-launcher
 homepage: https://github.com/sonic2kk/steamtinkerlaunch
 locations:
   native:

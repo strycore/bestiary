@@ -1,6 +1,6 @@
 name: obs-studio
 display_name: OBS Studio
-category: media
+category: multimedia
 homepage: https://obsproject.com
 locations:
   native:

@@ -1,6 +1,6 @@
 name: retroarch
 display_name: RetroArch
-category: gaming
+category: emulator
 homepage: https://www.retroarch.com
 locations:
   native:

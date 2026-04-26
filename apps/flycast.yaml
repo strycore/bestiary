@@ -1,6 +1,6 @@
 name: flycast
 display_name: Flycast
-category: gaming
+category: emulator
 homepage: https://github.com/flyinghead/flycast
 locations:
   native:

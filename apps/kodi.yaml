@@ -1,6 +1,6 @@
 name: kodi
 display_name: Kodi
-category: media
+category: multimedia
 homepage: https://kodi.tv
 locations:
   native:

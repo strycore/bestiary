@@ -1,6 +1,6 @@
 name: audacity
 display_name: Audacity
-category: media
+category: multimedia
 homepage: https://www.audacityteam.org
 locations:
   native:

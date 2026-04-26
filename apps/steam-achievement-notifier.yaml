@@ -1,6 +1,6 @@
 name: steam-achievement-notifier
 display_name: Steam Achievement Notifier
-category: gaming
+category: game-launcher
 homepage: https://github.com/SNESpro64/steamachievementnotifier
 locations:
   native:

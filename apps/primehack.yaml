@@ -1,6 +1,6 @@
 name: primehack
 display_name: Primehack
-category: gaming
+category: emulator
 homepage: https://github.com/shiiion/dolphin
 locations:
   flatpak:

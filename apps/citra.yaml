@@ -1,6 +1,6 @@
 name: citra
 display_name: Citra
-category: gaming
+category: emulator
 homepage: https://citra-emu.org
 locations:
   native:

@@ -1,6 +1,6 @@
 name: mcpelauncher
 display_name: mcpelauncher
-category: gaming
+category: game-launcher
 homepage: https://mcpelauncher.readthedocs.io
 locations:
   flatpak:

@@ -1,6 +1,6 @@
 name: kwebkitpart
 display_name: KWebKitPart
-category: web
+category: system
 homepage: https://api.kde.org
 locations:
   native:

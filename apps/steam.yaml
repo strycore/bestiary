@@ -1,6 +1,6 @@
 name: steam
 display_name: Steam
-category: gaming
+category: game-launcher
 homepage: https://store.steampowered.com
 locations:
   native:

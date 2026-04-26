@@ -1,6 +1,6 @@
 name: mednafen
 display_name: Mednafen
-category: gaming
+category: emulator
 homepage: https://mednafen.github.io
 locations:
   native:

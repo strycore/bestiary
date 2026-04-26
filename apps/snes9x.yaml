@@ -1,6 +1,6 @@
 name: snes9x
 display_name: Snes9x
-category: gaming
+category: emulator
 homepage: https://www.snes9x.com
 locations:
   native:

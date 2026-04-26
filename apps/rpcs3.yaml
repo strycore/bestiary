@@ -1,6 +1,6 @@
 name: rpcs3
 display_name: RPCS3
-category: gaming
+category: emulator
 homepage: https://rpcs3.net
 locations:
   native:

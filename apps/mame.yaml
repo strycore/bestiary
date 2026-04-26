@@ -1,6 +1,6 @@
 name: mame
 display_name: MAME
-category: gaming
+category: emulator
 homepage: https://www.mamedev.org
 locations:
   native:

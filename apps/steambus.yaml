@@ -1,6 +1,6 @@
 name: steambus
 display_name: steambus
-category: gaming
+category: game-launcher
 homepage: https://github.com/MathieuComandon/steambus
 locations:
   native:

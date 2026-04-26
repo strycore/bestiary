@@ -1,6 +1,6 @@
 name: umu
 display_name: umu (Unified Linux Wine Game Launcher)
-category: gaming
+category: game-launcher
 homepage: https://github.com/Open-Wine-Components/umu-launcher
 locations:
   native:

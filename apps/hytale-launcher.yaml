@@ -1,6 +1,6 @@
 name: hytale-launcher
 display_name: Hytale Launcher
-category: gaming
+category: game-launcher
 homepage: https://hytale.com
 locations:
   flatpak:

@@ -1,6 +1,6 @@
 name: playtron-gog
 display_name: Playtron (GOG integration)
-category: gaming
+category: game-launcher
 homepage: https://playtron.one
 locations:
   native:

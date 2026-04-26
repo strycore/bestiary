@@ -1,6 +1,6 @@
 name: vlc
 display_name: VLC media player
-category: media
+category: multimedia
 homepage: https://www.videolan.org/vlc
 locations:
   native:

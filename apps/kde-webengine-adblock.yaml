@@ -1,6 +1,6 @@
 name: kde-webengine-adblock
 display_name: KDE WebEngine URL adblocker
-category: web
+category: system
 homepage: https://api.kde.org
 locations:
   native:

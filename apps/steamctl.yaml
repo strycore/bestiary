@@ -1,6 +1,6 @@
 name: steamctl
 display_name: steamctl
-category: gaming
+category: game-launcher
 homepage: https://github.com/ValvePython/steamctl
 locations:
   native:

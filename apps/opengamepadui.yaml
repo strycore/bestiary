@@ -1,6 +1,6 @@
 name: opengamepadui
 display_name: OpenGamepadUI
-category: gaming
+category: game-launcher
 homepage: https://github.com/ShadowBlip/OpenGamepadUI
 locations:
   native:

@@ -1,6 +1,6 @@
 name: dgen
 display_name: DGen
-category: gaming
+category: emulator
 homepage: https://github.com/dgen/dgen
 locations:
   native:

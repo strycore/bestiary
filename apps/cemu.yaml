@@ -1,6 +1,6 @@
 name: cemu
 display_name: Cemu
-category: gaming
+category: emulator
 homepage: https://cemu.info
 locations:
   native:

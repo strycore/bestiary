@@ -1,6 +1,6 @@
 name: goldberg-steamemu
 display_name: Goldberg SteamEmu (saves dir)
-category: gaming
+category: game-launcher
 homepage: https://gitlab.com/Mr_Goldberg/goldberg_emulator
 locations:
   native:

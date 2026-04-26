@@ -1,6 +1,6 @@
 name: pcsx2
 display_name: PCSX2
-category: gaming
+category: emulator
 homepage: https://pcsx2.net
 locations:
   native:

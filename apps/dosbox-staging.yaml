@@ -1,6 +1,6 @@
 name: dosbox-staging
 display_name: DOSBox Staging
-category: gaming
+category: emulator
 homepage: https://dosbox-staging.github.io
 locations:
   native:

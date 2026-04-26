@@ -1,6 +1,6 @@
 name: phishingurl
 display_name: KDE PhishingUrl
-category: web
+category: system
 homepage: https://api.kde.org
 locations:
   native:

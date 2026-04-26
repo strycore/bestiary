@@ -1,6 +1,6 @@
 name: mpv
 display_name: mpv
-category: media
+category: multimedia
 homepage: https://mpv.io
 locations:
   native:

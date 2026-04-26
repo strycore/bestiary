@@ -1,6 +1,6 @@
 name: opera
 display_name: Opera
-category: web
+category: browser
 homepage: https://www.opera.com
 locations:
   native:

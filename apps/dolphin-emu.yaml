@@ -1,6 +1,6 @@
 name: dolphin-emu
 display_name: Dolphin Emulator
-category: gaming
+category: emulator
 homepage: https://dolphin-emu.org
 locations:
   native:

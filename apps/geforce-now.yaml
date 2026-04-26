@@ -1,6 +1,6 @@
 name: geforce-now
 display_name: GeForce Now
-category: gaming
+category: game-launcher
 homepage: https://www.nvidia.com/geforce-now
 locations:
   flatpak:

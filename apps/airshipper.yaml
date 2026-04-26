@@ -1,6 +1,6 @@
 name: airshipper
 display_name: Airshipper (Veloren launcher)
-category: gaming
+category: game-launcher
 homepage: https://veloren.net
 locations:
   native:

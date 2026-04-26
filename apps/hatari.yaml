@@ -1,6 +1,6 @@
 name: hatari
 display_name: Hatari
-category: gaming
+category: emulator
 homepage: https://hatari.tuxfamily.org
 locations:
   native:

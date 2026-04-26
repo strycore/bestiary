@@ -1,6 +1,6 @@
 name: chrome-dev
 display_name: Google Chrome (Dev channel)
-category: web
+category: browser
 homepage: https://www.google.com/chrome/dev
 locations:
   flatpak:

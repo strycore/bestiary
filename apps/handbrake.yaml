@@ -1,6 +1,6 @@
 name: handbrake
 display_name: HandBrake
-category: media
+category: multimedia
 homepage: https://handbrake.fr
 locations:
   native:

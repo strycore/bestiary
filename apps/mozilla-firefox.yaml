@@ -1,6 +1,6 @@
 name: mozilla-firefox
 display_name: Firefox (legacy ~/.mozilla)
-category: web
+category: browser
 homepage: https://www.mozilla.org/firefox
 locations:
   native:

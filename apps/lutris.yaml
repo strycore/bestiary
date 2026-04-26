@@ -1,6 +1,6 @@
 name: lutris
 display_name: Lutris
-category: gaming
+category: game-launcher
 homepage: https://lutris.net
 locations:
   native:

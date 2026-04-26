@@ -1,6 +1,6 @@
 name: ryujinx
 display_name: Ryujinx
-category: gaming
+category: emulator
 homepage: https://ryujinx.org
 locations:
   native:
