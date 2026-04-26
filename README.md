@@ -22,13 +22,11 @@ bestiary catalogs those locations: one entry per app, with a per-flavor breakdow
 
 ## Install
 
-Same one-liner pattern as grimoire:
-
 ```sh
 curl -fsSL https://raw.githubusercontent.com/strycore/bestiary/main/install.sh | bash
 ```
 
-(Will work after the first GitHub release is cut.)
+The script downloads the latest release binary for your platform and drops it in `~/.local/bin`. (Will work after the first GitHub release is cut.)
 
 ## Build from source
 
