@@ -1,8 +1,0 @@
-name: kde-phishing
-display_name: KDE Phishing URL
-category: web
-homepage: https://api.kde.org
-locations:
-  native:
-    config: ~/.config/phishingurlrc
-tags: [kde, security]

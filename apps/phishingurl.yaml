@@ -4,5 +4,6 @@ category: web
 homepage: https://api.kde.org
 locations:
   native:
+    config: ~/.config/phishingurlrc
     data: ~/.local/share/phishingurl
 tags: [kde, security]
