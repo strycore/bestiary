@@ -1,7 +1,7 @@
 use crate::catalog::{Catalog, Source};
 use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 
 #[derive(Parser)]
 #[command(
@@ -62,6 +62,10 @@ pub struct DumpArgs {
 
 #[derive(clap::Args)]
 pub struct ScanArgs {
+    /// Home directory to scan. Defaults to $HOME. Pointing at a mounted
+    /// backup (e.g. `/mnt/oldbox/home/alice`) lets you scan someone
+    /// else's dotfiles without having to be them.
+    pub home: Option<PathBuf>,
     /// Directories to scan instead of the default XDG roots. Their
     /// immediate children are looked up. Repeatable.
     #[arg(long = "root")]
@@ -179,20 +183,41 @@ fn lookup(args: LookupArgs) -> Result<()> {
 
 fn scan(args: ScanArgs) -> Result<()> {
     let cat = Catalog::load()?;
+
+    // Resolve the home dir we're scanning. If the user passed one
+    // explicitly we use it; otherwise fall back to $HOME.
+    let scan_home = match args.home {
+        Some(h) => Some(canonicalize_or_keep(&h)),
+        None => std::env::var_os("HOME").map(|h| PathBuf::from(h.clone())),
+    };
+    // The "real" home that catalog paths expand `~` against.
+    let real_home = std::env::var_os("HOME").map(PathBuf::from);
+
     let roots = if args.roots.is_empty() {
-        default_scan_roots()
+        default_scan_roots(scan_home.as_deref())
     } else {
         args.roots
     };
 
-    let mut entries = collect_scan_entries(&roots);
+    let mut entries = collect_scan_entries(&roots, scan_home.as_deref());
     entries.sort();
     entries.dedup();
 
     let mut known: Vec<(PathBuf, String)> = Vec::new();
     let mut unknown: Vec<PathBuf> = Vec::new();
     for p in &entries {
-        match cat.lookup_path(p) {
+        // The catalog declares paths like `~/.config/discord` which expand
+        // to $HOME/... at lookup time. When scanning a foreign home, we
+        // need to translate the scan path so its home-prefix matches the
+        // running user's $HOME — otherwise nothing resolves.
+        let lookup_target = match (&scan_home, &real_home) {
+            (Some(sh), Some(rh)) if sh != rh => match p.strip_prefix(sh) {
+                Ok(rel) => rh.join(rel),
+                Err(_) => p.clone(),
+            },
+            _ => p.clone(),
+        };
+        match cat.lookup_path(&lookup_target) {
             Some(e) => known.push((p.clone(), e.creature.name.clone())),
             None => unknown.push(p.clone()),
         }
@@ -248,28 +273,31 @@ fn scan(args: ScanArgs) -> Result<()> {
 /// top-level home dotfiles. Each yields its immediate children as scan
 /// targets (we don't recurse — `lookup_path` already covers descendants
 /// of any matched dir).
-fn default_scan_roots() -> Vec<PathBuf> {
-    let home = match std::env::var_os("HOME") {
-        Some(h) => PathBuf::from(h),
-        None => return vec![],
-    };
+fn default_scan_roots(home: Option<&Path>) -> Vec<PathBuf> {
+    let Some(home) = home else { return vec![] };
     vec![
         home.join(".config"),
         home.join(".local/share"),
         home.join(".local/state"),
         home.join(".var/app"),
-        home.clone(),
+        home.to_path_buf(),
     ]
 }
 
-/// Collect immediate children of each root. For `$HOME` we only emit
-/// dot-prefixed entries (regular files & dirs in `$HOME` aren't bestiary's
-/// concern).
-fn collect_scan_entries(roots: &[PathBuf]) -> Vec<PathBuf> {
+/// Canonicalize a path if possible, otherwise just return it. We use
+/// this for the user-supplied scan home so `..` and trailing slashes
+/// don't trip up the home-prefix substitution.
+fn canonicalize_or_keep(p: &Path) -> PathBuf {
+    std::fs::canonicalize(p).unwrap_or_else(|_| p.to_path_buf())
+}
+
+/// Collect immediate children of each root. The home dir itself only
+/// emits dot-prefixed entries (regular files & dirs at the home root
+/// aren't bestiary's concern).
+fn collect_scan_entries(roots: &[PathBuf], home: Option<&Path>) -> Vec<PathBuf> {
     let mut out = Vec::new();
-    let home = std::env::var_os("HOME").map(PathBuf::from);
     for root in roots {
-        let dotfiles_only = home.as_ref().is_some_and(|h| h == root);
+        let dotfiles_only = home.is_some_and(|h| h == root);
         let Ok(rd) = std::fs::read_dir(root) else {
             continue;
         };
@@ -277,11 +305,7 @@ fn collect_scan_entries(roots: &[PathBuf]) -> Vec<PathBuf> {
             let p = ent.path();
             if dotfiles_only {
                 let name = p.file_name().and_then(|s| s.to_str()).unwrap_or("");
-                if !name.starts_with('.') {
-                    continue;
-                }
-                // Skip `.` and `..` (defensive — read_dir shouldn't emit them).
-                if name == "." || name == ".." {
+                if !name.starts_with('.') || name == "." || name == ".." {
                     continue;
                 }
             }

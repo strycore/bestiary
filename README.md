@@ -44,7 +44,8 @@ bestiary ls                                    # all apps in the catalog
 bestiary ls --category development             # filter by category
 bestiary show discord                          # render an entry
 bestiary lookup ~/.config/heroic               # which app owns this path?
-bestiary scan                                  # walk XDG dirs + dotfiles, list unmatched
+bestiary scan                                  # walk XDG dirs + dotfiles in $HOME, list unmatched
+bestiary scan /mnt/oldbox/home/alice           # scan a backup of someone else's home
 bestiary scan -k                               # list matched paths with their owning app
 bestiary dump > catalog.json                   # full catalog as JSON (for offline / API use)
 ```
