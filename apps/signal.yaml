@@ -1,0 +1,13 @@
+name: signal
+display_name: Signal Desktop
+category: communication
+homepage: https://signal.org
+locations:
+  native:
+    config: ~/.config/Signal
+    cache: ~/.config/Signal/Cache
+  flatpak:
+    flatpak_id: org.signal.Signal
+    config: ~/.var/app/org.signal.Signal/config/Signal
+    cache: ~/.var/app/org.signal.Signal/cache/Signal
+tags: [chat, encrypted]

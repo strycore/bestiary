@@ -1,0 +1,18 @@
+name: lutris
+display_name: Lutris
+category: gaming
+homepage: https://lutris.net
+locations:
+  native:
+    config: ~/.config/lutris
+    data: ~/.local/share/lutris
+    cache: ~/.cache/lutris
+  flatpak:
+    flatpak_id: net.lutris.Lutris
+    config: ~/.var/app/net.lutris.Lutris/config/lutris
+    data: ~/.var/app/net.lutris.Lutris/data/lutris
+    cache: ~/.var/app/net.lutris.Lutris/cache/lutris
+backup_exclude:
+  - "banners/*"
+  - "coverart/*"
+tags: [games, launcher]

@@ -1,0 +1,15 @@
+name: blender
+display_name: Blender
+category: media
+homepage: https://www.blender.org
+locations:
+  native:
+    config: ~/.config/blender
+    data: ~/.local/share/blender
+    cache: ~/.cache/blender
+  flatpak:
+    flatpak_id: org.blender.Blender
+    config: ~/.var/app/org.blender.Blender/config/blender
+    data: ~/.var/app/org.blender.Blender/data/blender
+    cache: ~/.var/app/org.blender.Blender/cache/blender
+tags: [3d, modeling, animation]

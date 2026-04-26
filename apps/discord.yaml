@@ -1,0 +1,18 @@
+name: discord
+display_name: Discord
+category: communication
+homepage: https://discord.com
+locations:
+  native:
+    config: ~/.config/discord
+    cache: ~/.config/discord/Cache
+  flatpak:
+    flatpak_id: com.discordapp.Discord
+    config: ~/.var/app/com.discordapp.Discord/config/discord
+    cache: ~/.var/app/com.discordapp.Discord/cache/discord
+    data: ~/.var/app/com.discordapp.Discord/data
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Code Cache/*"
+tags: [chat, voip]

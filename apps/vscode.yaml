@@ -1,0 +1,23 @@
+name: vscode
+display_name: Visual Studio Code
+category: development
+homepage: https://code.visualstudio.com
+locations:
+  native:
+    config: ~/.config/Code
+    data: ~/.vscode
+    cache: ~/.config/Code/Cache
+    state: ~/.config/Code/logs
+  flatpak:
+    flatpak_id: com.visualstudio.code
+    config: ~/.var/app/com.visualstudio.code/config/Code
+    data: ~/.var/app/com.visualstudio.code/data/vscode
+    cache: ~/.var/app/com.visualstudio.code/cache/Code
+backup_exclude:
+  - "Cache/*"
+  - "CachedData/*"
+  - "CachedExtensions/*"
+  - "Code Cache/*"
+  - "GPUCache/*"
+  - "logs/*"
+tags: [editor, ide]

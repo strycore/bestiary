@@ -1,0 +1,27 @@
+[package]
+name = "bestiary"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+description = "A catalog of Linux apps and where they keep their data."
+repository = "https://github.com/strycore/bestiary"
+homepage = "https://github.com/strycore/bestiary"
+readme = "README.md"
+keywords = ["linux", "dotfiles", "catalog", "configuration", "xdg"]
+categories = ["command-line-utilities", "config", "filesystem"]
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4", features = ["derive"] }
+include_dir = "0.7"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yml = "0.0.12"
+
+[dev-dependencies]
+jsonschema = "0.30"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

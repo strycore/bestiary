@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# Pre-commit hook for bestiary: enforce rustfmt + clippy + schema validation.
+#
+# Install once per clone:
+#   git config core.hooksPath .githooks
+#
+# Skip in an emergency with `git commit --no-verify`.
+set -euo pipefail
+
+# Only run when relevant files are staged.
+if ! git diff --cached --name-only --diff-filter=ACMR \
+        | grep -qE '\.(rs|toml|yaml|json)$'; then
+    exit 0
+fi
+
+echo "› cargo fmt --all --check"
+if ! cargo fmt --all --check; then
+    echo
+    echo "✗ formatting drift. Fix with: cargo fmt --all" >&2
+    exit 1
+fi
+
+echo "› cargo clippy --all-targets -- -D warnings"
+if ! cargo clippy --all-targets --quiet -- -D warnings; then
+    echo
+    echo "✗ clippy issues." >&2
+    exit 1
+fi
+
+# When YAML or JSON Schema files are staged, run the schema test —
+# it's fast and catches creature-validation bugs before push.
+if git diff --cached --name-only --diff-filter=ACMR \
+       | grep -qE '\.(yaml|json)$'; then
+    echo "› cargo test --test schema --quiet"
+    if ! cargo test --test schema --quiet; then
+        echo
+        echo "✗ schema validation failed." >&2
+        exit 1
+    fi
+fi
+
+echo "✓ pre-commit checks passed"

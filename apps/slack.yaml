@@ -1,0 +1,21 @@
+name: slack
+display_name: Slack
+category: communication
+homepage: https://slack.com
+locations:
+  native:
+    config: ~/.config/Slack
+    cache: ~/.config/Slack/Cache
+  flatpak:
+    flatpak_id: com.slack.Slack
+    config: ~/.var/app/com.slack.Slack/config/Slack
+    cache: ~/.var/app/com.slack.Slack/cache/Slack
+    data: ~/.var/app/com.slack.Slack/data
+  snap:
+    snap_name: slack
+    data: ~/snap/slack/current
+backup_exclude:
+  - "Cache/*"
+  - "GPUCache/*"
+  - "Service Worker/*"
+tags: [chat, work]

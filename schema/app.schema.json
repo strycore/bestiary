@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/strycore/bestiary/schema/app.schema.json",
+  "title": "Bestiary App Entry",
+  "description": "One application's catalog entry: where it stores config, data, cache, and state across install flavors (native, flatpak, snap, legacy). CI validates every shipped entry against this schema; IDEs (yaml-language-server) use it for autocomplete.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Unique identifier (kebab-case, lowercase letter first)."
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Human-readable name (e.g. 'Visual Studio Code'). Defaults to title-cased `name`."
+    },
+    "category": {
+      "type": "string",
+      "description": "Free-form grouping label (e.g. 'communication', 'development', 'media')."
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "backup_exclude": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Glob patterns relative to location paths — files matching these are skipped when this app is bundled into a backup."
+    },
+    "locations": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "description": "Per-flavor data locations. At least one flavor must be declared.",
+      "properties": {
+        "native":  { "$ref": "#/$defs/location" },
+        "flatpak": { "$ref": "#/$defs/flatpak_location" },
+        "snap":    { "$ref": "#/$defs/snap_location" },
+        "legacy":  { "$ref": "#/$defs/location" }
+      }
+    }
+  },
+  "$defs": {
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "anyOf": [
+        { "required": ["config"] },
+        { "required": ["data"] },
+        { "required": ["cache"] },
+        { "required": ["state"] }
+      ],
+      "properties": {
+        "config": { "type": "string", "description": "Config dir (XDG_CONFIG_HOME-style)." },
+        "data":   { "type": "string", "description": "Data dir (XDG_DATA_HOME-style)." },
+        "cache":  { "type": "string", "description": "Cache dir (regenerable, safe to drop)." },
+        "state":  { "type": "string", "description": "State dir (XDG_STATE_HOME — logs, cookies, sockets)." }
+      }
+    },
+    "flatpak_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["flatpak_id"],
+      "anyOf": [
+        { "required": ["config"] },
+        { "required": ["data"] },
+        { "required": ["cache"] },
+        { "required": ["state"] }
+      ],
+      "properties": {
+        "flatpak_id": {
+          "type": "string",
+          "description": "Reverse-DNS flatpak app ID (e.g. com.discordapp.Discord)."
+        },
+        "config": { "type": "string" },
+        "data":   { "type": "string" },
+        "cache":  { "type": "string" },
+        "state":  { "type": "string" }
+      }
+    },
+    "snap_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["snap_name"],
+      "anyOf": [
+        { "required": ["config"] },
+        { "required": ["data"] },
+        { "required": ["cache"] },
+        { "required": ["state"] }
+      ],
+      "properties": {
+        "snap_name": {
+          "type": "string",
+          "description": "Snap name (e.g. slack)."
+        },
+        "config": { "type": "string" },
+        "data":   { "type": "string" },
+        "cache":  { "type": "string" },
+        "state":  { "type": "string" }
+      }
+    }
+  }
+}

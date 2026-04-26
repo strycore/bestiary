@@ -1,0 +1,21 @@
+name: firefox
+display_name: Firefox
+category: browser
+homepage: https://www.mozilla.org/firefox
+locations:
+  native:
+    config: ~/.mozilla/firefox
+    cache: ~/.cache/mozilla/firefox
+  flatpak:
+    flatpak_id: org.mozilla.firefox
+    config: ~/.var/app/org.mozilla.firefox/.mozilla/firefox
+    cache: ~/.var/app/org.mozilla.firefox/cache/mozilla/firefox
+  snap:
+    snap_name: firefox
+    data: ~/snap/firefox/common/.mozilla/firefox
+backup_exclude:
+  - "*/cache2/*"
+  - "*/startupCache/*"
+  - "*/datareporting/glean/*"
+  - "*/storage/temporary/*"
+tags: [browser, web]

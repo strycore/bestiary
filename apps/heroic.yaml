@@ -1,0 +1,18 @@
+name: heroic
+display_name: Heroic Games Launcher
+category: gaming
+homepage: https://heroicgameslauncher.com
+locations:
+  native:
+    config: ~/.config/heroic
+    data: ~/.local/share/heroic
+    cache: ~/.cache/heroic
+  flatpak:
+    flatpak_id: com.heroicgameslauncher.hgl
+    config: ~/.var/app/com.heroicgameslauncher.hgl/config/heroic
+    data: ~/.var/app/com.heroicgameslauncher.hgl/data/heroic
+    cache: ~/.var/app/com.heroicgameslauncher.hgl/cache/heroic
+backup_exclude:
+  - "icons/*"
+  - "store_cache/*"
+tags: [games, launcher, epic, gog]

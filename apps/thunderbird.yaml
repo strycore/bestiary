@@ -1,0 +1,17 @@
+name: thunderbird
+display_name: Thunderbird
+category: communication
+homepage: https://www.thunderbird.net
+locations:
+  native:
+    config: ~/.thunderbird
+    cache: ~/.cache/thunderbird
+  flatpak:
+    flatpak_id: org.mozilla.Thunderbird
+    config: ~/.var/app/org.mozilla.Thunderbird/.thunderbird
+    cache: ~/.var/app/org.mozilla.Thunderbird/cache/thunderbird
+backup_exclude:
+  - "*/ImapMail/*/INBOX.msf"
+  - "*/global-messages-db.sqlite-wal"
+  - "*/cache2/*"
+tags: [email, calendar]
