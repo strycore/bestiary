@@ -49,6 +49,63 @@ header {
   padding: 1.5rem 1rem 0.5rem;
 }
 
+.titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  color: var(--muted);
+  border: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.links a:hover {
+  color: var(--fg);
+  border-color: var(--line-strong);
+  text-decoration: none;
+}
+.links a svg { display: block; }
+.links .mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  letter-spacing: -0.05em;
+}
+.links a.primary {
+  color: var(--accent);
+  border-color: var(--line-strong);
+  font-weight: 500;
+}
+.links a.primary:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+@media (max-width: 32rem) {
+  .links a span:not(.mono) {
+    /* Drop link labels on narrow screens; keep icons / mono glyphs. */
+    display: none;
+  }
+  .links a.primary span {
+    /* Always show the contribute label — that's the call to action. */
+    display: inline;
+  }
+}
+
 h1 {
   margin: 0 0 0.5rem;
   font-size: 1.75rem;
@@ -288,13 +345,3 @@ main {
   text-decoration: none;
 }
 
-/* Page footer — housekeeping links, away from primary nav. */
-footer {
-  max-width: 60rem;
-  margin: 2rem auto 1rem;
-  padding: 1rem;
-  border-top: 1px solid var(--line);
-  font-size: 0.85rem;
-  color: var(--muted);
-  text-align: center;
-}
